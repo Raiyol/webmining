@@ -1,9 +1,10 @@
-const SPARQL_PORT = '8181';
+const TOMCAT_PORT = '8181';
 const PORT = '5000';
-const DB_URL = `http://localhost:${SPARQL_PORT}/fuseki/bike/sparql`;
+const DB_NAME = 'bike';
+const DB_URL = `http://localhost:${TOMCAT_PORT}/fuseki/${DB_NAME}/sparql`;
 
 module.exports = {
-  SPARQL_PORT,
+  TOMCAT_PORT,
   DB_URL,
   PORT
 };
