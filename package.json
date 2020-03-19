@@ -1,0 +1,28 @@
+{
+  "name": "webmining",
+  "version": "1.0.0",
+  "description": "Nous avons commencé par la production d'un modèle de données par Protégé.\r Notre class unique est \"Station\" qui porte les propriétés suivantes:",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raiyol/webmining.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raiyol/webmining/issues"
+  },
+  "homepage": "https://github.com/Raiyol/webmining#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
