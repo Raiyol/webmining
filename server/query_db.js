@@ -2,7 +2,7 @@ const axios = require('axios');
 const {DB_URL} = require('./constants');
 const querystring = require('querystring');
 
-querying = async q => {
+module.exports.get = async q => {
     const response = await axios.post(DB_URL, querystring.stringify({
         query : q
       }));
@@ -14,8 +14,11 @@ querying = async q => {
 
     return null;
 };
+/*
 
 querying('SELECT ?subject ?predicate ?object WHERE { ?subject ?predicate ?object } LIMIT 50')
 .then(function(result){
     console.log(result.results.bindings);
 });
+
+*/
