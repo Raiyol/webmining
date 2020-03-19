@@ -3,7 +3,7 @@
 This is a school project with the intent to use a triple store and query it.
 What we had to do is said here : [Project](http://www-inf.it-sudparis.eu/~gaaloulw/KM/Labs/project1.html)
 
-This readme will be quite exhaustive, so [here](#-Launch) the step to launch and run our project.
+This readme will be quite exhaustive, so [here](#Launch) the step to launch and run our project.
 
 ## The process
 
@@ -21,7 +21,7 @@ Notre class unique est "Station" qui porte les propriétés suivantes:
 - number: (int) numèro identifiant la station
 - status: (string) status des stations ex: "open"
 
-## Launch
+## <a name="Launch"></a> Launch
 To use our app, we will need Tomcat as a web application for our triple store and create a database + add our data.
 ### Tomcat
 
