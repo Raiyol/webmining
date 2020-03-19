@@ -13,6 +13,7 @@ server.use(cors());
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({extended : true}));
 
+server.use(express.static(path.join(__dirname, '../public')));
 server.get('/', function(req, res) {
-  res.send({ack : true});
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
