@@ -25,6 +25,7 @@ module.exports = async ville => {
 
         resp.results.bindings.forEach(elem => {
             let temp = {
+                x : elem.x.value,
                 name : elem.name.value,
                 addresse : elem.addresse.value,
                 lat : elem.lat.value,
