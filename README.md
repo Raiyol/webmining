@@ -37,12 +37,16 @@ Create a database named bike and upload webdatamin.owl file to it.
 Our database is created, we now need to insert all of our data.
 
 To insert data, go to query section and change SPARQL ENDPOINT to /fuseki/bike/update, then copy paste all the content in insert.txt in the query textbox and run it with the ">" arrow. The data is now inserted we don't need to manage our database anymore.
-### Execute with Nodejs
-First clone the project on your computer, enter project folder path on a shell and type :
+### Web app
+To run the web app, you'll need [NodeJS](https://nodejs.org/en/) installed.
+
+First clone this git repo on your computer, enter the repo folder path on a shell and type :
 ```sh
+npm install
+# After dependencies has been installed, run :
 node .
 ```
-Now you can go check what we did on http://localhost:5000/
+Now you can go check the front view on http://localhost:5000/
 ### Bonus : Query database via our web application.
 After running our web application, go to http://localhost:5000/sparql and you can query the database same as you would with Jena Fuseki GUI on Tomcat.
 Try the exemple below :
