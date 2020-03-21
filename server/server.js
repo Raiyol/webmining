@@ -6,6 +6,7 @@ const path = require('path');
 const cors = require('cors');
 const {PORT} = require('./constants');
 const sparql = require('./query_db');
+const queryville = require('./query_ville');
 
 const server = express();
 server.listen(PORT, () => console.log(`Listening on port ${PORT}`));
@@ -28,5 +29,11 @@ server.post('/sparql', function(req, res){
   sparql.get(req.body.query).then(function(exit){
     console.log(exit);
     res.render('sparql.ejs', {result : exit, query : req.body.query});
+  });
+});
+
+server.get('/api/:ville', (req, res) => {
+  queryville(req.params.ville).then(function(result){
+    res.send({express : result});
   });
 });

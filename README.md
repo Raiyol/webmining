@@ -48,7 +48,7 @@ node .
 ```
 Now you can go check the front view on http://localhost:5000/
 ### Bonus : Query database via our web application.
-After running our web application, go to http://localhost:5000/sparql and you can query the database same as you would with Jena Fuseki GUI on Tomcat.
+After running our web application, go to http://localhost:5000/sparql and you can query the database same as you would with Jena Fuseki GUI on localhost.
 Try the exemple below :
 ```sh
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
