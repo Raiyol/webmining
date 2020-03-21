@@ -20,13 +20,13 @@ server.get('/', function(req, res) {
 });
 
 server.get('/sparql', function(req, res){
-  res.render('sparql.ejs', {result : ''})
+  res.render('sparql.ejs', {result : null, query : ''})
 });
 
 server.post('/sparql', function(req, res){
   console.log(req.body.query);
   sparql.get(req.body.query).then(function(exit){
     console.log(exit);
-    res.render('sparql.ejs', {result : exit});
+    res.render('sparql.ejs', {result : exit, query : req.body.query});
   });
 });

@@ -3,16 +3,19 @@ const {DB_URL} = require('./constants');
 const querystring = require('querystring');
 
 module.exports.get = async q => {
-    const response = await axios.post(DB_URL, querystring.stringify({
-        query : q
-      }));
-    const {data, status} = response;
-    if (status >= 200 && status < 300) {
-        return data;
+    try {
+        const response = await axios.post(DB_URL, querystring.stringify({
+            query : q
+        }));
+        const {data, status} = response;
+        if (status >= 200 && status < 300) {
+            return data;
+        }
+        console.error(status);
+        return null;
+    } catch (error) {
+        return null;
     }
-    console.error(status);
-
-    return null;
 };
 
 /*
