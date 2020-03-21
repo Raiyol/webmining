@@ -32,6 +32,6 @@ If you use dafault install location for tomcat, put the WAR file in "C:\Program 
 
 Go to your web browser and enter the URL : http://localhost:8181/fuseki/ with 8181 being my Tomcat port, change it to your Tomcat port, also change the variable TOMCAT_PORT in server/constants.js.
 
-Now create a database named bike and upload webdatamin.owl file to it.
-Our database is now created, we now need to insert all of our data.
+Create a database named bike and upload webdatamin.owl file to it.
+Our database is created, we now need to insert all of our data.
 ### Execute with Nodejs
