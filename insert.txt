@@ -1,0 +1,3884 @@
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ns: <http://www.owl-ontologies.com/unnamed.owl#>
+
+INSERT DATA
+{
+  
+  ns:st0 rdf:type ns:Station.
+  ns:st0 ns:ville 'Lyon'.
+  ns:st0 ns:name 'Proximit\u00c3\u00a9 Mus\u00c3\u00a9e dart contemporain'.
+  ns:st0 ns:addresse '230 Cours emile Zola'.
+  ns:st0 ns:lat '45.7680704202145800'.
+  ns:st0 ns:lng '4.8871237200591935'.
+  ns:st0 ns:available_bikes '6'.
+  ns:st0 ns:available_bike_stands '10'.
+  ns:st0 ns:status 'OPEN'.
+  ns:st1 rdf:type ns:Station.
+  ns:st1 ns:ville 'Lyon'.
+  ns:st1 ns:name '230 Cours emile Zola'.
+  ns:st1 ns:addresse 'Place de la Croix-Rousse'.
+  ns:st1 ns:lat '45.7760751390863940'.
+  ns:st1 ns:lng '4.8325539207543910'.
+  ns:st1 ns:available_bikes '8'.
+  ns:st1 ns:available_bike_stands '13'.
+  ns:st1 ns:status 'OPEN'.
+  ns:st2 rdf:type ns:Station.
+  ns:st2 ns:ville 'Lyon'.
+  ns:st2 ns:name 'Place de la Croix-Rousse'.
+  ns:st2 ns:addresse '2 Avenue du Commandant Lherminier'.
+  ns:st2 ns:lat '45.7711232449440600'.
+  ns:st2 ns:lng '4.8850235984658990'.
+  ns:st2 ns:available_bikes '5'.
+  ns:st2 ns:available_bike_stands '10'.
+  ns:st2 ns:status 'OPEN'.
+  ns:st3 rdf:type ns:Station.
+  ns:st3 ns:ville 'Lyon'.
+  ns:st3 ns:name '2 Avenue du Commandant Lherminier'.
+  ns:st3 ns:addresse 'Rue des Arts'.
+  ns:st3 ns:lat '45.7844851872384300'.
+  ns:st3 ns:lng '4.8774042325766300'.
+  ns:st3 ns:available_bikes '6'.
+  ns:st3 ns:available_bike_stands '24'.
+  ns:st3 ns:status 'OPEN'.
+  ns:st4 rdf:type ns:Station.
+  ns:st4 ns:ville 'Lyon'.
+  ns:st4 ns:name 'Rue des Arts'.
+  ns:st4 ns:addresse '4 Place Gabriel P\u00c3\u00a9ri'.
+  ns:st4 ns:lat '45.7548790164649200'.
+  ns:st4 ns:lng '4.8436750818920180'.
+  ns:st4 ns:available_bikes '2'.
+  ns:st4 ns:available_bike_stands '16'.
+  ns:st4 ns:status 'OPEN'.
+  ns:st5 rdf:type ns:Station.
+  ns:st5 ns:ville 'Lyon'.
+  ns:st5 ns:name '4 Place Gabriel P\u00c3\u00a9ri'.
+  ns:st5 ns:addresse 'Proximit\u00c3\u00a9 Mus\u00c3\u00a9e dart contemporain'.
+  ns:st5 ns:lat '45.7838816142830540'.
+  ns:st5 ns:lng '4.8521404034163990'.
+  ns:st5 ns:available_bikes '7'.
+  ns:st5 ns:available_bike_stands '16'.
+  ns:st5 ns:status 'OPEN'.
+  ns:st6 rdf:type ns:Station.
+  ns:st6 ns:ville 'Lyon'.
+  ns:st6 ns:name 'Proximit\u00c3\u00a9 Mus\u00c3\u00a9e dart contemporain'.
+  ns:st6 ns:addresse '259t Avenue Jean Jaur\u00c3\u00a8s'.
+  ns:st6 ns:lat '45.7317535548177500'.
+  ns:st6 ns:lng '4.8339617941232040'.
+  ns:st6 ns:available_bikes '6'.
+  ns:st6 ns:available_bike_stands '14'.
+  ns:st6 ns:status 'OPEN'.
+  ns:st7 rdf:type ns:Station.
+  ns:st7 ns:ville 'Lyon'.
+  ns:st7 ns:name '259t Avenue Jean Jaur\u00c3\u00a8s'.
+  ns:st7 ns:addresse '2 avenue des Fr\u00c3\u00a8res Lumi\u00c3\u00a8re'.
+  ns:st7 ns:lat '45.7470967140946740'.
+  ns:st7 ns:lng '4.8601437036179030'.
+  ns:st7 ns:available_bikes '0'.
+  ns:st7 ns:available_bike_stands '16'.
+  ns:st7 ns:status 'OPEN'.
+  ns:st8 rdf:type ns:Station.
+  ns:st8 ns:ville 'Lyon'.
+  ns:st8 ns:name '2 avenue des Fr\u00c3\u00a8res Lumi\u00c3\u00a8re'.
+  ns:st8 ns:addresse 'Face 22 Rue Pizay'.
+  ns:st8 ns:lat '45.7672004172203160'.
+  ns:st8 ns:lng '4.8363916853563290'.
+  ns:st8 ns:available_bikes '15'.
+  ns:st8 ns:available_bike_stands '7'.
+  ns:st8 ns:status 'OPEN'.
+  ns:st9 rdf:type ns:Station.
+  ns:st9 ns:ville 'Lyon'.
+  ns:st9 ns:name 'Face 22 Rue Pizay'.
+  ns:st9 ns:addresse '38 Cours dHerbouville'.
+  ns:st9 ns:lat '45.7786706157080900'.
+  ns:st9 ns:lng '4.8410134096251810'.
+  ns:st9 ns:available_bikes '23'.
+  ns:st9 ns:available_bike_stands '6'.
+  ns:st9 ns:status 'OPEN'.
+  ns:st10 rdf:type ns:Station.
+  ns:st10 ns:ville 'Lyon'.
+  ns:st10 ns:name '38 Cours dHerbouville'.
+  ns:st10 ns:addresse '1 Avenue du Docteur Georges L\u00c3\u00a9vy'.
+  ns:st10 ns:lat '45.7193988058185000'.
+  ns:st10 ns:lng '4.8548015762351050'.
+  ns:st10 ns:available_bikes '0'.
+  ns:st10 ns:available_bike_stands '18'.
+  ns:st10 ns:status 'CLOSED'.
+  ns:st11 rdf:type ns:Station.
+  ns:st11 ns:ville 'Lyon'.
+  ns:st11 ns:name '1 Avenue du Docteur Georges L\u00c3\u00a9vy'.
+  ns:st11 ns:addresse 'Face 150 Cours Gambetta'.
+  ns:st11 ns:lat '45.7502533119060360'.
+  ns:st11 ns:lng '4.8579250300630620'.
+  ns:st11 ns:available_bikes '2'.
+  ns:st11 ns:available_bike_stands '20'.
+  ns:st11 ns:status 'OPEN'.
+  ns:st12 rdf:type ns:Station.
+  ns:st12 ns:ville 'Lyon'.
+  ns:st12 ns:name 'Face 150 Cours Gambetta'.
+  ns:st12 ns:addresse '13 rue de Verdun'.
+  ns:st12 ns:lat '45.7840513436847400'.
+  ns:st12 ns:lng '4.8970859241187770'.
+  ns:st12 ns:available_bikes '7'.
+  ns:st12 ns:available_bike_stands '14'.
+  ns:st12 ns:status 'OPEN'.
+  ns:st13 rdf:type ns:Station.
+  ns:st13 ns:ville 'Lyon'.
+  ns:st13 ns:name '13 rue de Verdun'.
+  ns:st13 ns:addresse 'Place Ennemond Romand'.
+  ns:st13 ns:lat '45.7257547271142850'.
+  ns:st13 ns:lng '4.8583509977388920'.
+  ns:st13 ns:available_bikes '9'.
+  ns:st13 ns:available_bike_stands '11'.
+  ns:st13 ns:status 'OPEN'.
+  ns:st14 rdf:type ns:Station.
+  ns:st14 ns:ville 'Lyon'.
+  ns:st14 ns:name 'Place Ennemond Romand'.
+  ns:st14 ns:addresse 'Place Stalingrad'.
+  ns:st14 ns:lat '45.7495788810534300'.
+  ns:st14 ns:lng '4.8529655050157780'.
+  ns:st14 ns:available_bikes '3'.
+  ns:st14 ns:available_bike_stands '9'.
+  ns:st14 ns:status 'OPEN'.
+  ns:st15 rdf:type ns:Station.
+  ns:st15 ns:ville 'Lyon'.
+  ns:st15 ns:name 'Place Stalingrad'.
+  ns:st15 ns:addresse 'rue louis fort'.
+  ns:st15 ns:lat '45.7747507993117250'.
+  ns:st15 ns:lng '4.8880387408797780'.
+  ns:st15 ns:available_bikes '4'.
+  ns:st15 ns:available_bike_stands '12'.
+  ns:st15 ns:status 'OPEN'.
+  ns:st16 rdf:type ns:Station.
+  ns:st16 ns:ville 'Lyon'.
+  ns:st16 ns:name 'rue louis fort'.
+  ns:st16 ns:addresse '15 Quai Rambaud'.
+  ns:st16 ns:lat '45.7459165775636100'.
+  ns:st16 ns:lng '4.8171736085201430'.
+  ns:st16 ns:available_bikes '18'.
+  ns:st16 ns:available_bike_stands '12'.
+  ns:st16 ns:status 'OPEN'.
+  ns:st17 rdf:type ns:Station.
+  ns:st17 ns:ville 'Lyon'.
+  ns:st17 ns:name '15 Quai Rambaud'.
+  ns:st17 ns:addresse '25 Rue Chazi\u00c3\u00a8re'.
+  ns:st17 ns:lat '45.7754224668984700'.
+  ns:st17 ns:lng '4.8178899295525035'.
+  ns:st17 ns:available_bikes '16'.
+  ns:st17 ns:available_bike_stands '4'.
+  ns:st17 ns:status 'OPEN'.
+  ns:st18 rdf:type ns:Station.
+  ns:st18 ns:ville 'Lyon'.
+  ns:st18 ns:name '25 Rue Chazi\u00c3\u00a8re'.
+  ns:st18 ns:addresse '52 Rue du Poizat'.
+  ns:st18 ns:lat '45.7557668546375140'.
+  ns:st18 ns:lng '4.8914894327085980'.
+  ns:st18 ns:available_bikes '0'.
+  ns:st18 ns:available_bike_stands '22'.
+  ns:st18 ns:status 'OPEN'.
+  ns:st19 rdf:type ns:Station.
+  ns:st19 ns:ville 'Lyon'.
+  ns:st19 ns:name '52 Rue du Poizat'.
+  ns:st19 ns:addresse 'Face 45 Quai Joseph Gillet'.
+  ns:st19 ns:lat '45.7782780129806140'.
+  ns:st19 ns:lng '4.8106317576202680'.
+  ns:st19 ns:available_bikes '7'.
+  ns:st19 ns:available_bike_stands '15'.
+  ns:st19 ns:status 'OPEN'.
+  ns:st20 rdf:type ns:Station.
+  ns:st20 ns:ville 'Lyon'.
+  ns:st20 ns:name 'Face 45 Quai Joseph Gillet'.
+  ns:st20 ns:addresse '139 Avenue F\u00c3\u00a9lix Faure'.
+  ns:st20 ns:lat '45.7543284606013800'.
+  ns:st20 ns:lng '4.8633802634358360'.
+  ns:st20 ns:available_bikes '18'.
+  ns:st20 ns:available_bike_stands '1'.
+  ns:st20 ns:status 'OPEN'.
+  ns:st21 rdf:type ns:Station.
+  ns:st21 ns:ville 'Lyon'.
+  ns:st21 ns:name '139 Avenue F\u00c3\u00a9lix Faure'.
+  ns:st21 ns:addresse '110 Cours Vitton'.
+  ns:st21 ns:lat '45.7703105281291940'.
+  ns:st21 ns:lng '4.8620024989211670'.
+  ns:st21 ns:available_bikes '9'.
+  ns:st21 ns:available_bike_stands '7'.
+  ns:st21 ns:status 'OPEN'.
+  ns:st22 rdf:type ns:Station.
+  ns:st22 ns:ville 'Lyon'.
+  ns:st22 ns:name '110 Cours Vitton'.
+  ns:st22 ns:addresse '127 Quai Fulchiron'.
+  ns:st22 ns:lat '45.7578416796382400'.
+  ns:st22 ns:lng '4.8261054516922880'.
+  ns:st22 ns:available_bikes '16'.
+  ns:st22 ns:available_bike_stands '4'.
+  ns:st22 ns:status 'OPEN'.
+  ns:st23 rdf:type ns:Station.
+  ns:st23 ns:ville 'Lyon'.
+  ns:st23 ns:name '127 Quai Fulchiron'.
+  ns:st23 ns:addresse '17 Avenue Jean Jaur\u00c3\u00a8s'.
+  ns:st23 ns:lat '45.7525809002148800'.
+  ns:st23 ns:lng '4.8463206182240945'.
+  ns:st23 ns:available_bikes '9'.
+  ns:st23 ns:available_bike_stands '1'.
+  ns:st23 ns:status 'OPEN'.
+  ns:st24 rdf:type ns:Station.
+  ns:st24 ns:ville 'Lyon'.
+  ns:st24 ns:name '17 Avenue Jean Jaur\u00c3\u00a8s'.
+  ns:st24 ns:addresse 'Rue Bancel'.
+  ns:st24 ns:lat '45.7485202867305600'.
+  ns:st24 ns:lng '4.8405245716725130'.
+  ns:st24 ns:available_bikes '6'.
+  ns:st24 ns:available_bike_stands '15'.
+  ns:st24 ns:status 'OPEN'.
+  ns:st25 rdf:type ns:Station.
+  ns:st25 ns:ville 'Lyon'.
+  ns:st25 ns:name 'Rue Bancel'.
+  ns:st25 ns:addresse '78 Boulevard des Etats-Unis'.
+  ns:st25 ns:lat '45.7322180106596860'.
+  ns:st25 ns:lng '4.8651415367367150'.
+  ns:st25 ns:available_bikes '5'.
+  ns:st25 ns:available_bike_stands '15'.
+  ns:st25 ns:status 'OPEN'.
+  ns:st26 rdf:type ns:Station.
+  ns:st26 ns:ville 'Lyon'.
+  ns:st26 ns:name '78 Boulevard des Etats-Unis'.
+  ns:st26 ns:addresse 'Boulevard des Canuts'.
+  ns:st26 ns:lat '45.7797553671142550'.
+  ns:st26 ns:lng '4.8276484010879560'.
+  ns:st26 ns:available_bikes '2'.
+  ns:st26 ns:available_bike_stands '20'.
+  ns:st26 ns:status 'OPEN'.
+  ns:st27 rdf:type ns:Station.
+  ns:st27 ns:ville 'Lyon'.
+  ns:st27 ns:name 'Boulevard des Canuts'.
+  ns:st27 ns:addresse '186 Avenue Paul Santy'.
+  ns:st27 ns:lat '45.7254037172008000'.
+  ns:st27 ns:lng '4.8812948922096580'.
+  ns:st27 ns:available_bikes '11'.
+  ns:st27 ns:available_bike_stands '6'.
+  ns:st27 ns:status 'OPEN'.
+  ns:st28 rdf:type ns:Station.
+  ns:st28 ns:ville 'Lyon'.
+  ns:st28 ns:name '186 Avenue Paul Santy'.
+  ns:st28 ns:addresse 'Boulevard de la Croix Rousse'.
+  ns:st28 ns:lat '45.7722538415304900'.
+  ns:st28 ns:lng '4.8194608620100040'.
+  ns:st28 ns:available_bikes '17'.
+  ns:st28 ns:available_bike_stands '3'.
+  ns:st28 ns:status 'OPEN'.
+  ns:st29 rdf:type ns:Station.
+  ns:st29 ns:ville 'Lyon'.
+  ns:st29 ns:name 'Boulevard de la Croix Rousse'.
+  ns:st29 ns:addresse '100 Cours Gambetta'.
+  ns:st29 ns:lat '45.7517901355474700'.
+  ns:st29 ns:lng '4.8526079660087520'.
+  ns:st29 ns:available_bikes '15'.
+  ns:st29 ns:available_bike_stands '25'.
+  ns:st29 ns:status 'OPEN'.
+  ns:st30 rdf:type ns:Station.
+  ns:st30 ns:ville 'Lyon'.
+  ns:st30 ns:name '100 Cours Gambetta'.
+  ns:st30 ns:addresse '31 boulevard Yves Farge'.
+  ns:st30 ns:lat '45.7432217977239400'.
+  ns:st30 ns:lng '4.8342510240081396'.
+  ns:st30 ns:available_bikes '8'.
+  ns:st30 ns:available_bike_stands '21'.
+  ns:st30 ns:status 'OPEN'.
+  ns:st31 rdf:type ns:Station.
+  ns:st31 ns:ville 'Lyon'.
+  ns:st31 ns:name '31 boulevard Yves Farge'.
+  ns:st31 ns:addresse 'All\u00c3\u00a9e Achille Lignon'.
+  ns:st31 ns:lat '45.7848181552653900'.
+  ns:st31 ns:lng '4.8565116142349005'.
+  ns:st31 ns:available_bikes '1'.
+  ns:st31 ns:available_bike_stands '26'.
+  ns:st31 ns:status 'OPEN'.
+  ns:st32 rdf:type ns:Station.
+  ns:st32 ns:ville 'Lyon'.
+  ns:st32 ns:name 'All\u00c3\u00a9e Achille Lignon'.
+  ns:st32 ns:addresse 'Face 2 Place des C\u00c3\u00a9lestins'.
+  ns:st32 ns:lat '45.7599398325897200'.
+  ns:st32 ns:lng '4.8320716113863760'.
+  ns:st32 ns:available_bikes '10'.
+  ns:st32 ns:available_bike_stands '12'.
+  ns:st32 ns:status 'OPEN'.
+  ns:st33 rdf:type ns:Station.
+  ns:st33 ns:ville 'Lyon'.
+  ns:st33 ns:name 'Face 2 Place des C\u00c3\u00a9lestins'.
+  ns:st33 ns:addresse '115 Avenue Lacassagne'.
+  ns:st33 ns:lat '45.7495627067970800'.
+  ns:st33 ns:lng '4.8759334029685050'.
+  ns:st33 ns:available_bikes '1'.
+  ns:st33 ns:available_bike_stands '15'.
+  ns:st33 ns:status 'OPEN'.
+  ns:st34 rdf:type ns:Station.
+  ns:st34 ns:ville 'Lyon'.
+  ns:st34 ns:name '115 Avenue Lacassagne'.
+  ns:st34 ns:addresse 'rue santos-dumont'.
+  ns:st34 ns:lat '45.7444606289942600'.
+  ns:st34 ns:lng '4.8609937736791070'.
+  ns:st34 ns:available_bikes '7'.
+  ns:st34 ns:available_bike_stands '10'.
+  ns:st34 ns:status 'OPEN'.
+  ns:st35 rdf:type ns:Station.
+  ns:st35 ns:ville 'Lyon'.
+  ns:st35 ns:name 'rue santos-dumont'.
+  ns:st35 ns:addresse '5 Rue F\u00c3\u00a9lix Rollet'.
+  ns:st35 ns:lat '45.7483207051236600'.
+  ns:st35 ns:lng '4.8759239595508280'.
+  ns:st35 ns:available_bikes '3'.
+  ns:st35 ns:available_bike_stands '17'.
+  ns:st35 ns:status 'OPEN'.
+  ns:st36 rdf:type ns:Station.
+  ns:st36 ns:ville 'Lyon'.
+  ns:st36 ns:name '5 Rue F\u00c3\u00a9lix Rollet'.
+  ns:st36 ns:addresse '69 rue Audibert & Lavirotte'.
+  ns:st36 ns:lat '45.7357952320592900'.
+  ns:st36 ns:lng '4.8568128186712000'.
+  ns:st36 ns:available_bikes '1'.
+  ns:st36 ns:available_bike_stands '19'.
+  ns:st36 ns:status 'OPEN'.
+  ns:st37 rdf:type ns:Station.
+  ns:st37 ns:ville 'Lyon'.
+  ns:st37 ns:name '69 rue Audibert & Lavirotte'.
+  ns:st37 ns:addresse '2 Rue des Acacias'.
+  ns:st37 ns:lat '45.7804458217109400'.
+  ns:st37 ns:lng '4.9044888457892960'.
+  ns:st37 ns:available_bikes '0'.
+  ns:st37 ns:available_bike_stands '12'.
+  ns:st37 ns:status 'OPEN'.
+  ns:st38 rdf:type ns:Station.
+  ns:st38 ns:ville 'Lyon'.
+  ns:st38 ns:name '2 Rue des Acacias'.
+  ns:st38 ns:addresse 'Rue de la Thibaudi\u00c3\u00a8re'.
+  ns:st38 ns:lat '45.7503447975739450'.
+  ns:st38 ns:lng '4.8450482534996375'.
+  ns:st38 ns:available_bikes '10'.
+  ns:st38 ns:available_bike_stands '18'.
+  ns:st38 ns:status 'OPEN'.
+  ns:st39 rdf:type ns:Station.
+  ns:st39 ns:ville 'Lyon'.
+  ns:st39 ns:name 'Rue de la Thibaudi\u00c3\u00a8re'.
+  ns:st39 ns:addresse 'Place du Ch\u00c3\u00a2teau'.
+  ns:st39 ns:lat '45.7495170788471200'.
+  ns:st39 ns:lng '4.8872857232192940'.
+  ns:st39 ns:available_bikes '13'.
+  ns:st39 ns:available_bike_stands '12'.
+  ns:st39 ns:status 'OPEN'.
+  ns:st40 rdf:type ns:Station.
+  ns:st40 ns:ville 'Lyon'.
+  ns:st40 ns:name 'Place du Ch\u00c3\u00a2teau'.
+  ns:st40 ns:addresse 'Rue Denfert-Rochereau'.
+  ns:st40 ns:lat '45.7758995112138400'.
+  ns:st40 ns:lng '4.8253789620711200'.
+  ns:st40 ns:available_bikes '3'.
+  ns:st40 ns:available_bike_stands '11'.
+  ns:st40 ns:status 'OPEN'.
+  ns:st41 rdf:type ns:Station.
+  ns:st41 ns:ville 'Lyon'.
+  ns:st41 ns:name 'Rue Denfert-Rochereau'.
+  ns:st41 ns:addresse '22 Rue colin'.
+  ns:st41 ns:lat '45.7744984646734300'.
+  ns:st41 ns:lng '4.8740523266943320'.
+  ns:st41 ns:available_bikes '15'.
+  ns:st41 ns:available_bike_stands '0'.
+  ns:st41 ns:status 'OPEN'.
+  ns:st42 rdf:type ns:Station.
+  ns:st42 ns:ville 'Lyon'.
+  ns:st42 ns:name '22 Rue colin'.
+  ns:st42 ns:addresse 'Quai Charles de Gaulle'.
+  ns:st42 ns:lat '45.7854214249623800'.
+  ns:st42 ns:lng '4.8541240727107640'.
+  ns:st42 ns:available_bikes '7'.
+  ns:st42 ns:available_bike_stands '13'.
+  ns:st42 ns:status 'OPEN'.
+  ns:st43 rdf:type ns:Station.
+  ns:st43 ns:ville 'Lyon'.
+  ns:st43 ns:name 'Quai Charles de Gaulle'.
+  ns:st43 ns:addresse '44 Bd de la Croix Rousse'.
+  ns:st43 ns:lat '45.7743716157555500'.
+  ns:st43 ns:lng '4.8328150087604630'.
+  ns:st43 ns:available_bikes '7'.
+  ns:st43 ns:available_bike_stands '10'.
+  ns:st43 ns:status 'OPEN'.
+  ns:st44 rdf:type ns:Station.
+  ns:st44 ns:ville 'Lyon'.
+  ns:st44 ns:name '44 Bd de la Croix Rousse'.
+  ns:st44 ns:addresse '5-6 Place Mar\u00c3\u00a9chal Lyautey'.
+  ns:st44 ns:lat '45.7693730577565400'.
+  ns:st44 ns:lng '4.8423179538871635'.
+  ns:st44 ns:available_bikes '6'.
+  ns:st44 ns:available_bike_stands '14'.
+  ns:st44 ns:status 'OPEN'.
+  ns:st45 rdf:type ns:Station.
+  ns:st45 ns:ville 'Lyon'.
+  ns:st45 ns:name '5-6 Place Mar\u00c3\u00a9chal Lyautey'.
+  ns:st45 ns:addresse '45 Rue du Bourbonnais'.
+  ns:st45 ns:lat '45.7734645659819600'.
+  ns:st45 ns:lng '4.8002879293936390'.
+  ns:st45 ns:available_bikes '6'.
+  ns:st45 ns:available_bike_stands '6'.
+  ns:st45 ns:status 'OPEN'.
+  ns:st46 rdf:type ns:Station.
+  ns:st46 ns:ville 'Lyon'.
+  ns:st46 ns:name '45 Rue du Bourbonnais'.
+  ns:st46 ns:addresse '48 Cours Suchet'.
+  ns:st46 ns:lat '45.7461030735744740'.
+  ns:st46 ns:lng '4.8256053939445850'.
+  ns:st46 ns:available_bikes '14'.
+  ns:st46 ns:available_bike_stands '6'.
+  ns:st46 ns:status 'OPEN'.
+  ns:st47 rdf:type ns:Station.
+  ns:st47 ns:ville 'Lyon'.
+  ns:st47 ns:name '48 Cours Suchet'.
+  ns:st47 ns:addresse 'Place Regaud'.
+  ns:st47 ns:lat '45.7630769295670000'.
+  ns:st47 ns:lng '4.8342866883470440'.
+  ns:st47 ns:available_bikes '1'.
+  ns:st47 ns:available_bike_stands '11'.
+  ns:st47 ns:status 'OPEN'.
+  ns:st48 rdf:type ns:Station.
+  ns:st48 ns:ville 'Lyon'.
+  ns:st48 ns:name 'Place Regaud'.
+  ns:st48 ns:addresse 'Rue de la Villette'.
+  ns:st48 ns:lat '45.7600550578148400'.
+  ns:st48 ns:lng '4.8616738805899400'.
+  ns:st48 ns:available_bikes '13'.
+  ns:st48 ns:available_bike_stands '17'.
+  ns:st48 ns:status 'OPEN'.
+  ns:st49 rdf:type ns:Station.
+  ns:st49 ns:ville 'Lyon'.
+  ns:st49 ns:name 'Rue de la Villette'.
+  ns:st49 ns:addresse 'Place Gerson'.
+  ns:st49 ns:lat '45.7670544551410640'.
+  ns:st49 ns:lng '4.8270475070640995'.
+  ns:st49 ns:available_bikes '16'.
+  ns:st49 ns:available_bike_stands '4'.
+  ns:st49 ns:status 'OPEN'.
+  ns:st50 rdf:type ns:Station.
+  ns:st50 ns:ville 'Lyon'.
+  ns:st50 ns:name 'Place Gerson'.
+  ns:st50 ns:addresse 'Place Carnot'.
+  ns:st50 ns:lat '45.7500996433260700'.
+  ns:st50 ns:lng '4.8280515013551550'.
+  ns:st50 ns:available_bikes '9'.
+  ns:st50 ns:available_bike_stands '9'.
+  ns:st50 ns:status 'OPEN'.
+  ns:st51 rdf:type ns:Station.
+  ns:st51 ns:ville 'Lyon'.
+  ns:st51 ns:name 'Place Carnot'.
+  ns:st51 ns:addresse 'Rue Anatole France'.
+  ns:st51 ns:lat '45.7681304002299300'.
+  ns:st51 ns:lng '4.8791614891381100'.
+  ns:st51 ns:available_bikes '18'.
+  ns:st51 ns:available_bike_stands '2'.
+  ns:st51 ns:status 'OPEN'.
+  ns:st52 rdf:type ns:Station.
+  ns:st52 ns:ville 'Lyon'.
+  ns:st52 ns:name 'Rue Anatole France'.
+  ns:st52 ns:addresse '22 Rue de la Marne'.
+  ns:st52 ns:lat '45.7429072853314500'.
+  ns:st52 ns:lng '4.9086250104223290'.
+  ns:st52 ns:available_bikes '3'.
+  ns:st52 ns:available_bike_stands '10'.
+  ns:st52 ns:status 'OPEN'.
+  ns:st53 rdf:type ns:Station.
+  ns:st53 ns:ville 'Lyon'.
+  ns:st53 ns:name '22 Rue de la Marne'.
+  ns:st53 ns:addresse '175 Avenue Jean Jaur\u00c3\u00a8s'.
+  ns:st53 ns:lat '45.7375180973509360'.
+  ns:st53 ns:lng '4.8375089199170210'.
+  ns:st53 ns:available_bikes '11'.
+  ns:st53 ns:available_bike_stands '5'.
+  ns:st53 ns:status 'OPEN'.
+  ns:st54 rdf:type ns:Station.
+  ns:st54 ns:ville 'Lyon'.
+  ns:st54 ns:name '175 Avenue Jean Jaur\u00c3\u00a8s'.
+  ns:st54 ns:addresse 'Face 40 Avenue Leclerc'.
+  ns:st54 ns:lat '45.7377409586890200'.
+  ns:st54 ns:lng '4.8244875157097110'.
+  ns:st54 ns:available_bikes '7'.
+  ns:st54 ns:available_bike_stands '18'.
+  ns:st54 ns:status 'OPEN'.
+  ns:st55 rdf:type ns:Station.
+  ns:st55 ns:ville 'Lyon'.
+  ns:st55 ns:name 'Face 40 Avenue Leclerc'.
+  ns:st55 ns:addresse 'Face 52 Rue Baraban'.
+  ns:st55 ns:lat '45.7620516689039150'.
+  ns:st55 ns:lng '4.8685003507160690'.
+  ns:st55 ns:available_bikes '9'.
+  ns:st55 ns:available_bike_stands '11'.
+  ns:st55 ns:status 'OPEN'.
+  ns:st56 rdf:type ns:Station.
+  ns:st56 ns:ville 'Lyon'.
+  ns:st56 ns:name 'Face 52 Rue Baraban'.
+  ns:st56 ns:addresse 'Rue Tabareau'.
+  ns:st56 ns:lat '45.7740806705343900'.
+  ns:st56 ns:lng '4.8251597121983645'.
+  ns:st56 ns:available_bikes '1'.
+  ns:st56 ns:available_bike_stands '9'.
+  ns:st56 ns:status 'OPEN'.
+  ns:st57 rdf:type ns:Station.
+  ns:st57 ns:ville 'Lyon'.
+  ns:st57 ns:name 'Rue Tabareau'.
+  ns:st57 ns:addresse '4 Place Danton'.
+  ns:st57 ns:lat '45.7548124485154400'.
+  ns:st57 ns:lng '4.8575743726010305'.
+  ns:st57 ns:available_bikes '4'.
+  ns:st57 ns:available_bike_stands '14'.
+  ns:st57 ns:status 'OPEN'.
+  ns:st58 rdf:type ns:Station.
+  ns:st58 ns:ville 'Lyon'.
+  ns:st58 ns:name '4 Place Danton'.
+  ns:st58 ns:addresse '64 Rue Pierre Corneille'.
+  ns:st58 ns:lat '45.7637594783418750'.
+  ns:st58 ns:lng '4.8437773405191870'.
+  ns:st58 ns:available_bikes '4'.
+  ns:st58 ns:available_bike_stands '8'.
+  ns:st58 ns:status 'OPEN'.
+  ns:st59 rdf:type ns:Station.
+  ns:st59 ns:ville 'Lyon'.
+  ns:st59 ns:name '64 Rue Pierre Corneille'.
+  ns:st59 ns:addresse '4 Rue Florian'.
+  ns:st59 ns:lat '45.7618051903302860'.
+  ns:st59 ns:lng '4.8807224046277390'.
+  ns:st59 ns:available_bikes '3'.
+  ns:st59 ns:available_bike_stands '18'.
+  ns:st59 ns:status 'OPEN'.
+  ns:st60 rdf:type ns:Station.
+  ns:st60 ns:ville 'Lyon'.
+  ns:st60 ns:name '4 Rue Florian'.
+  ns:st60 ns:addresse '6 Rue Gorge de Loup'.
+  ns:st60 ns:lat '45.7701340720176050'.
+  ns:st60 ns:lng '4.8051580030149460'.
+  ns:st60 ns:available_bikes '5'.
+  ns:st60 ns:available_bike_stands '11'.
+  ns:st60 ns:status 'OPEN'.
+  ns:st61 rdf:type ns:Station.
+  ns:st61 ns:ville 'Lyon'.
+  ns:st61 ns:name '6 Rue Gorge de Loup'.
+  ns:st61 ns:addresse '5 Rue Dunoir'.
+  ns:st61 ns:lat '45.7609483816605800'.
+  ns:st61 ns:lng '4.8452325958943720'.
+  ns:st61 ns:available_bikes '9'.
+  ns:st61 ns:available_bike_stands '28'.
+  ns:st61 ns:status 'OPEN'.
+  ns:st62 rdf:type ns:Station.
+  ns:st62 ns:ville 'Lyon'.
+  ns:st62 ns:name '5 Rue Dunoir'.
+  ns:st62 ns:addresse ''.
+  ns:st62 ns:lat '45.8011198081158200'.
+  ns:st62 ns:lng '4.8252725616689830'.
+  ns:st62 ns:available_bikes '6'.
+  ns:st62 ns:available_bike_stands '9'.
+  ns:st62 ns:status 'OPEN'.
+  ns:st63 rdf:type ns:Station.
+  ns:st63 ns:ville 'Lyon'.
+  ns:st63 ns:name ''.
+  ns:st63 ns:addresse 'Place GrandCl\u00c3\u00a9ment'.
+  ns:st63 ns:lat '45.7597183207295700'.
+  ns:st63 ns:lng '4.8899469363178760'.
+  ns:st63 ns:available_bikes '2'.
+  ns:st63 ns:available_bike_stands '17'.
+  ns:st63 ns:status 'OPEN'.
+  ns:st64 rdf:type ns:Station.
+  ns:st64 ns:ville 'Lyon'.
+  ns:st64 ns:name 'Place GrandCl\u00c3\u00a9ment'.
+  ns:st64 ns:addresse 'route de Vienne'.
+  ns:st64 ns:lat '45.7426537617282900'.
+  ns:st64 ns:lng '4.8505369714596660'.
+  ns:st64 ns:available_bikes '3'.
+  ns:st64 ns:available_bike_stands '12'.
+  ns:st64 ns:status 'OPEN'.
+  ns:st65 rdf:type ns:Station.
+  ns:st65 ns:ville 'Lyon'.
+  ns:st65 ns:name 'route de Vienne'.
+  ns:st65 ns:addresse '26 rue de la Viabert'.
+  ns:st65 ns:lat '45.7663703493176260'.
+  ns:st65 ns:lng '4.8650841638710620'.
+  ns:st65 ns:available_bikes '3'.
+  ns:st65 ns:available_bike_stands '13'.
+  ns:st65 ns:status 'OPEN'.
+  ns:st66 rdf:type ns:Station.
+  ns:st66 ns:ville 'Lyon'.
+  ns:st66 ns:name '26 rue de la Viabert'.
+  ns:st66 ns:addresse 'Cours Albert Thomas'.
+  ns:st66 ns:lat '45.7458332337286600'.
+  ns:st66 ns:lng '4.8706387106502870'.
+  ns:st66 ns:available_bikes '5'.
+  ns:st66 ns:available_bike_stands '13'.
+  ns:st66 ns:status 'OPEN'.
+  ns:st67 rdf:type ns:Station.
+  ns:st67 ns:ville 'Lyon'.
+  ns:st67 ns:name 'Cours Albert Thomas'.
+  ns:st67 ns:addresse '74 Rue Paul Cazeneuve'.
+  ns:st67 ns:lat '45.7314272671117600'.
+  ns:st67 ns:lng '4.8600379663129870'.
+  ns:st67 ns:available_bikes '1'.
+  ns:st67 ns:available_bike_stands '21'.
+  ns:st67 ns:status 'OPEN'.
+  ns:st68 rdf:type ns:Station.
+  ns:st68 ns:ville 'Lyon'.
+  ns:st68 ns:name '74 Rue Paul Cazeneuve'.
+  ns:st68 ns:addresse '86 Rue Saint Pierre de Vaise'.
+  ns:st68 ns:lat '45.7704769200645740'.
+  ns:st68 ns:lng '4.8009004832411430'.
+  ns:st68 ns:available_bikes '12'.
+  ns:st68 ns:available_bike_stands '3'.
+  ns:st68 ns:status 'OPEN'.
+  ns:st69 rdf:type ns:Station.
+  ns:st69 ns:ville 'Lyon'.
+  ns:st69 ns:name '86 Rue Saint Pierre de Vaise'.
+  ns:st69 ns:addresse ''.
+  ns:st69 ns:lat '45.8324657183306240'.
+  ns:st69 ns:lng '4.8487792326838310'.
+  ns:st69 ns:available_bikes '4'.
+  ns:st69 ns:available_bike_stands '16'.
+  ns:st69 ns:status 'OPEN'.
+  ns:st70 rdf:type ns:Station.
+  ns:st70 ns:ville 'Lyon'.
+  ns:st70 ns:name ''.
+  ns:st70 ns:addresse 'Rue Gabriel P\u00c3\u00a9ri'.
+  ns:st70 ns:lat '45.7722995938508100'.
+  ns:st70 ns:lng '4.8656992684460585'.
+  ns:st70 ns:available_bikes '10'.
+  ns:st70 ns:available_bike_stands '0'.
+  ns:st70 ns:status 'OPEN'.
+  ns:st71 rdf:type ns:Station.
+  ns:st71 ns:ville 'Lyon'.
+  ns:st71 ns:name 'Rue Gabriel P\u00c3\u00a9ri'.
+  ns:st71 ns:addresse 'Face au 92b Rue dInkermann'.
+  ns:st71 ns:lat '45.7639360244316800'.
+  ns:st71 ns:lng '4.8659132544557260'.
+  ns:st71 ns:available_bikes '20'.
+  ns:st71 ns:available_bike_stands '10'.
+  ns:st71 ns:status 'OPEN'.
+  ns:st72 rdf:type ns:Station.
+  ns:st72 ns:ville 'Lyon'.
+  ns:st72 ns:name 'Face au 92b Rue dInkermann'.
+  ns:st72 ns:addresse 'Place Antonin Gourju'.
+  ns:st72 ns:lat '45.7594863490351000'.
+  ns:st72 ns:lng '4.8301699554160630'.
+  ns:st72 ns:available_bikes '15'.
+  ns:st72 ns:available_bike_stands '15'.
+  ns:st72 ns:status 'OPEN'.
+  ns:st73 rdf:type ns:Station.
+  ns:st73 ns:ville 'Lyon'.
+  ns:st73 ns:name 'Place Antonin Gourju'.
+  ns:st73 ns:addresse 'Place G\u00c3\u00a9n\u00c3\u00a9ral Leclerc'.
+  ns:st73 ns:lat '45.7774932959538900'.
+  ns:st73 ns:lng '4.8448707260176660'.
+  ns:st73 ns:available_bikes '14'.
+  ns:st73 ns:available_bike_stands '25'.
+  ns:st73 ns:status 'OPEN'.
+  ns:st74 rdf:type ns:Station.
+  ns:st74 ns:ville 'Lyon'.
+  ns:st74 ns:name 'Place G\u00c3\u00a9n\u00c3\u00a9ral Leclerc'.
+  ns:st74 ns:addresse '14 Quai G\u00c3\u00a9n\u00c3\u00a9ral Sarrail'.
+  ns:st74 ns:lat '45.7648582723532300'.
+  ns:st74 ns:lng '4.8415654714910220'.
+  ns:st74 ns:available_bikes '16'.
+  ns:st74 ns:available_bike_stands '4'.
+  ns:st74 ns:status 'OPEN'.
+  ns:st75 rdf:type ns:Station.
+  ns:st75 ns:ville 'Lyon'.
+  ns:st75 ns:name '14 Quai G\u00c3\u00a9n\u00c3\u00a9ral Sarrail'.
+  ns:st75 ns:addresse '57 Rue Marius Berliet\r\n57 Rue Marius Berliet'.
+  ns:st75 ns:lat '45.7423325983951800'.
+  ns:st75 ns:lng '4.8603433259917150'.
+  ns:st75 ns:available_bikes '12'.
+  ns:st75 ns:available_bike_stands '8'.
+  ns:st75 ns:status 'OPEN'.
+  ns:st76 rdf:type ns:Station.
+  ns:st76 ns:ville 'Lyon'.
+  ns:st76 ns:name '57 Rue Marius Berliet\r\n57 Rue Marius Berliet'.
+  ns:st76 ns:addresse '10 place de la Paix'.
+  ns:st76 ns:lat '45.7520997282193140'.
+  ns:st76 ns:lng '4.9146430086846320'.
+  ns:st76 ns:available_bikes '3'.
+  ns:st76 ns:available_bike_stands '14'.
+  ns:st76 ns:status 'OPEN'.
+  ns:st77 rdf:type ns:Station.
+  ns:st77 ns:ville 'Lyon'.
+  ns:st77 ns:name '10 place de la Paix'.
+  ns:st77 ns:addresse 'Face 22 Quai Claude Bernard'.
+  ns:st77 ns:lat '45.7494176952947240'.
+  ns:st77 ns:lng '4.8347520047111060'.
+  ns:st77 ns:available_bikes '9'.
+  ns:st77 ns:available_bike_stands '19'.
+  ns:st77 ns:status 'OPEN'.
+  ns:st78 rdf:type ns:Station.
+  ns:st78 ns:ville 'Lyon'.
+  ns:st78 ns:name 'Face 22 Quai Claude Bernard'.
+  ns:st78 ns:addresse 'Rue Domer'.
+  ns:st78 ns:lat '45.7466748285384950'.
+  ns:st78 ns:lng '4.8444434656856060'.
+  ns:st78 ns:available_bikes '12'.
+  ns:st78 ns:available_bike_stands '0'.
+  ns:st78 ns:status 'OPEN'.
+  ns:st79 rdf:type ns:Station.
+  ns:st79 ns:ville 'Lyon'.
+  ns:st79 ns:name 'Rue Domer'.
+  ns:st79 ns:addresse '95 Boulevard Pinel'.
+  ns:st79 ns:lat '45.7419208619871500'.
+  ns:st79 ns:lng '4.8939627777052400'.
+  ns:st79 ns:available_bikes '12'.
+  ns:st79 ns:available_bike_stands '8'.
+  ns:st79 ns:status 'OPEN'.
+  ns:st80 rdf:type ns:Station.
+  ns:st80 ns:ville 'Lyon'.
+  ns:st80 ns:name '95 Boulevard Pinel'.
+  ns:st80 ns:addresse '159 Rue Rrofesseur Beauvisage'.
+  ns:st80 ns:lat '45.7278718558835000'.
+  ns:st80 ns:lng '4.8634420589052640'.
+  ns:st80 ns:available_bikes '9'.
+  ns:st80 ns:available_bike_stands '8'.
+  ns:st80 ns:status 'OPEN'.
+  ns:st81 rdf:type ns:Station.
+  ns:st81 ns:ville 'Lyon'.
+  ns:st81 ns:name '159 Rue Rrofesseur Beauvisage'.
+  ns:st81 ns:addresse '60 avenue Rockefeller'.
+  ns:st81 ns:lat '45.7404830910258650'.
+  ns:st81 ns:lng '4.8880858101360470'.
+  ns:st81 ns:available_bikes '7'.
+  ns:st81 ns:available_bike_stands '13'.
+  ns:st81 ns:status 'OPEN'.
+  ns:st82 rdf:type ns:Station.
+  ns:st82 ns:ville 'Lyon'.
+  ns:st82 ns:name '60 avenue Rockefeller'.
+  ns:st82 ns:addresse 'Quai Romain Rolland'.
+  ns:st82 ns:lat '45.7620370806926700'.
+  ns:st82 ns:lng '4.8288896824580405'.
+  ns:st82 ns:available_bikes '2'.
+  ns:st82 ns:available_bike_stands '15'.
+  ns:st82 ns:status 'OPEN'.
+  ns:st83 rdf:type ns:Station.
+  ns:st83 ns:ville 'Lyon'.
+  ns:st83 ns:name 'Quai Romain Rolland'.
+  ns:st83 ns:addresse 'Rue du Sytral'.
+  ns:st83 ns:lat '45.7651240553553600'.
+  ns:st83 ns:lng '4.9098182197044350'.
+  ns:st83 ns:available_bikes '11'.
+  ns:st83 ns:available_bike_stands '17'.
+  ns:st83 ns:status 'OPEN'.
+  ns:st84 rdf:type ns:Station.
+  ns:st84 ns:ville 'Lyon'.
+  ns:st84 ns:name 'Rue du Sytral'.
+  ns:st84 ns:addresse 'Rue Salvador Allende'.
+  ns:st84 ns:lat '45.7762210147081350'.
+  ns:st84 ns:lng '4.8626475813297990'.
+  ns:st84 ns:available_bikes '8'.
+  ns:st84 ns:available_bike_stands '2'.
+  ns:st84 ns:status 'OPEN'.
+  ns:st85 rdf:type ns:Station.
+  ns:st85 ns:ville 'Lyon'.
+  ns:st85 ns:name 'Rue Salvador Allende'.
+  ns:st85 ns:addresse 'Rue de la Martini\u00c3\u00a8re'.
+  ns:st85 ns:lat '45.7682183165922000'.
+  ns:st85 ns:lng '4.8276217044711550'.
+  ns:st85 ns:available_bikes '1'.
+  ns:st85 ns:available_bike_stands '10'.
+  ns:st85 ns:status 'OPEN'.
+  ns:st86 rdf:type ns:Station.
+  ns:st86 ns:ville 'Lyon'.
+  ns:st86 ns:name 'Rue de la Martini\u00c3\u00a8re'.
+  ns:st86 ns:addresse '113 Rue de St Cyr'.
+  ns:st86 ns:lat '45.7915736750577340'.
+  ns:st86 ns:lng '4.8085346353439210'.
+  ns:st86 ns:available_bikes '0'.
+  ns:st86 ns:available_bike_stands '17'.
+  ns:st86 ns:status 'CLOSED'.
+  ns:st87 rdf:type ns:Station.
+  ns:st87 ns:ville 'Lyon'.
+  ns:st87 ns:name '113 Rue de St Cyr'.
+  ns:st87 ns:addresse '52 Rue Sidoine Apollinaire'.
+  ns:st87 ns:lat '45.7710182884515100'.
+  ns:st87 ns:lng '4.7964503487575510'.
+  ns:st87 ns:available_bikes '8'.
+  ns:st87 ns:available_bike_stands '11'.
+  ns:st87 ns:status 'OPEN'.
+  ns:st88 rdf:type ns:Station.
+  ns:st88 ns:ville 'Lyon'.
+  ns:st88 ns:name '52 Rue Sidoine Apollinaire'.
+  ns:st88 ns:addresse '10 Rue Juliette R\u00c3\u00a9camier'.
+  ns:st88 ns:lat '45.7643336975612060'.
+  ns:st88 ns:lng '4.8534921297061950'.
+  ns:st88 ns:available_bikes '9'.
+  ns:st88 ns:available_bike_stands '7'.
+  ns:st88 ns:status 'OPEN'.
+  ns:st89 rdf:type ns:Station.
+  ns:st89 ns:ville 'Lyon'.
+  ns:st89 ns:name '10 Rue Juliette R\u00c3\u00a9camier'.
+  ns:st89 ns:addresse 'Rue du Docteur Damidot'.
+  ns:st89 ns:lat '45.7617882849687100'.
+  ns:st89 ns:lng '4.8861572848566010'.
+  ns:st89 ns:available_bikes '11'.
+  ns:st89 ns:available_bike_stands '7'.
+  ns:st89 ns:status 'OPEN'.
+  ns:st90 rdf:type ns:Station.
+  ns:st90 ns:ville 'Lyon'.
+  ns:st90 ns:name 'Rue du Docteur Damidot'.
+  ns:st90 ns:addresse 'Place du Lac'.
+  ns:st90 ns:lat '45.7588856223001300'.
+  ns:st90 ns:lng '4.8537678938544730'.
+  ns:st90 ns:available_bikes '7'.
+  ns:st90 ns:available_bike_stands '12'.
+  ns:st90 ns:status 'OPEN'.
+  ns:st91 rdf:type ns:Station.
+  ns:st91 ns:ville 'Lyon'.
+  ns:st91 ns:name 'Place du Lac'.
+  ns:st91 ns:addresse '44 bd des Brotteaux'.
+  ns:st91 ns:lat '45.7663673112669600'.
+  ns:st91 ns:lng '4.8570018759142295'.
+  ns:st91 ns:available_bikes '11'.
+  ns:st91 ns:available_bike_stands '2'.
+  ns:st91 ns:status 'OPEN'.
+  ns:st92 rdf:type ns:Station.
+  ns:st92 ns:ville 'Lyon'.
+  ns:st92 ns:name '44 bd des Brotteaux'.
+  ns:st92 ns:addresse '2 Rue Docteur Alb\u00c3\u00a9ric Pont'.
+  ns:st92 ns:lat '45.7534443435600400'.
+  ns:st92 ns:lng '4.8044009888454050'.
+  ns:st92 ns:available_bikes '15'.
+  ns:st92 ns:available_bike_stands '1'.
+  ns:st92 ns:status 'OPEN'.
+  ns:st93 rdf:type ns:Station.
+  ns:st93 ns:ville 'Lyon'.
+  ns:st93 ns:name '2 Rue Docteur Alb\u00c3\u00a9ric Pont'.
+  ns:st93 ns:addresse '6 Rue Antoine Lumi\u00c3\u00a8re'.
+  ns:st93 ns:lat '45.7435720690503300'.
+  ns:st93 ns:lng '4.8701059691417320'.
+  ns:st93 ns:available_bikes '9'.
+  ns:st93 ns:available_bike_stands '7'.
+  ns:st93 ns:status 'OPEN'.
+  ns:st94 rdf:type ns:Station.
+  ns:st94 ns:ville 'Lyon'.
+  ns:st94 ns:name '6 Rue Antoine Lumi\u00c3\u00a8re'.
+  ns:st94 ns:addresse '3 quai Paul S\u00c3\u00a9dallian'.
+  ns:st94 ns:lat '45.7974121962714450'.
+  ns:st94 ns:lng '4.8290463533634590'.
+  ns:st94 ns:available_bikes '2'.
+  ns:st94 ns:available_bike_stands '14'.
+  ns:st94 ns:status 'OPEN'.
+  ns:st95 rdf:type ns:Station.
+  ns:st95 ns:ville 'Lyon'.
+  ns:st95 ns:name '3 quai Paul S\u00c3\u00a9dallian'.
+  ns:st95 ns:addresse '12 Rue F\u00c3\u00a9lix Mangini'.
+  ns:st95 ns:lat '45.7904088071307300'.
+  ns:st95 ns:lng '4.8163493917942380'.
+  ns:st95 ns:available_bikes '14'.
+  ns:st95 ns:available_bike_stands '10'.
+  ns:st95 ns:status 'OPEN'.
+  ns:st96 rdf:type ns:Station.
+  ns:st96 ns:ville 'Lyon'.
+  ns:st96 ns:name '12 Rue F\u00c3\u00a9lix Mangini'.
+  ns:st96 ns:addresse '79 Rue Philippe De Lassalle'.
+  ns:st96 ns:lat '45.7817001067679500'.
+  ns:st96 ns:lng '4.8206000461275870'.
+  ns:st96 ns:available_bikes '14'.
+  ns:st96 ns:available_bike_stands '2'.
+  ns:st96 ns:status 'OPEN'.
+  ns:st97 rdf:type ns:Station.
+  ns:st97 ns:ville 'Lyon'.
+  ns:st97 ns:name '79 Rue Philippe De Lassalle'.
+  ns:st97 ns:addresse '29 Boulevard du 11 Novembre 1918'.
+  ns:st97 ns:lat '45.7794083136080100'.
+  ns:st97 ns:lng '4.8629021690287690'.
+  ns:st97 ns:available_bikes '3'.
+  ns:st97 ns:available_bike_stands '17'.
+  ns:st97 ns:status 'OPEN'.
+  ns:st98 rdf:type ns:Station.
+  ns:st98 ns:ville 'Lyon'.
+  ns:st98 ns:name '29 Boulevard du 11 Novembre 1918'.
+  ns:st98 ns:addresse 'Face 99 Rue Bugeaud'.
+  ns:st98 ns:lat '45.7666921938824100'.
+  ns:st98 ns:lng '4.8520859812468150'.
+  ns:st98 ns:available_bikes '4'.
+  ns:st98 ns:available_bike_stands '15'.
+  ns:st98 ns:status 'OPEN'.
+  ns:st99 rdf:type ns:Station.
+  ns:st99 ns:ville 'Lyon'.
+  ns:st99 ns:name 'Face 99 Rue Bugeaud'.
+  ns:st99 ns:addresse 'Rue Hauy'.
+  ns:st99 ns:lat '45.7595776564178540'.
+  ns:st99 ns:lng '4.8827081207421840'.
+  ns:st99 ns:available_bikes '9'.
+  ns:st99 ns:available_bike_stands '15'.
+  ns:st99 ns:status 'OPEN'.
+  ns:st100 rdf:type ns:Station.
+  ns:st100 ns:ville 'Lyon'.
+  ns:st100 ns:name 'Rue Hauy'.
+  ns:st100 ns:addresse 'rue Garibaldi'.
+  ns:st100 ns:lat '45.7706974838463400'.
+  ns:st100 ns:lng '4.8499357293643790'.
+  ns:st100 ns:available_bikes '4'.
+  ns:st100 ns:available_bike_stands '7'.
+  ns:st100 ns:status 'OPEN'.
+  ns:st101 rdf:type ns:Station.
+  ns:st101 ns:ville 'Lyon'.
+  ns:st101 ns:name 'rue Garibaldi'.
+  ns:st101 ns:addresse 'rue de Trion'.
+  ns:st101 ns:lat '45.7559666422450850'.
+  ns:st101 ns:lng '4.8189064482919700'.
+  ns:st101 ns:available_bikes '0'.
+  ns:st101 ns:available_bike_stands '16'.
+  ns:st101 ns:status 'OPEN'.
+  ns:st102 rdf:type ns:Station.
+  ns:st102 ns:ville 'Lyon'.
+  ns:st102 ns:name 'rue de Trion'.
+  ns:st102 ns:addresse '10 rue Paul Kruger'.
+  ns:st102 ns:lat '45.7386678839509300'.
+  ns:st102 ns:lng '4.8781309055528315'.
+  ns:st102 ns:available_bikes '11'.
+  ns:st102 ns:available_bike_stands '5'.
+  ns:st102 ns:status 'OPEN'.
+  ns:st103 rdf:type ns:Station.
+  ns:st103 ns:ville 'Lyon'.
+  ns:st103 ns:name '10 rue Paul Kruger'.
+  ns:st103 ns:addresse '18 Rue Dugas Montbel'.
+  ns:st103 ns:lat '45.7479691410901740'.
+  ns:st103 ns:lng '4.8248617280093150'.
+  ns:st103 ns:available_bikes '31'.
+  ns:st103 ns:available_bike_stands '9'.
+  ns:st103 ns:status 'OPEN'.
+  ns:st104 rdf:type ns:Station.
+  ns:st104 ns:ville 'Lyon'.
+  ns:st104 ns:name '18 Rue Dugas Montbel'.
+  ns:st104 ns:addresse '5 Rue de Verdun'.
+  ns:st104 ns:lat '45.7339455296300700'.
+  ns:st104 ns:lng '4.9087206818679405'.
+  ns:st104 ns:available_bikes '2'.
+  ns:st104 ns:available_bike_stands '21'.
+  ns:st104 ns:status 'OPEN'.
+  ns:st105 rdf:type ns:Station.
+  ns:st105 ns:ville 'Lyon'.
+  ns:st105 ns:name '5 Rue de Verdun'.
+  ns:st105 ns:addresse '22 Rue Louis Paufique'.
+  ns:st105 ns:lat '45.7593809563465260'.
+  ns:st105 ns:lng '4.8353992022816500'.
+  ns:st105 ns:available_bikes '28'.
+  ns:st105 ns:available_bike_stands '0'.
+  ns:st105 ns:status 'OPEN'.
+  ns:st106 rdf:type ns:Station.
+  ns:st106 ns:ville 'Lyon'.
+  ns:st106 ns:name '22 Rue Louis Paufique'.
+  ns:st106 ns:addresse 'Place Saint-Luc'.
+  ns:st106 ns:lat '45.7495654052048600'.
+  ns:st106 ns:lng '4.8008960240920420'.
+  ns:st106 ns:available_bikes '7'.
+  ns:st106 ns:available_bike_stands '8'.
+  ns:st106 ns:status 'OPEN'.
+  ns:st107 rdf:type ns:Station.
+  ns:st107 ns:ville 'Lyon'.
+  ns:st107 ns:name 'Place Saint-Luc'.
+  ns:st107 ns:addresse '1 Rue Roquette'.
+  ns:st107 ns:lat '45.7756749996432200'.
+  ns:st107 ns:lng '4.8053036651209080'.
+  ns:st107 ns:available_bikes '8'.
+  ns:st107 ns:available_bike_stands '8'.
+  ns:st107 ns:status 'OPEN'.
+  ns:st108 rdf:type ns:Station.
+  ns:st108 ns:ville 'Lyon'.
+  ns:st108 ns:name '1 Rue Roquette'.
+  ns:st108 ns:addresse '15 Rue des Remparts dAinay'.
+  ns:st108 ns:lat '45.7530892095642200'.
+  ns:st108 ns:lng '4.8298071448327240'.
+  ns:st108 ns:available_bikes '19'.
+  ns:st108 ns:available_bike_stands '5'.
+  ns:st108 ns:status 'OPEN'.
+  ns:st109 rdf:type ns:Station.
+  ns:st109 ns:ville 'Lyon'.
+  ns:st109 ns:name '15 Rue des Remparts dAinay'.
+  ns:st109 ns:addresse '3 Rue Antoine Lumi\u00c3\u00a8re'.
+  ns:st109 ns:lat '45.7408472643867500'.
+  ns:st109 ns:lng '4.8682065451769920'.
+  ns:st109 ns:available_bikes '7'.
+  ns:st109 ns:available_bike_stands '12'.
+  ns:st109 ns:status 'OPEN'.
+  ns:st110 rdf:type ns:Station.
+  ns:st110 ns:ville 'Lyon'.
+  ns:st110 ns:name '3 Rue Antoine Lumi\u00c3\u00a8re'.
+  ns:st110 ns:addresse '106 Grande rue de la Guilloti\u00c3\u00a8re'.
+  ns:st110 ns:lat '45.7510565465262100'.
+  ns:st110 ns:lng '4.8480482303453220'.
+  ns:st110 ns:available_bikes '9'.
+  ns:st110 ns:available_bike_stands '1'.
+  ns:st110 ns:status 'OPEN'.
+  ns:st111 rdf:type ns:Station.
+  ns:st111 ns:ville 'Lyon'.
+  ns:st111 ns:name '106 Grande rue de la Guilloti\u00c3\u00a8re'.
+  ns:st111 ns:addresse '4 place Gailleton'.
+  ns:st111 ns:lat '45.7534549142114400'.
+  ns:st111 ns:lng '4.8333538439572380'.
+  ns:st111 ns:available_bikes '15'.
+  ns:st111 ns:available_bike_stands '1'.
+  ns:st111 ns:status 'OPEN'.
+  ns:st112 rdf:type ns:Station.
+  ns:st112 ns:ville 'Lyon'.
+  ns:st112 ns:name '4 place Gailleton'.
+  ns:st112 ns:addresse 'Face 317 Avenue Jean Jaur\u00c3\u00a8s'.
+  ns:st112 ns:lat '45.7275732848257200'.
+  ns:st112 ns:lng '4.8311974821956260'.
+  ns:st112 ns:available_bikes '1'.
+  ns:st112 ns:available_bike_stands '39'.
+  ns:st112 ns:status 'OPEN'.
+  ns:st113 rdf:type ns:Station.
+  ns:st113 ns:ville 'Lyon'.
+  ns:st113 ns:name 'Face 317 Avenue Jean Jaur\u00c3\u00a8s'.
+  ns:st113 ns:addresse ''.
+  ns:st113 ns:lat '45.7307938036109400'.
+  ns:st113 ns:lng '4.8874632602485160'.
+  ns:st113 ns:available_bikes '11'.
+  ns:st113 ns:available_bike_stands '12'.
+  ns:st113 ns:status 'OPEN'.
+  ns:st114 rdf:type ns:Station.
+  ns:st114 ns:ville 'Lyon'.
+  ns:st114 ns:name ''.
+  ns:st114 ns:addresse 'Place Lebret'.
+  ns:st114 ns:lat '45.7356139906482100'.
+  ns:st114 ns:lng '4.8529965568657400'.
+  ns:st114 ns:available_bikes '6'.
+  ns:st114 ns:available_bike_stands '8'.
+  ns:st114 ns:status 'OPEN'.
+  ns:st115 rdf:type ns:Station.
+  ns:st115 ns:ville 'Lyon'.
+  ns:st115 ns:name 'Place Lebret'.
+  ns:st115 ns:addresse '14 quai Saint Vincent'.
+  ns:st115 ns:lat '45.7678957694769400'.
+  ns:st115 ns:lng '4.8198166574203690'.
+  ns:st115 ns:available_bikes '0'.
+  ns:st115 ns:available_bike_stands '6'.
+  ns:st115 ns:status 'OPEN'.
+  ns:st116 rdf:type ns:Station.
+  ns:st116 ns:ville 'Lyon'.
+  ns:st116 ns:name '14 quai Saint Vincent'.
+  ns:st116 ns:addresse 'Boulevard de la Croix Rousse'.
+  ns:st116 ns:lat '45.7742004406999600'.
+  ns:st116 ns:lng '4.8277652218641750'.
+  ns:st116 ns:available_bikes '9'.
+  ns:st116 ns:available_bike_stands '11'.
+  ns:st116 ns:status 'OPEN'.
+  ns:st117 rdf:type ns:Station.
+  ns:st117 ns:ville 'Lyon'.
+  ns:st117 ns:name 'Boulevard de la Croix Rousse'.
+  ns:st117 ns:addresse ''.
+  ns:st117 ns:lat '45.7201577769260500'.
+  ns:st117 ns:lng '4.7983317319214030'.
+  ns:st117 ns:available_bikes '14'.
+  ns:st117 ns:available_bike_stands '10'.
+  ns:st117 ns:status 'OPEN'.
+  ns:st118 rdf:type ns:Station.
+  ns:st118 ns:ville 'Lyon'.
+  ns:st118 ns:name ''.
+  ns:st118 ns:addresse 'Rue Maurice Flandin'.
+  ns:st118 ns:lat '45.7606085556441100'.
+  ns:st118 ns:lng '4.8630862498286330'.
+  ns:st118 ns:available_bikes '4'.
+  ns:st118 ns:available_bike_stands '24'.
+  ns:st118 ns:status 'OPEN'.
+  ns:st119 rdf:type ns:Station.
+  ns:st119 ns:ville 'Lyon'.
+  ns:st119 ns:name 'Rue Maurice Flandin'.
+  ns:st119 ns:addresse 'Place Flammarion'.
+  ns:st119 ns:lat '45.7793264516606800'.
+  ns:st119 ns:lng '4.8203031984414520'.
+  ns:st119 ns:available_bikes '10'.
+  ns:st119 ns:available_bike_stands '8'.
+  ns:st119 ns:status 'OPEN'.
+  ns:st120 rdf:type ns:Station.
+  ns:st120 ns:ville 'Lyon'.
+  ns:st120 ns:name 'Place Flammarion'.
+  ns:st120 ns:addresse '196 Avenue Pierre Mendes France'.
+  ns:st120 ns:lat '45.8159701108686600'.
+  ns:st120 ns:lng '4.8870434508176660'.
+  ns:st120 ns:available_bikes '1'.
+  ns:st120 ns:available_bike_stands '17'.
+  ns:st120 ns:status 'OPEN'.
+  ns:st121 rdf:type ns:Station.
+  ns:st121 ns:ville 'Lyon'.
+  ns:st121 ns:name '196 Avenue Pierre Mendes France'.
+  ns:st121 ns:addresse 'Rue des Cuirassiers'.
+  ns:st121 ns:lat '45.7598976512354200'.
+  ns:st121 ns:lng '4.8575730314142140'.
+  ns:st121 ns:available_bikes '12'.
+  ns:st121 ns:available_bike_stands '47'.
+  ns:st121 ns:status 'OPEN'.
+  ns:st122 rdf:type ns:Station.
+  ns:st122 ns:ville 'Lyon'.
+  ns:st122 ns:name 'Rue des Cuirassiers'.
+  ns:st122 ns:addresse '135 rue Ch\u00c3\u00a2teau Gaillard'.
+  ns:st122 ns:lat '45.7715577376675400'.
+  ns:st122 ns:lng '4.8903695657718780'.
+  ns:st122 ns:available_bikes '3'.
+  ns:st122 ns:available_bike_stands '13'.
+  ns:st122 ns:status 'OPEN'.
+  ns:st123 rdf:type ns:Station.
+  ns:st123 ns:ville 'Lyon'.
+  ns:st123 ns:name '135 rue Ch\u00c3\u00a2teau Gaillard'.
+  ns:st123 ns:addresse 'Place des Maisons Neuves'.
+  ns:st123 ns:lat '45.7559510292356100'.
+  ns:st123 ns:lng '4.8773464298740200'.
+  ns:st123 ns:available_bikes '12'.
+  ns:st123 ns:available_bike_stands '11'.
+  ns:st123 ns:status 'OPEN'.
+  ns:st124 rdf:type ns:Station.
+  ns:st124 ns:ville 'Lyon'.
+  ns:st124 ns:name 'Place des Maisons Neuves'.
+  ns:st124 ns:addresse 'Mont\u00c3\u00a9e des Carm\u00c3\u00a9lites'.
+  ns:st124 ns:lat '45.7700015740910800'.
+  ns:st124 ns:lng '4.8292695053207500'.
+  ns:st124 ns:available_bikes '0'.
+  ns:st124 ns:available_bike_stands '15'.
+  ns:st124 ns:status 'OPEN'.
+  ns:st125 rdf:type ns:Station.
+  ns:st125 ns:ville 'Lyon'.
+  ns:st125 ns:name 'Mont\u00c3\u00a9e des Carm\u00c3\u00a9lites'.
+  ns:st125 ns:addresse 'Place Antoinette'.
+  ns:st125 ns:lat '45.7536532555808650'.
+  ns:st125 ns:lng '4.8892423184432870'.
+  ns:st125 ns:available_bikes '2'.
+  ns:st125 ns:available_bike_stands '19'.
+  ns:st125 ns:status 'OPEN'.
+  ns:st126 rdf:type ns:Station.
+  ns:st126 ns:ville 'Lyon'.
+  ns:st126 ns:name 'Place Antoinette'.
+  ns:st126 ns:addresse 'rue Roger salengro'.
+  ns:st126 ns:lat '45.7783682080048800'.
+  ns:st126 ns:lng '4.8796732813004160'.
+  ns:st126 ns:available_bikes '11'.
+  ns:st126 ns:available_bike_stands '13'.
+  ns:st126 ns:status 'OPEN'.
+  ns:st127 rdf:type ns:Station.
+  ns:st127 ns:ville 'Lyon'.
+  ns:st127 ns:name 'rue Roger salengro'.
+  ns:st127 ns:addresse '183 Rue Andr\u00c3\u00a9 Philip'.
+  ns:st127 ns:lat '45.7615189274364060'.
+  ns:st127 ns:lng '4.8504862573912660'.
+  ns:st127 ns:available_bikes '3'.
+  ns:st127 ns:available_bike_stands '14'.
+  ns:st127 ns:status 'OPEN'.
+  ns:st128 rdf:type ns:Station.
+  ns:st128 ns:ville 'Lyon'.
+  ns:st128 ns:name '183 Rue Andr\u00c3\u00a9 Philip'.
+  ns:st128 ns:addresse '115 Rue Tronchet'.
+  ns:st128 ns:lat '45.7707371546228860'.
+  ns:st128 ns:lng '4.8567521774675420'.
+  ns:st128 ns:available_bikes '3'.
+  ns:st128 ns:available_bike_stands '7'.
+  ns:st128 ns:status 'OPEN'.
+  ns:st129 rdf:type ns:Station.
+  ns:st129 ns:ville 'Lyon'.
+  ns:st129 ns:name '115 Rue Tronchet'.
+  ns:st129 ns:addresse 'Rue Professeur Beauvisage'.
+  ns:st129 ns:lat '45.7297663546006700'.
+  ns:st129 ns:lng '4.8681665813493630'.
+  ns:st129 ns:available_bikes '14'.
+  ns:st129 ns:available_bike_stands '6'.
+  ns:st129 ns:status 'OPEN'.
+  ns:st130 rdf:type ns:Station.
+  ns:st130 ns:ville 'Lyon'.
+  ns:st130 ns:name 'Rue Professeur Beauvisage'.
+  ns:st130 ns:addresse '13 Promenade des Tuileries'.
+  ns:st130 ns:lat '45.7632560325953860'.
+  ns:st130 ns:lng '4.7786100656705530'.
+  ns:st130 ns:available_bikes '8'.
+  ns:st130 ns:available_bike_stands '4'.
+  ns:st130 ns:status 'OPEN'.
+  ns:st131 rdf:type ns:Station.
+  ns:st131 ns:ville 'Lyon'.
+  ns:st131 ns:name '13 Promenade des Tuileries'.
+  ns:st131 ns:addresse '332 bd de Balmont'.
+  ns:st131 ns:lat '45.7893151875845100'.
+  ns:st131 ns:lng '4.7991603409726270'.
+  ns:st131 ns:available_bikes '2'.
+  ns:st131 ns:available_bike_stands '10'.
+  ns:st131 ns:status 'OPEN'.
+  ns:st132 rdf:type ns:Station.
+  ns:st132 ns:ville 'Lyon'.
+  ns:st132 ns:name '332 bd de Balmont'.
+  ns:st132 ns:addresse 'Face 2 rue de la Poudrette'.
+  ns:st132 ns:lat '45.7644003130587800'.
+  ns:st132 ns:lng '4.9192757859473670'.
+  ns:st132 ns:available_bikes '0'.
+  ns:st132 ns:available_bike_stands '20'.
+  ns:st132 ns:status 'OPEN'.
+  ns:st133 rdf:type ns:Station.
+  ns:st133 ns:ville 'Lyon'.
+  ns:st133 ns:name 'Face 2 rue de la Poudrette'.
+  ns:st133 ns:addresse '153 Rue de Cr\u00c3\u00a9qui'.
+  ns:st133 ns:lat '45.7637960125263300'.
+  ns:st133 ns:lng '4.8470620002854570'.
+  ns:st133 ns:available_bikes '10'.
+  ns:st133 ns:available_bike_stands '5'.
+  ns:st133 ns:status 'OPEN'.
+  ns:st134 rdf:type ns:Station.
+  ns:st134 ns:ville 'Lyon'.
+  ns:st134 ns:name '153 Rue de Cr\u00c3\u00a9qui'.
+  ns:st134 ns:addresse '294 Rue Francis de Pr\u00c3\u00a9ssens\u00c3\u00a9'.
+  ns:st134 ns:lat '45.7691684753850800'.
+  ns:st134 ns:lng '4.8967695846255020'.
+  ns:st134 ns:available_bikes '3'.
+  ns:st134 ns:available_bike_stands '12'.
+  ns:st134 ns:status 'OPEN'.
+  ns:st135 rdf:type ns:Station.
+  ns:st135 ns:ville 'Lyon'.
+  ns:st135 ns:name '294 Rue Francis de Pr\u00c3\u00a9ssens\u00c3\u00a9'.
+  ns:st135 ns:addresse 'Face 174 Rue de Gerland'.
+  ns:st135 ns:lat '45.7298058652087600'.
+  ns:st135 ns:lng '4.8381384383404170'.
+  ns:st135 ns:available_bikes '9'.
+  ns:st135 ns:available_bike_stands '3'.
+  ns:st135 ns:status 'OPEN'.
+  ns:st136 rdf:type ns:Station.
+  ns:st136 ns:ville 'Lyon'.
+  ns:st136 ns:name 'Face 174 Rue de Gerland'.
+  ns:st136 ns:addresse 'Rue de la Part-Dieu'.
+  ns:st136 ns:lat '45.7596382324954700'.
+  ns:st136 ns:lng '4.8480846921356076'.
+  ns:st136 ns:available_bikes '10'.
+  ns:st136 ns:available_bike_stands '10'.
+  ns:st136 ns:status 'OPEN'.
+  ns:st137 rdf:type ns:Station.
+  ns:st137 ns:ville 'Lyon'.
+  ns:st137 ns:name 'Rue de la Part-Dieu'.
+  ns:st137 ns:addresse 'Cours de la Libert\u00c3\u00a9'.
+  ns:st137 ns:lat '45.7593422663364460'.
+  ns:st137 ns:lng '4.8422275870211210'.
+  ns:st137 ns:available_bikes '4'.
+  ns:st137 ns:available_bike_stands '14'.
+  ns:st137 ns:status 'OPEN'.
+  ns:st138 rdf:type ns:Station.
+  ns:st138 ns:ville 'Lyon'.
+  ns:st138 ns:name 'Cours de la Libert\u00c3\u00a9'.
+  ns:st138 ns:addresse 'rue Bourgelat'.
+  ns:st138 ns:lat '45.7530437074095100'.
+  ns:st138 ns:lng '4.8282672826226930'.
+  ns:st138 ns:available_bikes '8'.
+  ns:st138 ns:available_bike_stands '2'.
+  ns:st138 ns:status 'OPEN'.
+  ns:st139 rdf:type ns:Station.
+  ns:st139 ns:ville 'Lyon'.
+  ns:st139 ns:name 'rue Bourgelat'.
+  ns:st139 ns:addresse ''.
+  ns:st139 ns:lat '45.7367572482025800'.
+  ns:st139 ns:lng '4.8341384445028766'.
+  ns:st139 ns:available_bikes '7'.
+  ns:st139 ns:available_bike_stands '13'.
+  ns:st139 ns:status 'OPEN'.
+  ns:st140 rdf:type ns:Station.
+  ns:st140 ns:ville 'Lyon'.
+  ns:st140 ns:name ''.
+  ns:st140 ns:addresse '49 Avenue Gorges Cl\u00c3\u00a9menceau'.
+  ns:st140 ns:lat '45.6978120018869000'.
+  ns:st140 ns:lng '4.7947728497160735'.
+  ns:st140 ns:available_bikes '2'.
+  ns:st140 ns:available_bike_stands '10'.
+  ns:st140 ns:status 'OPEN'.
+  ns:st141 rdf:type ns:Station.
+  ns:st141 ns:ville 'Lyon'.
+  ns:st141 ns:name '49 Avenue Gorges Cl\u00c3\u00a9menceau'.
+  ns:st141 ns:addresse 'Avenue de Verguin'.
+  ns:st141 ns:lat '45.7729113974482800'.
+  ns:st141 ns:lng '4.8563267813588190'.
+  ns:st141 ns:available_bikes '10'.
+  ns:st141 ns:available_bike_stands '10'.
+  ns:st141 ns:status 'OPEN'.
+  ns:st142 rdf:type ns:Station.
+  ns:st142 ns:ville 'Lyon'.
+  ns:st142 ns:name 'Avenue de Verguin'.
+  ns:st142 ns:addresse 'Rue Professeur Jean Bernard'.
+  ns:st142 ns:lat '45.7227999997408900'.
+  ns:st142 ns:lng '4.8427060003576160'.
+  ns:st142 ns:available_bikes '1'.
+  ns:st142 ns:available_bike_stands '11'.
+  ns:st142 ns:status 'OPEN'.
+  ns:st143 rdf:type ns:Station.
+  ns:st143 ns:ville 'Lyon'.
+  ns:st143 ns:name 'Rue Professeur Jean Bernard'.
+  ns:st143 ns:addresse '66 Avenue Jean Mermoz'.
+  ns:st143 ns:lat '45.7332717801444000'.
+  ns:st143 ns:lng '4.8786008569623750'.
+  ns:st143 ns:available_bikes '7'.
+  ns:st143 ns:available_bike_stands '5'.
+  ns:st143 ns:status 'OPEN'.
+  ns:st144 rdf:type ns:Station.
+  ns:st144 ns:ville 'Lyon'.
+  ns:st144 ns:name '66 Avenue Jean Mermoz'.
+  ns:st144 ns:addresse '25 Rue Jean Baldassini'.
+  ns:st144 ns:lat '45.7276967807767200'.
+  ns:st144 ns:lng '4.8373820902736710'.
+  ns:st144 ns:available_bikes '8'.
+  ns:st144 ns:available_bike_stands '12'.
+  ns:st144 ns:status 'OPEN'.
+  ns:st145 rdf:type ns:Station.
+  ns:st145 ns:ville 'Lyon'.
+  ns:st145 ns:name '25 Rue Jean Baldassini'.
+  ns:st145 ns:addresse 'Place de la Lib\u00c3\u00a9ration'.
+  ns:st145 ns:lat '45.7750890702448960'.
+  ns:st145 ns:lng '4.7786729160837340'.
+  ns:st145 ns:available_bikes '10'.
+  ns:st145 ns:available_bike_stands '2'.
+  ns:st145 ns:status 'OPEN'.
+  ns:st146 rdf:type ns:Station.
+  ns:st146 ns:ville 'Lyon'.
+  ns:st146 ns:name 'Place de la Lib\u00c3\u00a9ration'.
+  ns:st146 ns:addresse '117 Boulevard Yves Farge'.
+  ns:st146 ns:lat '45.7356738897812000'.
+  ns:st146 ns:lng '4.8277191559612230'.
+  ns:st146 ns:available_bikes '8'.
+  ns:st146 ns:available_bike_stands '12'.
+  ns:st146 ns:status 'OPEN'.
+  ns:st147 rdf:type ns:Station.
+  ns:st147 ns:ville 'Lyon'.
+  ns:st147 ns:name '117 Boulevard Yves Farge'.
+  ns:st147 ns:addresse '64 Cours Albert Thomas'.
+  ns:st147 ns:lat '45.7467163314946900'.
+  ns:st147 ns:lng '4.8674286445260060'.
+  ns:st147 ns:available_bikes '5'.
+  ns:st147 ns:available_bike_stands '15'.
+  ns:st147 ns:status 'OPEN'.
+  ns:st148 rdf:type ns:Station.
+  ns:st148 ns:ville 'Lyon'.
+  ns:st148 ns:name '64 Cours Albert Thomas'.
+  ns:st148 ns:addresse 'Rue Jacques Brel'.
+  ns:st148 ns:lat '45.7742255397182500'.
+  ns:st148 ns:lng '4.8642860657508760'.
+  ns:st148 ns:available_bikes '8'.
+  ns:st148 ns:available_bike_stands '15'.
+  ns:st148 ns:status 'OPEN'.
+  ns:st149 rdf:type ns:Station.
+  ns:st149 ns:ville 'Lyon'.
+  ns:st149 ns:name 'Rue Jacques Brel'.
+  ns:st149 ns:addresse '22 Rue Voltaire'.
+  ns:st149 ns:lat '45.7032558571012300'.
+  ns:st149 ns:lng '4.8212003761276780'.
+  ns:st149 ns:available_bikes '4'.
+  ns:st149 ns:available_bike_stands '11'.
+  ns:st149 ns:status 'OPEN'.
+  ns:st150 rdf:type ns:Station.
+  ns:st150 ns:ville 'Lyon'.
+  ns:st150 ns:name '22 Rue Voltaire'.
+  ns:st150 ns:addresse '28 Boulevard des Belges'.
+  ns:st150 ns:lat '45.7745048729892700'.
+  ns:st150 ns:lng '4.8484771018513760'.
+  ns:st150 ns:available_bikes '11'.
+  ns:st150 ns:available_bike_stands '4'.
+  ns:st150 ns:status 'OPEN'.
+  ns:st151 rdf:type ns:Station.
+  ns:st151 ns:ville 'Lyon'.
+  ns:st151 ns:name '28 Boulevard des Belges'.
+  ns:st151 ns:addresse 'Rue de la Poudrette'.
+  ns:st151 ns:lat '45.7608131946829250'.
+  ns:st151 ns:lng '4.9206039456886055'.
+  ns:st151 ns:available_bikes '0'.
+  ns:st151 ns:available_bike_stands '25'.
+  ns:st151 ns:status 'OPEN'.
+  ns:st152 rdf:type ns:Station.
+  ns:st152 ns:ville 'Lyon'.
+  ns:st152 ns:name 'Rue de la Poudrette'.
+  ns:st152 ns:addresse 'Avenue Galline'.
+  ns:st152 ns:lat '45.7764535731413250'.
+  ns:st152 ns:lng '4.8671149219928850'.
+  ns:st152 ns:available_bikes '2'.
+  ns:st152 ns:available_bike_stands '13'.
+  ns:st152 ns:status 'OPEN'.
+  ns:st153 rdf:type ns:Station.
+  ns:st153 ns:ville 'Lyon'.
+  ns:st153 ns:name 'Avenue Galline'.
+  ns:st153 ns:addresse ''.
+  ns:st153 ns:lat '45.7731863072103200'.
+  ns:st153 ns:lng '4.8419593354412900'.
+  ns:st153 ns:available_bikes '7'.
+  ns:st153 ns:available_bike_stands '23'.
+  ns:st153 ns:status 'OPEN'.
+  ns:st154 rdf:type ns:Station.
+  ns:st154 ns:ville 'Lyon'.
+  ns:st154 ns:name ''.
+  ns:st154 ns:addresse '74 rue de la Villette'.
+  ns:st154 ns:lat '45.7577645564235300'.
+  ns:st154 ns:lng '4.8614965859401120'.
+  ns:st154 ns:available_bikes '16'.
+  ns:st154 ns:available_bike_stands '22'.
+  ns:st154 ns:status 'OPEN'.
+  ns:st155 rdf:type ns:Station.
+  ns:st155 ns:ville 'Lyon'.
+  ns:st155 ns:name '74 rue de la Villette'.
+  ns:st155 ns:addresse '10 rue du Dauphin\u00c3\u00a9'.
+  ns:st155 ns:lat '45.7499462288418300'.
+  ns:st155 ns:lng '4.8646503841216660'.
+  ns:st155 ns:available_bikes '6'.
+  ns:st155 ns:available_bike_stands '24'.
+  ns:st155 ns:status 'OPEN'.
+  ns:st156 rdf:type ns:Station.
+  ns:st156 ns:ville 'Lyon'.
+  ns:st156 ns:name '10 rue du Dauphin\u00c3\u00a9'.
+  ns:st156 ns:addresse 'Place Charles Hernu'.
+  ns:st156 ns:lat '45.7702267691493500'.
+  ns:st156 ns:lng '4.8631327223602240'.
+  ns:st156 ns:available_bikes '18'.
+  ns:st156 ns:available_bike_stands '28'.
+  ns:st156 ns:status 'OPEN'.
+  ns:st157 rdf:type ns:Station.
+  ns:st157 ns:ville 'Lyon'.
+  ns:st157 ns:name 'Place Charles Hernu'.
+  ns:st157 ns:addresse 'Face 40 Quai Chauveau'.
+  ns:st157 ns:lat '45.7697822121574100'.
+  ns:st157 ns:lng '4.8126762195854050'.
+  ns:st157 ns:available_bikes '4'.
+  ns:st157 ns:available_bike_stands '15'.
+  ns:st157 ns:status 'OPEN'.
+  ns:st158 rdf:type ns:Station.
+  ns:st158 ns:ville 'Lyon'.
+  ns:st158 ns:name 'Face 40 Quai Chauveau'.
+  ns:st158 ns:addresse ''.
+  ns:st158 ns:lat '45.7273693332767340'.
+  ns:st158 ns:lng '4.8146354766198370'.
+  ns:st158 ns:available_bikes '0'.
+  ns:st158 ns:available_bike_stands '24'.
+  ns:st158 ns:status 'OPEN'.
+  ns:st159 rdf:type ns:Station.
+  ns:st159 ns:ville 'Lyon'.
+  ns:st159 ns:name ''.
+  ns:st159 ns:addresse '51t Rue de Saint-Cyr'.
+  ns:st159 ns:lat '45.7828282303757100'.
+  ns:st159 ns:lng '4.8072963588022790'.
+  ns:st159 ns:available_bikes '7'.
+  ns:st159 ns:available_bike_stands '23'.
+  ns:st159 ns:status 'OPEN'.
+  ns:st160 rdf:type ns:Station.
+  ns:st160 ns:ville 'Lyon'.
+  ns:st160 ns:name '51t Rue de Saint-Cyr'.
+  ns:st160 ns:addresse 'Place Puvis de Chavannes'.
+  ns:st160 ns:lat '45.7717570855734000'.
+  ns:st160 ns:lng '4.8446036357483555'.
+  ns:st160 ns:available_bikes '6'.
+  ns:st160 ns:available_bike_stands '4'.
+  ns:st160 ns:status 'OPEN'.
+  ns:st161 rdf:type ns:Station.
+  ns:st161 ns:ville 'Lyon'.
+  ns:st161 ns:name 'Place Puvis de Chavannes'.
+  ns:st161 ns:addresse 'Face 74 Boulevard Jean XXIII'.
+  ns:st161 ns:lat '45.7364796056891400'.
+  ns:st161 ns:lng '4.8698054320071750'.
+  ns:st161 ns:available_bikes '9'.
+  ns:st161 ns:available_bike_stands '11'.
+  ns:st161 ns:status 'OPEN'.
+  ns:st162 rdf:type ns:Station.
+  ns:st162 ns:ville 'Lyon'.
+  ns:st162 ns:name 'Face 74 Boulevard Jean XXIII'.
+  ns:st162 ns:addresse 'Face 106 Avenue F\u00c3\u00a9lix Faure'.
+  ns:st162 ns:lat '45.7538149056220500'.
+  ns:st162 ns:lng '4.8598558941293660'.
+  ns:st162 ns:available_bikes '18'.
+  ns:st162 ns:available_bike_stands '17'.
+  ns:st162 ns:status 'OPEN'.
+  ns:st163 rdf:type ns:Station.
+  ns:st163 ns:ville 'Lyon'.
+  ns:st163 ns:name 'Face 106 Avenue F\u00c3\u00a9lix Faure'.
+  ns:st163 ns:addresse '21 Rue Docteur Dolard'.
+  ns:st163 ns:lat '45.7614496449619350'.
+  ns:st163 ns:lng '4.8724655049634790'.
+  ns:st163 ns:available_bikes '16'.
+  ns:st163 ns:available_bike_stands '9'.
+  ns:st163 ns:status 'OPEN'.
+  ns:st164 rdf:type ns:Station.
+  ns:st164 ns:ville 'Lyon'.
+  ns:st164 ns:name '21 Rue Docteur Dolard'.
+  ns:st164 ns:addresse '2 Rue Marcel-Gabriel Rivi\u00c3\u00a8re'.
+  ns:st164 ns:lat '45.7598862786474200'.
+  ns:st164 ns:lng '4.8357987999345910'.
+  ns:st164 ns:available_bikes '14'.
+  ns:st164 ns:available_bike_stands '9'.
+  ns:st164 ns:status 'OPEN'.
+  ns:st165 rdf:type ns:Station.
+  ns:st165 ns:ville 'Lyon'.
+  ns:st165 ns:name '2 Rue Marcel-Gabriel Rivi\u00c3\u00a8re'.
+  ns:st165 ns:addresse '12 quai Commerce'.
+  ns:st165 ns:lat '45.7834856612731400'.
+  ns:st165 ns:lng '4.8114878428420670'.
+  ns:st165 ns:available_bikes '3'.
+  ns:st165 ns:available_bike_stands '20'.
+  ns:st165 ns:status 'OPEN'.
+  ns:st166 rdf:type ns:Station.
+  ns:st166 ns:ville 'Lyon'.
+  ns:st166 ns:name '12 quai Commerce'.
+  ns:st166 ns:addresse '28 Quai Victor Augagneur'.
+  ns:st166 ns:lat '45.7571997023265400'.
+  ns:st166 ns:lng '4.8404991375424880'.
+  ns:st166 ns:available_bikes '24'.
+  ns:st166 ns:available_bike_stands '16'.
+  ns:st166 ns:status 'OPEN'.
+  ns:st167 rdf:type ns:Station.
+  ns:st167 ns:ville 'Lyon'.
+  ns:st167 ns:name '28 Quai Victor Augagneur'.
+  ns:st167 ns:addresse '3 Rue Philom\u00c3\u00a8ne Magnin'.
+  ns:st167 ns:lat '45.7526125818453550'.
+  ns:st167 ns:lng '4.8587710033051470'.
+  ns:st167 ns:available_bikes '10'.
+  ns:st167 ns:available_bike_stands '14'.
+  ns:st167 ns:status 'OPEN'.
+  ns:st168 rdf:type ns:Station.
+  ns:st168 ns:ville 'Lyon'.
+  ns:st168 ns:name '3 Rue Philom\u00c3\u00a8ne Magnin'.
+  ns:st168 ns:addresse 'Rue Masaryk'.
+  ns:st168 ns:lat '45.7786288989070300'.
+  ns:st168 ns:lng '4.8071200280976580'.
+  ns:st168 ns:available_bikes '7'.
+  ns:st168 ns:available_bike_stands '6'.
+  ns:st168 ns:status 'OPEN'.
+  ns:st169 rdf:type ns:Station.
+  ns:st169 ns:ville 'Lyon'.
+  ns:st169 ns:name 'Rue Masaryk'.
+  ns:st169 ns:addresse '109 route de Genas'.
+  ns:st169 ns:lat '45.7544402430766440'.
+  ns:st169 ns:lng '4.8853489189380230'.
+  ns:st169 ns:available_bikes '2'.
+  ns:st169 ns:available_bike_stands '30'.
+  ns:st169 ns:status 'OPEN'.
+  ns:st170 rdf:type ns:Station.
+  ns:st170 ns:ville 'Lyon'.
+  ns:st170 ns:name '109 route de Genas'.
+  ns:st170 ns:addresse 'Face au 84 Quai Joseph Gillet'.
+  ns:st170 ns:lat '45.7881700188236600'.
+  ns:st170 ns:lng '4.8185602866725280'.
+  ns:st170 ns:available_bikes '8'.
+  ns:st170 ns:available_bike_stands '17'.
+  ns:st170 ns:status 'OPEN'.
+  ns:st171 rdf:type ns:Station.
+  ns:st171 ns:ville 'Lyon'.
+  ns:st171 ns:name 'Face au 84 Quai Joseph Gillet'.
+  ns:st171 ns:addresse '312 Cours du 3\u00c3\u00a8me Mill\u00c3\u00a9naire'.
+  ns:st171 ns:lat '45.7144103841041840'.
+  ns:st171 ns:lng '4.9310143156708940'.
+  ns:st171 ns:available_bikes '1'.
+  ns:st171 ns:available_bike_stands '19'.
+  ns:st171 ns:status 'OPEN'.
+  ns:st172 rdf:type ns:Station.
+  ns:st172 ns:ville 'Lyon'.
+  ns:st172 ns:name '312 Cours du 3\u00c3\u00a8me Mill\u00c3\u00a9naire'.
+  ns:st172 ns:addresse '170 boulevard des Etats-Unis angle avenue Viviani dir. v\u00c3\u00a9nissieux'.
+  ns:st172 ns:lat '45.7247162655050100'.
+  ns:st172 ns:lng '4.8708316547687760'.
+  ns:st172 ns:available_bikes '1'.
+  ns:st172 ns:available_bike_stands '19'.
+  ns:st172 ns:status 'OPEN'.
+  ns:st173 rdf:type ns:Station.
+  ns:st173 ns:ville 'Lyon'.
+  ns:st173 ns:name '170 boulevard des Etats-Unis angle avenue Viviani dir. v\u00c3\u00a9nissieux'.
+  ns:st173 ns:addresse '1 Place Antonin Poncet'.
+  ns:st173 ns:lat '45.7567623213032200'.
+  ns:st173 ns:lng '4.8339273966533850'.
+  ns:st173 ns:available_bikes '12'.
+  ns:st173 ns:available_bike_stands '27'.
+  ns:st173 ns:status 'OPEN'.
+  ns:st174 rdf:type ns:Station.
+  ns:st174 ns:ville 'Lyon'.
+  ns:st174 ns:name '1 Place Antonin Poncet'.
+  ns:st174 ns:addresse '5 Rue Croix-Barret'.
+  ns:st174 ns:lat '45.7367908138388600'.
+  ns:st174 ns:lng '4.8411520886055190'.
+  ns:st174 ns:available_bikes '4'.
+  ns:st174 ns:available_bike_stands '28'.
+  ns:st174 ns:status 'OPEN'.
+  ns:st175 rdf:type ns:Station.
+  ns:st175 ns:ville 'Lyon'.
+  ns:st175 ns:name '5 Rue Croix-Barret'.
+  ns:st175 ns:addresse 'Place Meissonier'.
+  ns:st175 ns:lat '45.7660850668592000'.
+  ns:st175 ns:lng '4.8328335830568180'.
+  ns:st175 ns:available_bikes '13'.
+  ns:st175 ns:available_bike_stands '3'.
+  ns:st175 ns:status 'OPEN'.
+  ns:st176 rdf:type ns:Station.
+  ns:st176 ns:ville 'Lyon'.
+  ns:st176 ns:name 'Place Meissonier'.
+  ns:st176 ns:addresse '149 rue Boileau'.
+  ns:st176 ns:lat '45.7640576127189100'.
+  ns:st176 ns:lng '4.8499305460757520'.
+  ns:st176 ns:available_bikes '2'.
+  ns:st176 ns:available_bike_stands '13'.
+  ns:st176 ns:status 'OPEN'.
+  ns:st177 rdf:type ns:Station.
+  ns:st177 ns:ville 'Lyon'.
+  ns:st177 ns:name '149 rue Boileau'.
+  ns:st177 ns:addresse 'Place Carnot'.
+  ns:st177 ns:lat '45.7512303840983700'.
+  ns:st177 ns:lng '4.8268909446731270'.
+  ns:st177 ns:available_bikes '7'.
+  ns:st177 ns:available_bike_stands '23'.
+  ns:st177 ns:status 'OPEN'.
+  ns:st178 rdf:type ns:Station.
+  ns:st178 ns:ville 'Lyon'.
+  ns:st178 ns:name 'Place Carnot'.
+  ns:st178 ns:addresse 'Rue Philippe de Lassalle'.
+  ns:st178 ns:lat '45.7774206479390600'.
+  ns:st178 ns:lng '4.8205384707114510'.
+  ns:st178 ns:available_bikes '3'.
+  ns:st178 ns:available_bike_stands '10'.
+  ns:st178 ns:status 'OPEN'.
+  ns:st179 rdf:type ns:Station.
+  ns:st179 ns:ville 'Lyon'.
+  ns:st179 ns:name 'Rue Philippe de Lassalle'.
+  ns:st179 ns:addresse '37 Rue S\u00c3\u00a9bastien Gryphe'.
+  ns:st179 ns:lat '45.7519114393107300'.
+  ns:st179 ns:lng '4.8437864046911105'.
+  ns:st179 ns:available_bikes '16'.
+  ns:st179 ns:available_bike_stands '9'.
+  ns:st179 ns:status 'OPEN'.
+  ns:st180 rdf:type ns:Station.
+  ns:st180 ns:ville 'Lyon'.
+  ns:st180 ns:name '37 Rue S\u00c3\u00a9bastien Gryphe'.
+  ns:st180 ns:addresse 'Place Vanderpol'.
+  ns:st180 ns:lat '45.7730995725331500'.
+  ns:st180 ns:lng '4.8078137222645940'.
+  ns:st180 ns:available_bikes '9'.
+  ns:st180 ns:available_bike_stands '6'.
+  ns:st180 ns:status 'OPEN'.
+  ns:st181 rdf:type ns:Station.
+  ns:st181 ns:ville 'Lyon'.
+  ns:st181 ns:name 'Place Vanderpol'.
+  ns:st181 ns:addresse '2 place Saint Anne'.
+  ns:st181 ns:lat '45.7569549747275200'.
+  ns:st181 ns:lng '4.8654416591953460'.
+  ns:st181 ns:available_bikes '16'.
+  ns:st181 ns:available_bike_stands '2'.
+  ns:st181 ns:status 'OPEN'.
+  ns:st182 rdf:type ns:Station.
+  ns:st182 ns:ville 'Lyon'.
+  ns:st182 ns:name '2 place Saint Anne'.
+  ns:st182 ns:addresse '5 au 7 rue du Professeur Rollet'.
+  ns:st182 ns:lat '45.7485395662598650'.
+  ns:st182 ns:lng '4.8615417793642550'.
+  ns:st182 ns:available_bikes '9'.
+  ns:st182 ns:available_bike_stands '17'.
+  ns:st182 ns:status 'OPEN'.
+  ns:st183 rdf:type ns:Station.
+  ns:st183 ns:ville 'Lyon'.
+  ns:st183 ns:name '5 au 7 rue du Professeur Rollet'.
+  ns:st183 ns:addresse '1 Place Victor Basch'.
+  ns:st183 ns:lat '45.7537858652435600'.
+  ns:st183 ns:lng '4.8480424261036825'.
+  ns:st183 ns:available_bikes '11'.
+  ns:st183 ns:available_bike_stands '15'.
+  ns:st183 ns:status 'OPEN'.
+  ns:st184 rdf:type ns:Station.
+  ns:st184 ns:ville 'Lyon'.
+  ns:st184 ns:name '1 Place Victor Basch'.
+  ns:st184 ns:addresse '34 Rue Billon'.
+  ns:st184 ns:lat '45.7719119252490800'.
+  ns:st184 ns:lng '4.8790707067819020'.
+  ns:st184 ns:available_bikes '10'.
+  ns:st184 ns:available_bike_stands '6'.
+  ns:st184 ns:status 'OPEN'.
+  ns:st185 rdf:type ns:Station.
+  ns:st185 ns:ville 'Lyon'.
+  ns:st185 ns:name '34 Rue Billon'.
+  ns:st185 ns:addresse '11 Rue Paul Cazeneuve'.
+  ns:st185 ns:lat '45.7373162879662940'.
+  ns:st185 ns:lng '4.8655284896846740'.
+  ns:st185 ns:available_bikes '7'.
+  ns:st185 ns:available_bike_stands '13'.
+  ns:st185 ns:status 'OPEN'.
+  ns:st186 rdf:type ns:Station.
+  ns:st186 ns:ville 'Lyon'.
+  ns:st186 ns:name '11 Rue Paul Cazeneuve'.
+  ns:st186 ns:addresse '276 Cours Emile Zola'.
+  ns:st186 ns:lat '45.7670909450657100'.
+  ns:st186 ns:lng '4.8924286413845515'.
+  ns:st186 ns:available_bikes '6'.
+  ns:st186 ns:available_bike_stands '16'.
+  ns:st186 ns:status 'OPEN'.
+  ns:st187 rdf:type ns:Station.
+  ns:st187 ns:ville 'Lyon'.
+  ns:st187 ns:name '276 Cours Emile Zola'.
+  ns:st187 ns:addresse '93 av de lEurope'.
+  ns:st187 ns:lat '45.7399270587134800'.
+  ns:st187 ns:lng '4.8595210870363000'.
+  ns:st187 ns:available_bikes '7'.
+  ns:st187 ns:available_bike_stands '13'.
+  ns:st187 ns:status 'OPEN'.
+  ns:st188 rdf:type ns:Station.
+  ns:st188 ns:ville 'Lyon'.
+  ns:st188 ns:name '93 av de lEurope'.
+  ns:st188 ns:addresse '2 Rue Jean Renoir'.
+  ns:st188 ns:lat '45.7529160218789240'.
+  ns:st188 ns:lng '4.8638526893825510'.
+  ns:st188 ns:available_bikes '5'.
+  ns:st188 ns:available_bike_stands '10'.
+  ns:st188 ns:status 'OPEN'.
+  ns:st189 rdf:type ns:Station.
+  ns:st189 ns:ville 'Lyon'.
+  ns:st189 ns:name '2 Rue Jean Renoir'.
+  ns:st189 ns:addresse '30 Rue Renan'.
+  ns:st189 ns:lat '45.7467662258473740'.
+  ns:st189 ns:lng '4.8420506993495060'.
+  ns:st189 ns:available_bikes '3'.
+  ns:st189 ns:available_bike_stands '13'.
+  ns:st189 ns:status 'OPEN'.
+  ns:st190 rdf:type ns:Station.
+  ns:st190 ns:ville 'Lyon'.
+  ns:st190 ns:name '30 Rue Renan'.
+  ns:st190 ns:addresse 'Place des Quatre Chamins'.
+  ns:st190 ns:lat '45.7084437290321550'.
+  ns:st190 ns:lng '4.8548610775585280'.
+  ns:st190 ns:available_bikes '5'.
+  ns:st190 ns:available_bike_stands '6'.
+  ns:st190 ns:status 'OPEN'.
+  ns:st191 rdf:type ns:Station.
+  ns:st191 ns:ville 'Lyon'.
+  ns:st191 ns:name 'Place des Quatre Chamins'.
+  ns:st191 ns:addresse 'Place des Compagnons de la chanson'.
+  ns:st191 ns:lat '45.7565273368784000'.
+  ns:st191 ns:lng '4.7966121788894250'.
+  ns:st191 ns:available_bikes '8'.
+  ns:st191 ns:available_bike_stands '10'.
+  ns:st191 ns:status 'OPEN'.
+  ns:st192 rdf:type ns:Station.
+  ns:st192 ns:ville 'Lyon'.
+  ns:st192 ns:name 'Place des Compagnons de la chanson'.
+  ns:st192 ns:addresse '2 Avenue des Arts'.
+  ns:st192 ns:lat '45.7835136793198600'.
+  ns:st192 ns:lng '4.8712731104104920'.
+  ns:st192 ns:available_bikes '4'.
+  ns:st192 ns:available_bike_stands '26'.
+  ns:st192 ns:status 'OPEN'.
+  ns:st193 rdf:type ns:Station.
+  ns:st193 ns:ville 'Lyon'.
+  ns:st193 ns:name '2 Avenue des Arts'.
+  ns:st193 ns:addresse 'Face 50 Rue des Docks'.
+  ns:st193 ns:lat '45.7865084443620300'.
+  ns:st193 ns:lng '4.8114412174203720'.
+  ns:st193 ns:available_bikes '2'.
+  ns:st193 ns:available_bike_stands '16'.
+  ns:st193 ns:status 'OPEN'.
+  ns:st194 rdf:type ns:Station.
+  ns:st194 ns:ville 'Lyon'.
+  ns:st194 ns:name 'Face 50 Rue des Docks'.
+  ns:st194 ns:addresse '8 Avenue Tony Garnier'.
+  ns:st194 ns:lat '45.7308422388673200'.
+  ns:st194 ns:lng '4.8237404067653960'.
+  ns:st194 ns:available_bikes '4'.
+  ns:st194 ns:available_bike_stands '16'.
+  ns:st194 ns:status 'OPEN'.
+  ns:st195 rdf:type ns:Station.
+  ns:st195 ns:ville 'Lyon'.
+  ns:st195 ns:name '8 Avenue Tony Garnier'.
+  ns:st195 ns:addresse 'Angle Av. Mal de Lattre de Tassigny et Contre All\u00c3\u00a9e F. Mitterand'.
+  ns:st195 ns:lat '45.7366744242415300'.
+  ns:st195 ns:lng '4.9171004856320100'.
+  ns:st195 ns:available_bikes '2'.
+  ns:st195 ns:available_bike_stands '23'.
+  ns:st195 ns:status 'OPEN'.
+  ns:st196 rdf:type ns:Station.
+  ns:st196 ns:ville 'Lyon'.
+  ns:st196 ns:name 'Angle Av. Mal de Lattre de Tassigny et Contre All\u00c3\u00a9e F. Mitterand'.
+  ns:st196 ns:addresse 'Place de la Rochette'.
+  ns:st196 ns:lat '45.7916701826039940'.
+  ns:st196 ns:lng '4.8235970239637440'.
+  ns:st196 ns:available_bikes '9'.
+  ns:st196 ns:available_bike_stands '11'.
+  ns:st196 ns:status 'OPEN'.
+  ns:st197 rdf:type ns:Station.
+  ns:st197 ns:ville 'Lyon'.
+  ns:st197 ns:name 'Place de la Rochette'.
+  ns:st197 ns:addresse 'Face 2 Place Bir-Hakeim'.
+  ns:st197 ns:lat '45.7525921437139600'.
+  ns:st197 ns:lng '4.8557101486887975'.
+  ns:st197 ns:available_bikes '15'.
+  ns:st197 ns:available_bike_stands '4'.
+  ns:st197 ns:status 'OPEN'.
+  ns:st198 rdf:type ns:Station.
+  ns:st198 ns:ville 'Lyon'.
+  ns:st198 ns:name 'Face 2 Place Bir-Hakeim'.
+  ns:st198 ns:addresse '97 Avenue Jules Jusserand'.
+  ns:st198 ns:lat '45.7511124102764400'.
+  ns:st198 ns:lng '4.8555850883006510'.
+  ns:st198 ns:available_bikes '6'.
+  ns:st198 ns:available_bike_stands '7'.
+  ns:st198 ns:status 'OPEN'.
+  ns:st199 rdf:type ns:Station.
+  ns:st199 ns:ville 'Lyon'.
+  ns:st199 ns:name '97 Avenue Jules Jusserand'.
+  ns:st199 ns:addresse ''.
+  ns:st199 ns:lat '45.7140014190252940'.
+  ns:st199 ns:lng '4.8065443341113525'.
+  ns:st199 ns:available_bikes '9'.
+  ns:st199 ns:available_bike_stands '9'.
+  ns:st199 ns:status 'OPEN'.
+  ns:st200 rdf:type ns:Station.
+  ns:st200 ns:ville 'Lyon'.
+  ns:st200 ns:name ''.
+  ns:st200 ns:addresse '9 Rue Maupin'.
+  ns:st200 ns:lat '45.7587390821938500'.
+  ns:st200 ns:lng '4.8340765154131455'.
+  ns:st200 ns:available_bikes '9'.
+  ns:st200 ns:available_bike_stands '16'.
+  ns:st200 ns:status 'OPEN'.
+  ns:st201 rdf:type ns:Station.
+  ns:st201 ns:ville 'Lyon'.
+  ns:st201 ns:name '9 Rue Maupin'.
+  ns:st201 ns:addresse '3 quai Andr\u00c3\u00a9 Lassagne'.
+  ns:st201 ns:lat '45.7722014692572260'.
+  ns:st201 ns:lng '4.8379117929264730'.
+  ns:st201 ns:available_bikes '1'.
+  ns:st201 ns:available_bike_stands '15'.
+  ns:st201 ns:status 'OPEN'.
+  ns:st202 rdf:type ns:Station.
+  ns:st202 ns:ville 'Lyon'.
+  ns:st202 ns:name '3 quai Andr\u00c3\u00a9 Lassagne'.
+  ns:st202 ns:addresse '1 Rue Jean de Tournes'.
+  ns:st202 ns:lat '45.7607516950581540'.
+  ns:st202 ns:lng '4.8343042285358890'.
+  ns:st202 ns:available_bikes '9'.
+  ns:st202 ns:available_bike_stands '17'.
+  ns:st202 ns:status 'OPEN'.
+  ns:st203 rdf:type ns:Station.
+  ns:st203 ns:ville 'Lyon'.
+  ns:st203 ns:name '1 Rue Jean de Tournes'.
+  ns:st203 ns:addresse 'All\u00c3\u00a9e A. Lignon'.
+  ns:st203 ns:lat '45.7823061128328350'.
+  ns:st203 ns:lng '4.8493439808167290'.
+  ns:st203 ns:available_bikes '7'.
+  ns:st203 ns:available_bike_stands '20'.
+  ns:st203 ns:status 'OPEN'.
+  ns:st204 rdf:type ns:Station.
+  ns:st204 ns:ville 'Lyon'.
+  ns:st204 ns:name 'All\u00c3\u00a9e A. Lignon'.
+  ns:st204 ns:addresse 'Face 30 Rue Ferrandi\u00c3\u00a8re'.
+  ns:st204 ns:lat '45.7621739970214800'.
+  ns:st204 ns:lng '4.8359706936868220'.
+  ns:st204 ns:available_bikes '15'.
+  ns:st204 ns:available_bike_stands '9'.
+  ns:st204 ns:status 'OPEN'.
+  ns:st205 rdf:type ns:Station.
+  ns:st205 ns:ville 'Lyon'.
+  ns:st205 ns:name 'Face 30 Rue Ferrandi\u00c3\u00a8re'.
+  ns:st205 ns:addresse '184 route de Vienne'.
+  ns:st205 ns:lat '45.7323603634356300'.
+  ns:st205 ns:lng '4.8534202156019020'.
+  ns:st205 ns:available_bikes '5'.
+  ns:st205 ns:available_bike_stands '15'.
+  ns:st205 ns:status 'OPEN'.
+  ns:st206 rdf:type ns:Station.
+  ns:st206 ns:ville 'Lyon'.
+  ns:st206 ns:name '184 route de Vienne'.
+  ns:st206 ns:addresse 'Place Henri'.
+  ns:st206 ns:lat '45.7481869061751400'.
+  ns:st206 ns:lng '4.8805939581712150'.
+  ns:st206 ns:available_bikes '3'.
+  ns:st206 ns:available_bike_stands '10'.
+  ns:st206 ns:status 'OPEN'.
+  ns:st207 rdf:type ns:Station.
+  ns:st207 ns:ville 'Lyon'.
+  ns:st207 ns:name 'Place Henri'.
+  ns:st207 ns:addresse '3 Rue F\u00c3\u00a9lissent'.
+  ns:st207 ns:lat '45.7529863435116100'.
+  ns:st207 ns:lng '4.8414152874617790'.
+  ns:st207 ns:available_bikes '1'.
+  ns:st207 ns:available_bike_stands '28'.
+  ns:st207 ns:status 'OPEN'.
+  ns:st208 rdf:type ns:Station.
+  ns:st208 ns:ville 'Lyon'.
+  ns:st208 ns:name '3 Rue F\u00c3\u00a9lissent'.
+  ns:st208 ns:addresse 'Rue des Fr\u00c3\u00a8res Lumi\u00c3\u00a8res'.
+  ns:st208 ns:lat '45.7450174320831950'.
+  ns:st208 ns:lng '4.8664523172668295'.
+  ns:st208 ns:available_bikes '6'.
+  ns:st208 ns:available_bike_stands '9'.
+  ns:st208 ns:status 'OPEN'.
+  ns:st209 rdf:type ns:Station.
+  ns:st209 ns:ville 'Lyon'.
+  ns:st209 ns:name 'Rue des Fr\u00c3\u00a8res Lumi\u00c3\u00a8res'.
+  ns:st209 ns:addresse 'Face 2 Rue Tissot'.
+  ns:st209 ns:lat '45.7772955373720100'.
+  ns:st209 ns:lng '4.8033117445656650'.
+  ns:st209 ns:available_bikes '4'.
+  ns:st209 ns:available_bike_stands '12'.
+  ns:st209 ns:status 'OPEN'.
+  ns:st210 rdf:type ns:Station.
+  ns:st210 ns:ville 'Lyon'.
+  ns:st210 ns:name 'Face 2 Rue Tissot'.
+  ns:st210 ns:addresse 'Angle rue Emile Decorps / Rue Max Barel'.
+  ns:st210 ns:lat '45.7571560146472440'.
+  ns:st210 ns:lng '4.8999652194279450'.
+  ns:st210 ns:available_bikes '4'.
+  ns:st210 ns:available_bike_stands '9'.
+  ns:st210 ns:status 'OPEN'.
+  ns:st211 rdf:type ns:Station.
+  ns:st211 ns:ville 'Lyon'.
+  ns:st211 ns:name 'Angle rue Emile Decorps / Rue Max Barel'.
+  ns:st211 ns:addresse '101 Avenue Paul Santy'.
+  ns:st211 ns:lat '45.7285181510160800'.
+  ns:st211 ns:lng '4.8773059343942400'.
+  ns:st211 ns:available_bikes '4'.
+  ns:st211 ns:available_bike_stands '12'.
+  ns:st211 ns:status 'OPEN'.
+  ns:st212 rdf:type ns:Station.
+  ns:st212 ns:ville 'Lyon'.
+  ns:st212 ns:name '101 Avenue Paul Santy'.
+  ns:st212 ns:addresse '4 Place Le Viste'.
+  ns:st212 ns:lat '45.7579850990088100'.
+  ns:st212 ns:lng '4.8345938219838450'.
+  ns:st212 ns:available_bikes '5'.
+  ns:st212 ns:available_bike_stands '13'.
+  ns:st212 ns:status 'OPEN'.
+  ns:st213 rdf:type ns:Station.
+  ns:st213 ns:ville 'Lyon'.
+  ns:st213 ns:name '4 Place Le Viste'.
+  ns:st213 ns:addresse '60 Cours Charlemagne'.
+  ns:st213 ns:lat '45.7444223014223040'.
+  ns:st213 ns:lng '4.8221428704396105'.
+  ns:st213 ns:available_bikes '7'.
+  ns:st213 ns:available_bike_stands '9'.
+  ns:st213 ns:status 'OPEN'.
+  ns:st214 rdf:type ns:Station.
+  ns:st214 ns:ville 'Lyon'.
+  ns:st214 ns:name '60 Cours Charlemagne'.
+  ns:st214 ns:addresse 'Place de lHippodrome'.
+  ns:st214 ns:lat '45.7455815521804800'.
+  ns:st214 ns:lng '4.8235326732363090'.
+  ns:st214 ns:available_bikes '8'.
+  ns:st214 ns:available_bike_stands '16'.
+  ns:st214 ns:status 'OPEN'.
+  ns:st215 rdf:type ns:Station.
+  ns:st215 ns:ville 'Lyon'.
+  ns:st215 ns:name 'Place de lHippodrome'.
+  ns:st215 ns:addresse '51 Avenue Georges Pompidou'.
+  ns:st215 ns:lat '45.7594733965948140'.
+  ns:st215 ns:lng '4.8693428966594270'.
+  ns:st215 ns:available_bikes '12'.
+  ns:st215 ns:available_bike_stands '8'.
+  ns:st215 ns:status 'OPEN'.
+  ns:st216 rdf:type ns:Station.
+  ns:st216 ns:ville 'Lyon'.
+  ns:st216 ns:name '51 Avenue Georges Pompidou'.
+  ns:st216 ns:addresse 'Rue Paradin'.
+  ns:st216 ns:lat '45.7353460225460300'.
+  ns:st216 ns:lng '4.8895839762811750'.
+  ns:st216 ns:available_bikes '5'.
+  ns:st216 ns:available_bike_stands '10'.
+  ns:st216 ns:status 'OPEN'.
+  ns:st217 rdf:type ns:Station.
+  ns:st217 ns:ville 'Lyon'.
+  ns:st217 ns:name 'Rue Paradin'.
+  ns:st217 ns:addresse '4 Place Sathonay'.
+  ns:st217 ns:lat '45.7692658462512900'.
+  ns:st217 ns:lng '4.8300797887695630'.
+  ns:st217 ns:available_bikes '4'.
+  ns:st217 ns:available_bike_stands '11'.
+  ns:st217 ns:status 'OPEN'.
+  ns:st218 rdf:type ns:Station.
+  ns:st218 ns:ville 'Lyon'.
+  ns:st218 ns:name '4 Place Sathonay'.
+  ns:st218 ns:addresse '41 Quai Rambaud'.
+  ns:st218 ns:lat '45.7396275873331000'.
+  ns:st218 ns:lng '4.8150259306438120'.
+  ns:st218 ns:available_bikes '11'.
+  ns:st218 ns:available_bike_stands '14'.
+  ns:st218 ns:status 'OPEN'.
+  ns:st219 rdf:type ns:Station.
+  ns:st219 ns:ville 'Lyon'.
+  ns:st219 ns:name '41 Quai Rambaud'.
+  ns:st219 ns:addresse '25 Rue du Plat'.
+  ns:st219 ns:lat '45.7568084876169440'.
+  ns:st219 ns:lng '4.8283743801395120'.
+  ns:st219 ns:available_bikes '3'.
+  ns:st219 ns:available_bike_stands '11'.
+  ns:st219 ns:status 'OPEN'.
+  ns:st220 rdf:type ns:Station.
+  ns:st220 ns:ville 'Lyon'.
+  ns:st220 ns:name '25 Rue du Plat'.
+  ns:st220 ns:addresse 'Rue Terme'.
+  ns:st220 ns:lat '45.7677346863698560'.
+  ns:st220 ns:lng '4.8321350621908300'.
+  ns:st220 ns:available_bikes '9'.
+  ns:st220 ns:available_bike_stands '7'.
+  ns:st220 ns:status 'OPEN'.
+  ns:st221 rdf:type ns:Station.
+  ns:st221 ns:ville 'Lyon'.
+  ns:st221 ns:name 'Rue Terme'.
+  ns:st221 ns:addresse '6 Rue de la Plati\u00c3\u00a8re'.
+  ns:st221 ns:lat '45.7659547300349500'.
+  ns:st221 ns:lng '4.8311781246444845'.
+  ns:st221 ns:available_bikes '9'.
+  ns:st221 ns:available_bike_stands '8'.
+  ns:st221 ns:status 'OPEN'.
+  ns:st222 rdf:type ns:Station.
+  ns:st222 ns:ville 'Lyon'.
+  ns:st222 ns:name '6 Rue de la Plati\u00c3\u00a8re'.
+  ns:st222 ns:addresse '3 rue Cavenne'.
+  ns:st222 ns:lat '45.7557747699610800'.
+  ns:st222 ns:lng '4.8407411543374980'.
+  ns:st222 ns:available_bikes '0'.
+  ns:st222 ns:available_bike_stands '22'.
+  ns:st222 ns:status 'OPEN'.
+  ns:st223 rdf:type ns:Station.
+  ns:st223 ns:ville 'Lyon'.
+  ns:st223 ns:name '3 rue Cavenne'.
+  ns:st223 ns:addresse '45 Rue Edouard Vaillant'.
+  ns:st223 ns:lat '45.7753988102813600'.
+  ns:st223 ns:lng '4.8802630912578130'.
+  ns:st223 ns:available_bikes '9'.
+  ns:st223 ns:available_bike_stands '8'.
+  ns:st223 ns:status 'OPEN'.
+  ns:st224 rdf:type ns:Station.
+  ns:st224 ns:ville 'Lyon'.
+  ns:st224 ns:name '45 Rue Edouard Vaillant'.
+  ns:st224 ns:addresse ''.
+  ns:st224 ns:lat '45.7567027351715500'.
+  ns:st224 ns:lng '4.7831510682805530'.
+  ns:st224 ns:available_bikes '11'.
+  ns:st224 ns:available_bike_stands '1'.
+  ns:st224 ns:status 'OPEN'.
+  ns:st225 rdf:type ns:Station.
+  ns:st225 ns:ville 'Lyon'.
+  ns:st225 ns:name ''.
+  ns:st225 ns:addresse '141 Cours Emile Zola'.
+  ns:st225 ns:lat '45.7700978432658200'.
+  ns:st225 ns:lng '4.8766904175328010'.
+  ns:st225 ns:available_bikes '1'.
+  ns:st225 ns:available_bike_stands '18'.
+  ns:st225 ns:status 'OPEN'.
+  ns:st226 rdf:type ns:Station.
+  ns:st226 ns:ville 'Lyon'.
+  ns:st226 ns:name '141 Cours Emile Zola'.
+  ns:st226 ns:addresse '25 Rue Maryse Basti\u00c3\u00a9'.
+  ns:st226 ns:lat '45.7403259296418700'.
+  ns:st226 ns:lng '4.8741942706838780'.
+  ns:st226 ns:available_bikes '3'.
+  ns:st226 ns:available_bike_stands '12'.
+  ns:st226 ns:status 'OPEN'.
+  ns:st227 rdf:type ns:Station.
+  ns:st227 ns:ville 'Lyon'.
+  ns:st227 ns:name '25 Rue Maryse Basti\u00c3\u00a9'.
+  ns:st227 ns:addresse '221 avenue Lacassagne'.
+  ns:st227 ns:lat '45.7453145927333700'.
+  ns:st227 ns:lng '4.8889645723972110'.
+  ns:st227 ns:available_bikes '8'.
+  ns:st227 ns:available_bike_stands '16'.
+  ns:st227 ns:status 'OPEN'.
+  ns:st228 rdf:type ns:Station.
+  ns:st228 ns:ville 'Lyon'.
+  ns:st228 ns:name '221 avenue Lacassagne'.
+  ns:st228 ns:addresse '103 av. Barth\u00c3\u00a9l\u00c3\u00a9my Buyer'.
+  ns:st228 ns:lat '45.7620132943614000'.
+  ns:st228 ns:lng '4.8027598903443770'.
+  ns:st228 ns:available_bikes '9'.
+  ns:st228 ns:available_bike_stands '13'.
+  ns:st228 ns:status 'OPEN'.
+  ns:st229 rdf:type ns:Station.
+  ns:st229 ns:ville 'Lyon'.
+  ns:st229 ns:name '103 av. Barth\u00c3\u00a9l\u00c3\u00a9my Buyer'.
+  ns:st229 ns:addresse '54 Avenue Marc Sangnier'.
+  ns:st229 ns:lat '45.7591435230511500'.
+  ns:st229 ns:lng '4.8759935561091980'.
+  ns:st229 ns:available_bikes '4'.
+  ns:st229 ns:available_bike_stands '23'.
+  ns:st229 ns:status 'OPEN'.
+  ns:st230 rdf:type ns:Station.
+  ns:st230 ns:ville 'Lyon'.
+  ns:st230 ns:name '54 Avenue Marc Sangnier'.
+  ns:st230 ns:addresse '143 Avenue Paul Kruger'.
+  ns:st230 ns:lat '45.7541767015908200'.
+  ns:st230 ns:lng '4.9052991893735280'.
+  ns:st230 ns:available_bikes '6'.
+  ns:st230 ns:available_bike_stands '16'.
+  ns:st230 ns:status 'OPEN'.
+  ns:st231 rdf:type ns:Station.
+  ns:st231 ns:ville 'Lyon'.
+  ns:st231 ns:name '143 Avenue Paul Kruger'.
+  ns:st231 ns:addresse '9 Place Jules Grandcl\u00c3\u00a9ment'.
+  ns:st231 ns:lat '45.7583918194315600'.
+  ns:st231 ns:lng '4.8856094344245130'.
+  ns:st231 ns:available_bikes '2'.
+  ns:st231 ns:available_bike_stands '32'.
+  ns:st231 ns:status 'OPEN'.
+  ns:st232 rdf:type ns:Station.
+  ns:st232 ns:ville 'Lyon'.
+  ns:st232 ns:name '9 Place Jules Grandcl\u00c3\u00a9ment'.
+  ns:st232 ns:addresse '24 Rue Anatole France'.
+  ns:st232 ns:lat '45.7669053920040840'.
+  ns:st232 ns:lng '4.8701613960086180'.
+  ns:st232 ns:available_bikes '7'.
+  ns:st232 ns:available_bike_stands '13'.
+  ns:st232 ns:status 'OPEN'.
+  ns:st233 rdf:type ns:Station.
+  ns:st233 ns:ville 'Lyon'.
+  ns:st233 ns:name '24 Rue Anatole France'.
+  ns:st233 ns:addresse 'rue Charial'.
+  ns:st233 ns:lat '45.7578296698746000'.
+  ns:st233 ns:lng '4.8683950401971430'.
+  ns:st233 ns:available_bikes '3'.
+  ns:st233 ns:available_bike_stands '13'.
+  ns:st233 ns:status 'OPEN'.
+  ns:st234 rdf:type ns:Station.
+  ns:st234 ns:ville 'Lyon'.
+  ns:st234 ns:name 'rue Charial'.
+  ns:st234 ns:addresse 'Avenue Rockefeller'.
+  ns:st234 ns:lat '45.7414231127129500'.
+  ns:st234 ns:lng '4.8853771979328720'.
+  ns:st234 ns:available_bikes '8'.
+  ns:st234 ns:available_bike_stands '10'.
+  ns:st234 ns:status 'OPEN'.
+  ns:st235 rdf:type ns:Station.
+  ns:st235 ns:ville 'Lyon'.
+  ns:st235 ns:name 'Avenue Rockefeller'.
+  ns:st235 ns:addresse '41 Rue Sala'.
+  ns:st235 ns:lat '45.7544732763091350'.
+  ns:st235 ns:lng '4.8330110846859420'.
+  ns:st235 ns:available_bikes '12'.
+  ns:st235 ns:available_bike_stands '9'.
+  ns:st235 ns:status 'OPEN'.
+  ns:st236 rdf:type ns:Station.
+  ns:st236 ns:ville 'Lyon'.
+  ns:st236 ns:name '41 Rue Sala'.
+  ns:st236 ns:addresse 'Rue Anatole France'.
+  ns:st236 ns:lat '45.7698360005897600'.
+  ns:st236 ns:lng '4.8895260857893160'.
+  ns:st236 ns:available_bikes '9'.
+  ns:st236 ns:available_bike_stands '1'.
+  ns:st236 ns:status 'OPEN'.
+  ns:st237 rdf:type ns:Station.
+  ns:st237 ns:ville 'Lyon'.
+  ns:st237 ns:name 'Rue Anatole France'.
+  ns:st237 ns:addresse 'rue Garibaldi'.
+  ns:st237 ns:lat '45.7437195253426800'.
+  ns:st237 ns:lng '4.8472752679987110'.
+  ns:st237 ns:available_bikes '9'.
+  ns:st237 ns:available_bike_stands '6'.
+  ns:st237 ns:status 'OPEN'.
+  ns:st238 rdf:type ns:Station.
+  ns:st238 ns:ville 'Lyon'.
+  ns:st238 ns:name 'rue Garibaldi'.
+  ns:st238 ns:addresse '171 rue L\u00c3\u00a9on Blum'.
+  ns:st238 ns:lat '45.7645636665294100'.
+  ns:st238 ns:lng '4.8923336071821140'.
+  ns:st238 ns:available_bikes '8'.
+  ns:st238 ns:available_bike_stands '14'.
+  ns:st238 ns:status 'OPEN'.
+  ns:st239 rdf:type ns:Station.
+  ns:st239 ns:ville 'Lyon'.
+  ns:st239 ns:name '171 rue L\u00c3\u00a9on Blum'.
+  ns:st239 ns:addresse '30 Quai Paul S\u00c3\u00a9daillan'.
+  ns:st239 ns:lat '45.7924777385859400'.
+  ns:st239 ns:lng '4.8205782575315625'.
+  ns:st239 ns:available_bikes '3'.
+  ns:st239 ns:available_bike_stands '15'.
+  ns:st239 ns:status 'OPEN'.
+  ns:st240 rdf:type ns:Station.
+  ns:st240 ns:ville 'Lyon'.
+  ns:st240 ns:name '30 Quai Paul S\u00c3\u00a9daillan'.
+  ns:st240 ns:addresse 'Face 77b Rue Marietton'.
+  ns:st240 ns:lat '45.7760850428762750'.
+  ns:st240 ns:lng '4.7997376609700090'.
+  ns:st240 ns:available_bikes '5'.
+  ns:st240 ns:available_bike_stands '15'.
+  ns:st240 ns:status 'OPEN'.
+  ns:st241 rdf:type ns:Station.
+  ns:st241 ns:ville 'Lyon'.
+  ns:st241 ns:name 'Face 77b Rue Marietton'.
+  ns:st241 ns:addresse '59 Boulevard Pinel'.
+  ns:st241 ns:lat '45.7481832938431700'.
+  ns:st241 ns:lng '4.8969570575460010'.
+  ns:st241 ns:available_bikes '13'.
+  ns:st241 ns:available_bike_stands '7'.
+  ns:st241 ns:status 'OPEN'.
+  ns:st242 rdf:type ns:Station.
+  ns:st242 ns:ville 'Lyon'.
+  ns:st242 ns:name '59 Boulevard Pinel'.
+  ns:st242 ns:addresse 'Place Rouville'.
+  ns:st242 ns:lat '45.7696644422938000'.
+  ns:st242 ns:lng '4.8246123488633990'.
+  ns:st242 ns:available_bikes '11'.
+  ns:st242 ns:available_bike_stands '6'.
+  ns:st242 ns:status 'OPEN'.
+  ns:st243 rdf:type ns:Station.
+  ns:st243 ns:ville 'Lyon'.
+  ns:st243 ns:name 'Place Rouville'.
+  ns:st243 ns:addresse 'angle rue Baratin/rue r\u00c3\u00a9guillon'.
+  ns:st243 ns:lat '45.7631587956905860'.
+  ns:st243 ns:lng '4.9004795303651320'.
+  ns:st243 ns:available_bikes '1'.
+  ns:st243 ns:available_bike_stands '15'.
+  ns:st243 ns:status 'OPEN'.
+  ns:st244 rdf:type ns:Station.
+  ns:st244 ns:ville 'Lyon'.
+  ns:st244 ns:name 'angle rue Baratin/rue r\u00c3\u00a9guillon'.
+  ns:st244 ns:addresse 'Place Saint-Paul'.
+  ns:st244 ns:lat '45.7662717372985600'.
+  ns:st244 ns:lng '4.8274321226910390'.
+  ns:st244 ns:available_bikes '6'.
+  ns:st244 ns:available_bike_stands '17'.
+  ns:st244 ns:status 'OPEN'.
+  ns:st245 rdf:type ns:Station.
+  ns:st245 ns:ville 'Lyon'.
+  ns:st245 ns:name 'Place Saint-Paul'.
+  ns:st245 ns:addresse '17 rue dAusterlitz'.
+  ns:st245 ns:lat '45.7755023590485800'.
+  ns:st245 ns:lng '4.8350625452914060'.
+  ns:st245 ns:available_bikes '9'.
+  ns:st245 ns:available_bike_stands '9'.
+  ns:st245 ns:status 'OPEN'.
+  ns:st246 rdf:type ns:Station.
+  ns:st246 ns:ville 'Lyon'.
+  ns:st246 ns:name '17 rue dAusterlitz'.
+  ns:st246 ns:addresse '80 Quai Charles de Gaulle'.
+  ns:st246 ns:lat '45.7847015036764200'.
+  ns:st246 ns:lng '4.8519081064540370'.
+  ns:st246 ns:available_bikes '14'.
+  ns:st246 ns:available_bike_stands '18'.
+  ns:st246 ns:status 'OPEN'.
+  ns:st247 rdf:type ns:Station.
+  ns:st247 ns:ville 'Lyon'.
+  ns:st247 ns:name '80 Quai Charles de Gaulle'.
+  ns:st247 ns:addresse '5 Rue Moncey'.
+  ns:st247 ns:lat '45.7588252495330500'.
+  ns:st247 ns:lng '4.8465386095114380'.
+  ns:st247 ns:available_bikes '12'.
+  ns:st247 ns:available_bike_stands '4'.
+  ns:st247 ns:status 'OPEN'.
+  ns:st248 rdf:type ns:Station.
+  ns:st248 ns:ville 'Lyon'.
+  ns:st248 ns:name '5 Rue Moncey'.
+  ns:st248 ns:addresse 'Anatole France'.
+  ns:st248 ns:lat '45.7688763179066740'.
+  ns:st248 ns:lng '4.8842415132426110'.
+  ns:st248 ns:available_bikes '5'.
+  ns:st248 ns:available_bike_stands '8'.
+  ns:st248 ns:status 'OPEN'.
+  ns:st249 rdf:type ns:Station.
+  ns:st249 ns:ville 'Lyon'.
+  ns:st249 ns:name 'Anatole France'.
+  ns:st249 ns:addresse 'Boulevard Ambroise Par\u00c3\u00a9'.
+  ns:st249 ns:lat '45.7362404944940700'.
+  ns:st249 ns:lng '4.8837368262130560'.
+  ns:st249 ns:available_bikes '2'.
+  ns:st249 ns:available_bike_stands '22'.
+  ns:st249 ns:status 'OPEN'.
+  ns:st250 rdf:type ns:Station.
+  ns:st250 ns:ville 'Lyon'.
+  ns:st250 ns:name 'Boulevard Ambroise Par\u00c3\u00a9'.
+  ns:st250 ns:addresse '53 rue Chapeau Rouge'.
+  ns:st250 ns:lat '45.7709906411448560'.
+  ns:st250 ns:lng '4.8075804142518950'.
+  ns:st250 ns:available_bikes '0'.
+  ns:st250 ns:available_bike_stands '12'.
+  ns:st250 ns:status 'OPEN'.
+  ns:st251 rdf:type ns:Station.
+  ns:st251 ns:ville 'Lyon'.
+  ns:st251 ns:name '53 rue Chapeau Rouge'.
+  ns:st251 ns:addresse 'Rue de la Viabert'.
+  ns:st251 ns:lat '45.7659879833823500'.
+  ns:st251 ns:lng '4.8620922782007510'.
+  ns:st251 ns:available_bikes '10'.
+  ns:st251 ns:available_bike_stands '6'.
+  ns:st251 ns:status 'OPEN'.
+  ns:st252 rdf:type ns:Station.
+  ns:st252 ns:ville 'Lyon'.
+  ns:st252 ns:name 'Rue de la Viabert'.
+  ns:st252 ns:addresse '17 Rue des Emeraudes'.
+  ns:st252 ns:lat '45.7684122613764600'.
+  ns:st252 ns:lng '4.8590705567383440'.
+  ns:st252 ns:available_bikes '3'.
+  ns:st252 ns:available_bike_stands '17'.
+  ns:st252 ns:status 'OPEN'.
+  ns:st253 rdf:type ns:Station.
+  ns:st253 ns:ville 'Lyon'.
+  ns:st253 ns:name '17 Rue des Emeraudes'.
+  ns:st253 ns:addresse 'Place Chevalier de Saint-Georges'.
+  ns:st253 ns:lat '45.7361815820860700'.
+  ns:st253 ns:lng '4.8153350287499040'.
+  ns:st253 ns:available_bikes '0'.
+  ns:st253 ns:available_bike_stands '20'.
+  ns:st253 ns:status 'OPEN'.
+  ns:st254 rdf:type ns:Station.
+  ns:st254 ns:ville 'Lyon'.
+  ns:st254 ns:name 'Place Chevalier de Saint-Georges'.
+  ns:st254 ns:addresse 'Rue Saint-Jean'.
+  ns:st254 ns:lat '45.7604837438977800'.
+  ns:st254 ns:lng '4.8265650503972600'.
+  ns:st254 ns:available_bikes '20'.
+  ns:st254 ns:available_bike_stands '19'.
+  ns:st254 ns:status 'OPEN'.
+  ns:st255 rdf:type ns:Station.
+  ns:st255 ns:ville 'Lyon'.
+  ns:st255 ns:name 'Rue Saint-Jean'.
+  ns:st255 ns:addresse '2 Rue Greuze'.
+  ns:st255 ns:lat '45.7738436681981600'.
+  ns:st255 ns:lng '4.8938480167143410'.
+  ns:st255 ns:available_bikes '5'.
+  ns:st255 ns:available_bike_stands '13'.
+  ns:st255 ns:status 'OPEN'.
+  ns:st256 rdf:type ns:Station.
+  ns:st256 ns:ville 'Lyon'.
+  ns:st256 ns:name '2 Rue Greuze'.
+  ns:st256 ns:addresse '92 rue Voyant'.
+  ns:st256 ns:lat '45.7671533127280340'.
+  ns:st256 ns:lng '4.9005991607433980'.
+  ns:st256 ns:available_bikes '8'.
+  ns:st256 ns:available_bike_stands '13'.
+  ns:st256 ns:status 'OPEN'.
+  ns:st257 rdf:type ns:Station.
+  ns:st257 ns:ville 'Lyon'.
+  ns:st257 ns:name '92 rue Voyant'.
+  ns:st257 ns:addresse 'Face 9 Rue Pierre Verger'.
+  ns:st257 ns:lat '45.7316833148739000'.
+  ns:st257 ns:lng '4.8741275326105120'.
+  ns:st257 ns:available_bikes '2'.
+  ns:st257 ns:available_bike_stands '15'.
+  ns:st257 ns:status 'OPEN'.
+  ns:st258 rdf:type ns:Station.
+  ns:st258 ns:ville 'Lyon'.
+  ns:st258 ns:name 'Face 9 Rue Pierre Verger'.
+  ns:st258 ns:addresse 'Place Tolozan'.
+  ns:st258 ns:lat '45.7696005888254260'.
+  ns:st258 ns:lng '4.8376084367310750'.
+  ns:st258 ns:available_bikes '13'.
+  ns:st258 ns:available_bike_stands '23'.
+  ns:st258 ns:status 'OPEN'.
+  ns:st259 rdf:type ns:Station.
+  ns:st259 ns:ville 'Lyon'.
+  ns:st259 ns:name 'Place Tolozan'.
+  ns:st259 ns:addresse 'Rue Corneille'.
+  ns:st259 ns:lat '45.7599305258836100'.
+  ns:st259 ns:lng '4.8445159039671500'.
+  ns:st259 ns:available_bikes '11'.
+  ns:st259 ns:available_bike_stands '2'.
+  ns:st259 ns:status 'OPEN'.
+  ns:st260 rdf:type ns:Station.
+  ns:st260 ns:ville 'Lyon'.
+  ns:st260 ns:name 'Rue Corneille'.
+  ns:st260 ns:addresse 'Rue de la Technologie'.
+  ns:st260 ns:lat '45.7856324623545000'.
+  ns:st260 ns:lng '4.8824104015349030'.
+  ns:st260 ns:available_bikes '10'.
+  ns:st260 ns:available_bike_stands '20'.
+  ns:st260 ns:status 'OPEN'.
+  ns:st261 rdf:type ns:Station.
+  ns:st261 ns:ville 'Lyon'.
+  ns:st261 ns:name 'Rue de la Technologie'.
+  ns:st261 ns:addresse 'Place Rouget de lIsle'.
+  ns:st261 ns:lat '45.7539631929670600'.
+  ns:st261 ns:lng '4.8673532946259150'.
+  ns:st261 ns:available_bikes '14'.
+  ns:st261 ns:available_bike_stands '2'.
+  ns:st261 ns:status 'OPEN'.
+  ns:st262 rdf:type ns:Station.
+  ns:st262 ns:ville 'Lyon'.
+  ns:st262 ns:name 'Place Rouget de lIsle'.
+  ns:st262 ns:addresse 'Place Jules Ferry'.
+  ns:st262 ns:lat '45.7669095802662650'.
+  ns:st262 ns:lng '4.8589921673125620'.
+  ns:st262 ns:available_bikes '1'.
+  ns:st262 ns:available_bike_stands '15'.
+  ns:st262 ns:status 'OPEN'.
+  ns:st263 rdf:type ns:Station.
+  ns:st263 ns:ville 'Lyon'.
+  ns:st263 ns:name 'Place Jules Ferry'.
+  ns:st263 ns:addresse 'Avenue du Rh\u00c3\u00b4ne'.
+  ns:st263 ns:lat '45.7170299434914200'.
+  ns:st263 ns:lng '4.8141359805783805'.
+  ns:st263 ns:available_bikes '20'.
+  ns:st263 ns:available_bike_stands '20'.
+  ns:st263 ns:status 'OPEN'.
+  ns:st264 rdf:type ns:Station.
+  ns:st264 ns:ville 'Lyon'.
+  ns:st264 ns:name 'Avenue du Rh\u00c3\u00b4ne'.
+  ns:st264 ns:addresse 'Avenue de Bel Air'.
+  ns:st264 ns:lat '45.7579070732360900'.
+  ns:st264 ns:lng '4.9108067086686680'.
+  ns:st264 ns:available_bikes '2'.
+  ns:st264 ns:available_bike_stands '18'.
+  ns:st264 ns:status 'OPEN'.
+  ns:st265 rdf:type ns:Station.
+  ns:st265 ns:ville 'Lyon'.
+  ns:st265 ns:name 'Avenue de Bel Air'.
+  ns:st265 ns:addresse '10 Rue Clos Savaron'.
+  ns:st265 ns:lat '45.7826362574796000'.
+  ns:st265 ns:lng '4.8255591851847730'.
+  ns:st265 ns:available_bikes '10'.
+  ns:st265 ns:available_bike_stands '10'.
+  ns:st265 ns:status 'OPEN'.
+  ns:st266 rdf:type ns:Station.
+  ns:st266 ns:ville 'Lyon'.
+  ns:st266 ns:name '10 Rue Clos Savaron'.
+  ns:st266 ns:addresse 'Boulevard du 11 Novembre 1918'.
+  ns:st266 ns:lat '45.7790457737185800'.
+  ns:st266 ns:lng '4.8667783280240920'.
+  ns:st266 ns:available_bikes '4'.
+  ns:st266 ns:available_bike_stands '19'.
+  ns:st266 ns:status 'OPEN'.
+  ns:st267 rdf:type ns:Station.
+  ns:st267 ns:ville 'Lyon'.
+  ns:st267 ns:name 'Boulevard du 11 Novembre 1918'.
+  ns:st267 ns:addresse '33 Avenue Antoine de Saint-Exup\u00c3\u00a9ry fac'.
+  ns:st267 ns:lat '45.7588589710478640'.
+  ns:st267 ns:lng '4.8787495764625985'.
+  ns:st267 ns:available_bikes '4'.
+  ns:st267 ns:available_bike_stands '11'.
+  ns:st267 ns:status 'OPEN'.
+  ns:st268 rdf:type ns:Station.
+  ns:st268 ns:ville 'Lyon'.
+  ns:st268 ns:name '33 Avenue Antoine de Saint-Exup\u00c3\u00a9ry fac'.
+  ns:st268 ns:addresse 'Rue du Chariot dOr'.
+  ns:st268 ns:lat '45.7776173765049850'.
+  ns:st268 ns:lng '4.8345009421112760'.
+  ns:st268 ns:available_bikes '2'.
+  ns:st268 ns:available_bike_stands '10'.
+  ns:st268 ns:status 'OPEN'.
+  ns:st269 rdf:type ns:Station.
+  ns:st269 ns:ville 'Lyon'.
+  ns:st269 ns:name 'Rue du Chariot dOr'.
+  ns:st269 ns:addresse '45 Rue de Gerland'.
+  ns:st269 ns:lat '45.7398132348896800'.
+  ns:st269 ns:lng '4.8403073886228570'.
+  ns:st269 ns:available_bikes '3'.
+  ns:st269 ns:available_bike_stands '17'.
+  ns:st269 ns:status 'OPEN'.
+  ns:st270 rdf:type ns:Station.
+  ns:st270 ns:ville 'Lyon'.
+  ns:st270 ns:name '45 Rue de Gerland'.
+  ns:st270 ns:addresse '228 avenue du Plateau'.
+  ns:st270 ns:lat '45.7836371650547900'.
+  ns:st270 ns:lng '4.7945253084995630'.
+  ns:st270 ns:available_bikes '1'.
+  ns:st270 ns:available_bike_stands '11'.
+  ns:st270 ns:status 'OPEN'.
+  ns:st271 rdf:type ns:Station.
+  ns:st271 ns:ville 'Lyon'.
+  ns:st271 ns:name '228 avenue du Plateau'.
+  ns:st271 ns:addresse '76 rue Pierre Baratin'.
+  ns:st271 ns:lat '45.7606037573681700'.
+  ns:st271 ns:lng '4.9006969683209185'.
+  ns:st271 ns:available_bikes '0'.
+  ns:st271 ns:available_bike_stands '12'.
+  ns:st271 ns:status 'OPEN'.
+  ns:st272 rdf:type ns:Station.
+  ns:st272 ns:ville 'Lyon'.
+  ns:st272 ns:name '76 rue Pierre Baratin'.
+  ns:st272 ns:addresse 'Avenue de Birmingham'.
+  ns:st272 ns:lat '45.7746311098016750'.
+  ns:st272 ns:lng '4.8134162571603990'.
+  ns:st272 ns:available_bikes '7'.
+  ns:st272 ns:available_bike_stands '13'.
+  ns:st272 ns:status 'OPEN'.
+  ns:st273 rdf:type ns:Station.
+  ns:st273 ns:ville 'Lyon'.
+  ns:st273 ns:name 'Avenue de Birmingham'.
+  ns:st273 ns:addresse '41 rouet de Genas'.
+  ns:st273 ns:lat '45.7529723995867800'.
+  ns:st273 ns:lng '4.8988656628976360'.
+  ns:st273 ns:available_bikes '8'.
+  ns:st273 ns:available_bike_stands '8'.
+  ns:st273 ns:status 'OPEN'.
+  ns:st274 rdf:type ns:Station.
+  ns:st274 ns:ville 'Lyon'.
+  ns:st274 ns:name '41 rouet de Genas'.
+  ns:st274 ns:addresse 'Pont Raymond Barre'.
+  ns:st274 ns:lat '45.7333083359277900'.
+  ns:st274 ns:lng '4.8189203135366740'.
+  ns:st274 ns:available_bikes '3'.
+  ns:st274 ns:available_bike_stands '16'.
+  ns:st274 ns:status 'OPEN'.
+  ns:st275 rdf:type ns:Station.
+  ns:st275 ns:ville 'Lyon'.
+  ns:st275 ns:name 'Pont Raymond Barre'.
+  ns:st275 ns:addresse '59 Rue Carnot'.
+  ns:st275 ns:lat '45.7081114357055300'.
+  ns:st275 ns:lng '4.8618071179218280'.
+  ns:st275 ns:available_bikes '8'.
+  ns:st275 ns:available_bike_stands '10'.
+  ns:st275 ns:status 'OPEN'.
+  ns:st276 rdf:type ns:Station.
+  ns:st276 ns:ville 'Lyon'.
+  ns:st276 ns:name '59 Rue Carnot'.
+  ns:st276 ns:addresse '1 Quai Joseph Gillet'.
+  ns:st276 ns:lat '45.7703894302220250'.
+  ns:st276 ns:lng '4.8142456674237000'.
+  ns:st276 ns:available_bikes '11'.
+  ns:st276 ns:available_bike_stands '11'.
+  ns:st276 ns:status 'OPEN'.
+  ns:st277 rdf:type ns:Station.
+  ns:st277 ns:ville 'Lyon'.
+  ns:st277 ns:name '1 Quai Joseph Gillet'.
+  ns:st277 ns:addresse 'Face 44 Rue de la Feyssine'.
+  ns:st277 ns:lat '45.7830110745978800'.
+  ns:st277 ns:lng '4.8905858366251020'.
+  ns:st277 ns:available_bikes '5'.
+  ns:st277 ns:available_bike_stands '15'.
+  ns:st277 ns:status 'OPEN'.
+  ns:st278 rdf:type ns:Station.
+  ns:st278 ns:ville 'Lyon'.
+  ns:st278 ns:name 'Face 44 Rue de la Feyssine'.
+  ns:st278 ns:addresse 'Place de Trion'.
+  ns:st278 ns:lat '45.7579063089064060'.
+  ns:st278 ns:lng '4.8131349528107470'.
+  ns:st278 ns:available_bikes '0'.
+  ns:st278 ns:available_bike_stands '16'.
+  ns:st278 ns:status 'OPEN'.
+  ns:st279 rdf:type ns:Station.
+  ns:st279 ns:ville 'Lyon'.
+  ns:st279 ns:name 'Place de Trion'.
+  ns:st279 ns:addresse 'Servient'.
+  ns:st279 ns:lat '45.7607758409992000'.
+  ns:st279 ns:lng '4.8526939571425470'.
+  ns:st279 ns:available_bikes '7'.
+  ns:st279 ns:available_bike_stands '10'.
+  ns:st279 ns:status 'OPEN'.
+  ns:st280 rdf:type ns:Station.
+  ns:st280 ns:ville 'Lyon'.
+  ns:st280 ns:name 'Servient'.
+  ns:st280 ns:addresse 'Face 42 Rue Paul Cazeneuve'.
+  ns:st280 ns:lat '45.7340200917966400'.
+  ns:st280 ns:lng '4.8629023792941540'.
+  ns:st280 ns:available_bikes '5'.
+  ns:st280 ns:available_bike_stands '14'.
+  ns:st280 ns:status 'OPEN'.
+  ns:st281 rdf:type ns:Station.
+  ns:st281 ns:ville 'Lyon'.
+  ns:st281 ns:name 'Face 42 Rue Paul Cazeneuve'.
+  ns:st281 ns:addresse '1 Rue Rivet'.
+  ns:st281 ns:lat '45.7402806526508460'.
+  ns:st281 ns:lng '4.8320593704251730'.
+  ns:st281 ns:available_bikes '6'.
+  ns:st281 ns:available_bike_stands '14'.
+  ns:st281 ns:status 'OPEN'.
+  ns:st282 rdf:type ns:Station.
+  ns:st282 ns:ville 'Lyon'.
+  ns:st282 ns:name '1 Rue Rivet'.
+  ns:st282 ns:addresse '1 Rue Stella'.
+  ns:st282 ns:lat '45.7607097863131200'.
+  ns:st282 ns:lng '4.8362889729420430'.
+  ns:st282 ns:available_bikes '9'.
+  ns:st282 ns:available_bike_stands '18'.
+  ns:st282 ns:status 'OPEN'.
+  ns:st283 rdf:type ns:Station.
+  ns:st283 ns:ville 'Lyon'.
+  ns:st283 ns:name '1 Rue Stella'.
+  ns:st283 ns:addresse 'Avenue du 11 novembre 1918'.
+  ns:st283 ns:lat '45.7790639863242460'.
+  ns:st283 ns:lng '4.8714964631896150'.
+  ns:st283 ns:available_bikes '7'.
+  ns:st283 ns:available_bike_stands '27'.
+  ns:st283 ns:status 'OPEN'.
+  ns:st284 rdf:type ns:Station.
+  ns:st284 ns:ville 'Lyon'.
+  ns:st284 ns:name 'Avenue du 11 novembre 1918'.
+  ns:st284 ns:addresse 'Face 303 Rue Duguesclin'.
+  ns:st284 ns:lat '45.7530043530221000'.
+  ns:st284 ns:lng '4.8502474272199690'.
+  ns:st284 ns:available_bikes '7'.
+  ns:st284 ns:available_bike_stands '29'.
+  ns:st284 ns:status 'OPEN'.
+  ns:st285 rdf:type ns:Station.
+  ns:st285 ns:ville 'Lyon'.
+  ns:st285 ns:name 'Face 303 Rue Duguesclin'.
+  ns:st285 ns:addresse '105 cours Emile Zola'.
+  ns:st285 ns:lat '45.7707838400683800'.
+  ns:st285 ns:lng '4.8729593888672900'.
+  ns:st285 ns:available_bikes '13'.
+  ns:st285 ns:available_bike_stands '4'.
+  ns:st285 ns:status 'OPEN'.
+  ns:st286 rdf:type ns:Station.
+  ns:st286 ns:ville 'Lyon'.
+  ns:st286 ns:name '105 cours Emile Zola'.
+  ns:st286 ns:addresse 'Place Commandant Arnaud'.
+  ns:st286 ns:lat '45.7797251519675600'.
+  ns:st286 ns:lng '4.8347072824510775'.
+  ns:st286 ns:available_bikes '2'.
+  ns:st286 ns:available_bike_stands '15'.
+  ns:st286 ns:status 'OPEN'.
+  ns:st287 rdf:type ns:Station.
+  ns:st287 ns:ville 'Lyon'.
+  ns:st287 ns:name 'Place Commandant Arnaud'.
+  ns:st287 ns:addresse '96 Rue Chevreul'.
+  ns:st287 ns:lat '45.7454305152808000'.
+  ns:st287 ns:lng '4.8477802774631010'.
+  ns:st287 ns:available_bikes '4'.
+  ns:st287 ns:available_bike_stands '13'.
+  ns:st287 ns:status 'OPEN'.
+  ns:st288 rdf:type ns:Station.
+  ns:st288 ns:ville 'Lyon'.
+  ns:st288 ns:name '96 Rue Chevreul'.
+  ns:st288 ns:addresse 'Boulevard des Canuts'.
+  ns:st288 ns:lat '45.7760264913711400'.
+  ns:st288 ns:lng '4.8296210962258830'.
+  ns:st288 ns:available_bikes '13'.
+  ns:st288 ns:available_bike_stands '4'.
+  ns:st288 ns:status 'OPEN'.
+  ns:st289 rdf:type ns:Station.
+  ns:st289 ns:ville 'Lyon'.
+  ns:st289 ns:name 'Boulevard des Canuts'.
+  ns:st289 ns:addresse 'Quai Pasteur'.
+  ns:st289 ns:lat '45.8766089913122200'.
+  ns:st289 ns:lng '4.8386237264875970'.
+  ns:st289 ns:available_bikes '7'.
+  ns:st289 ns:available_bike_stands '13'.
+  ns:st289 ns:status 'OPEN'.
+  ns:st290 rdf:type ns:Station.
+  ns:st290 ns:ville 'Lyon'.
+  ns:st290 ns:name 'Quai Pasteur'.
+  ns:st290 ns:addresse 'Face au 119 Avenue Mar\u00c3\u00a9chal de Saxe'.
+  ns:st290 ns:lat '45.7575642739996500'.
+  ns:st290 ns:lng '4.8461181734350030'.
+  ns:st290 ns:available_bikes '21'.
+  ns:st290 ns:available_bike_stands '7'.
+  ns:st290 ns:status 'OPEN'.
+  ns:st291 rdf:type ns:Station.
+  ns:st291 ns:ville 'Lyon'.
+  ns:st291 ns:name 'Face au 119 Avenue Mar\u00c3\u00a9chal de Saxe'.
+  ns:st291 ns:addresse '25 Rue des Charmettes'.
+  ns:st291 ns:lat '45.7707297451097760'.
+  ns:st291 ns:lng '4.8673418461692230'.
+  ns:st291 ns:available_bikes '15'.
+  ns:st291 ns:available_bike_stands '8'.
+  ns:st291 ns:status 'OPEN'.
+  ns:st292 rdf:type ns:Station.
+  ns:st292 ns:ville 'Lyon'.
+  ns:st292 ns:name '25 Rue des Charmettes'.
+  ns:st292 ns:addresse '19 Rue de Saint-Cloud'.
+  ns:st292 ns:lat '45.7300799170408600'.
+  ns:st292 ns:lng '4.8278229564284700'.
+  ns:st292 ns:available_bikes '12'.
+  ns:st292 ns:available_bike_stands '15'.
+  ns:st292 ns:status 'OPEN'.
+  ns:st293 rdf:type ns:Station.
+  ns:st293 ns:ville 'Lyon'.
+  ns:st293 ns:name '19 Rue de Saint-Cloud'.
+  ns:st293 ns:addresse '6 ue de lAntiquaille'.
+  ns:st293 ns:lat '45.7583623960292900'.
+  ns:st293 ns:lng '4.8210866415482530'.
+  ns:st293 ns:available_bikes '6'.
+  ns:st293 ns:available_bike_stands '6'.
+  ns:st293 ns:status 'OPEN'.
+  ns:st294 rdf:type ns:Station.
+  ns:st294 ns:ville 'Lyon'.
+  ns:st294 ns:name '6 ue de lAntiquaille'.
+  ns:st294 ns:addresse 'Face 16 Quai Claude Bernard'.
+  ns:st294 ns:lat '45.7514132273513000'.
+  ns:st294 ns:lng '4.8363931815987780'.
+  ns:st294 ns:available_bikes '11'.
+  ns:st294 ns:available_bike_stands '29'.
+  ns:st294 ns:status 'OPEN'.
+  ns:st295 rdf:type ns:Station.
+  ns:st295 ns:ville 'Lyon'.
+  ns:st295 ns:name 'Face 16 Quai Claude Bernard'.
+  ns:st295 ns:addresse 'Place dArsonval'.
+  ns:st295 ns:lat '45.7434416841709900'.
+  ns:st295 ns:lng '4.8789031261753730'.
+  ns:st295 ns:available_bikes '12'.
+  ns:st295 ns:available_bike_stands '20'.
+  ns:st295 ns:status 'OPEN'.
+  ns:st296 rdf:type ns:Station.
+  ns:st296 ns:ville 'Lyon'.
+  ns:st296 ns:name 'Place dArsonval'.
+  ns:st296 ns:addresse 'Face au 1 Rue Saint Antoine'.
+  ns:st296 ns:lat '45.7628598508923400'.
+  ns:st296 ns:lng '4.8622869000871980'.
+  ns:st296 ns:available_bikes '1'.
+  ns:st296 ns:available_bike_stands '22'.
+  ns:st296 ns:status 'OPEN'.
+  ns:st297 rdf:type ns:Station.
+  ns:st297 ns:ville 'Lyon'.
+  ns:st297 ns:name 'Face au 1 Rue Saint Antoine'.
+  ns:st297 ns:addresse 'Rue T\u00c3\u00aate dOr'.
+  ns:st297 ns:lat '45.7696721806905060'.
+  ns:st297 ns:lng '4.8523652715024760'.
+  ns:st297 ns:available_bikes '5'.
+  ns:st297 ns:available_bike_stands '5'.
+  ns:st297 ns:status 'OPEN'.
+  ns:st298 rdf:type ns:Station.
+  ns:st298 ns:ville 'Lyon'.
+  ns:st298 ns:name 'Rue T\u00c3\u00aate dOr'.
+  ns:st298 ns:addresse 'entr\u00c3\u00a9e est du Tube Mode Doux'.
+  ns:st298 ns:lat '45.7729266206145400'.
+  ns:st298 ns:lng '4.8372695440684375'.
+  ns:st298 ns:available_bikes '5'.
+  ns:st298 ns:available_bike_stands '14'.
+  ns:st298 ns:status 'OPEN'.
+  ns:st299 rdf:type ns:Station.
+  ns:st299 ns:ville 'Lyon'.
+  ns:st299 ns:name 'entr\u00c3\u00a9e est du Tube Mode Doux'.
+  ns:st299 ns:addresse '301 avenue A.Sakharov'.
+  ns:st299 ns:lat '45.7865247393491300'.
+  ns:st299 ns:lng '4.7970709023310110'.
+  ns:st299 ns:available_bikes '3'.
+  ns:st299 ns:available_bike_stands '9'.
+  ns:st299 ns:status 'OPEN'.
+  ns:st300 rdf:type ns:Station.
+  ns:st300 ns:ville 'Lyon'.
+  ns:st300 ns:name '301 avenue A.Sakharov'.
+  ns:st300 ns:addresse '11 Place des Pavillons'.
+  ns:st300 ns:lat '45.7295008043116340'.
+  ns:st300 ns:lng '4.8297016085827410'.
+  ns:st300 ns:available_bikes '9'.
+  ns:st300 ns:available_bike_stands '4'.
+  ns:st300 ns:status 'OPEN'.
+  ns:st301 rdf:type ns:Station.
+  ns:st301 ns:ville 'Lyon'.
+  ns:st301 ns:name '11 Place des Pavillons'.
+  ns:st301 ns:addresse '26 Avenue Tony Garnier'.
+  ns:st301 ns:lat '45.7279188576411300'.
+  ns:st301 ns:lng '4.8235600814059090'.
+  ns:st301 ns:available_bikes '16'.
+  ns:st301 ns:available_bike_stands '8'.
+  ns:st301 ns:status 'OPEN'.
+  ns:st302 rdf:type ns:Station.
+  ns:st302 ns:ville 'Lyon'.
+  ns:st302 ns:name '26 Avenue Tony Garnier'.
+  ns:st302 ns:addresse '6 Place Edgar Quinet'.
+  ns:st302 ns:lat '45.7657655924629200'.
+  ns:st302 ns:lng '4.8447318928504440'.
+  ns:st302 ns:available_bikes '14'.
+  ns:st302 ns:available_bike_stands '6'.
+  ns:st302 ns:status 'OPEN'.
+  ns:st303 rdf:type ns:Station.
+  ns:st303 ns:ville 'Lyon'.
+  ns:st303 ns:name '6 Place Edgar Quinet'.
+  ns:st303 ns:addresse 'Avenue Gaston Berger'.
+  ns:st303 ns:lat '45.7809940664741300'.
+  ns:st303 ns:lng '4.8712223213573510'.
+  ns:st303 ns:available_bikes '11'.
+  ns:st303 ns:available_bike_stands '19'.
+  ns:st303 ns:status 'OPEN'.
+  ns:st304 rdf:type ns:Station.
+  ns:st304 ns:ville 'Lyon'.
+  ns:st304 ns:name 'Avenue Gaston Berger'.
+  ns:st304 ns:addresse 'Face 4 Quai G\u00c3\u00a9n\u00c3\u00a9ral Sarrail'.
+  ns:st304 ns:lat '45.7668296196242750'.
+  ns:st304 ns:lng '4.8411393393513280'.
+  ns:st304 ns:available_bikes '8'.
+  ns:st304 ns:available_bike_stands '6'.
+  ns:st304 ns:status 'OPEN'.
+  ns:st305 rdf:type ns:Station.
+  ns:st305 ns:ville 'Lyon'.
+  ns:st305 ns:name 'Face 4 Quai G\u00c3\u00a9n\u00c3\u00a9ral Sarrail'.
+  ns:st305 ns:addresse 'Face 8 Quai Claude Bernard'.
+  ns:st305 ns:lat '45.7536107053595200'.
+  ns:st305 ns:lng '4.8382209724032040'.
+  ns:st305 ns:available_bikes '9'.
+  ns:st305 ns:available_bike_stands '22'.
+  ns:st305 ns:status 'OPEN'.
+  ns:st306 rdf:type ns:Station.
+  ns:st306 ns:ville 'Lyon'.
+  ns:st306 ns:name 'Face 8 Quai Claude Bernard'.
+  ns:st306 ns:addresse '11 Rue Chenavard'.
+  ns:st306 ns:lat '45.7667671045630000'.
+  ns:st306 ns:lng '4.8329314879659680'.
+  ns:st306 ns:available_bikes '12'.
+  ns:st306 ns:available_bike_stands '6'.
+  ns:st306 ns:status 'OPEN'.
+  ns:st307 rdf:type ns:Station.
+  ns:st307 ns:ville 'Lyon'.
+  ns:st307 ns:name '11 Rue Chenavard'.
+  ns:st307 ns:addresse 'Rue du 4 ao\u00c3\u00bbt 1789'.
+  ns:st307 ns:lat '45.7648217045185500'.
+  ns:st307 ns:lng '4.8843189291137270'.
+  ns:st307 ns:available_bikes '2'.
+  ns:st307 ns:available_bike_stands '13'.
+  ns:st307 ns:status 'OPEN'.
+  ns:st308 rdf:type ns:Station.
+  ns:st308 ns:ville 'Lyon'.
+  ns:st308 ns:name 'Rue du 4 ao\u00c3\u00bbt 1789'.
+  ns:st308 ns:addresse 'Face au 140 rue Bataille'.
+  ns:st308 ns:lat '45.7362395960067300'.
+  ns:st308 ns:lng '4.8798418411853790'.
+  ns:st308 ns:available_bikes '11'.
+  ns:st308 ns:available_bike_stands '7'.
+  ns:st308 ns:status 'OPEN'.
+  ns:st309 rdf:type ns:Station.
+  ns:st309 ns:ville 'Lyon'.
+  ns:st309 ns:name 'Face au 140 rue Bataille'.
+  ns:st309 ns:addresse '112 Rue de la Poudrette'.
+  ns:st309 ns:lat '45.7578829540715000'.
+  ns:st309 ns:lng '4.9211417117922070'.
+  ns:st309 ns:available_bikes '6'.
+  ns:st309 ns:available_bike_stands '12'.
+  ns:st309 ns:status 'OPEN'.
+  ns:st310 rdf:type ns:Station.
+  ns:st310 ns:ville 'Lyon'.
+  ns:st310 ns:name '112 Rue de la Poudrette'.
+  ns:st310 ns:addresse '105 Rue Pasteur'.
+  ns:st310 ns:lat '45.7473561743230900'.
+  ns:st310 ns:lng '4.8359996982041680'.
+  ns:st310 ns:available_bikes '5'.
+  ns:st310 ns:available_bike_stands '13'.
+  ns:st310 ns:status 'OPEN'.
+  ns:st311 rdf:type ns:Station.
+  ns:st311 ns:ville 'Lyon'.
+  ns:st311 ns:name '105 Rue Pasteur'.
+  ns:st311 ns:addresse '169 Rue Paul Bert'.
+  ns:st311 ns:lat '45.7571477697522000'.
+  ns:st311 ns:lng '4.8580904354818850'.
+  ns:st311 ns:available_bikes '0'.
+  ns:st311 ns:available_bike_stands '0'.
+  ns:st311 ns:status 'CLOSED'.
+  ns:st312 rdf:type ns:Station.
+  ns:st312 ns:ville 'Lyon'.
+  ns:st312 ns:name '169 Rue Paul Bert'.
+  ns:st312 ns:addresse '18 route de Gen\u00c3\u00a8ve'.
+  ns:st312 ns:lat '45.8050913402650000'.
+  ns:st312 ns:lng '4.8847438731991380'.
+  ns:st312 ns:available_bikes '6'.
+  ns:st312 ns:available_bike_stands '6'.
+  ns:st312 ns:status 'OPEN'.
+  ns:st313 rdf:type ns:Station.
+  ns:st313 ns:ville 'Lyon'.
+  ns:st313 ns:name '18 route de Gen\u00c3\u00a8ve'.
+  ns:st313 ns:addresse 'Angle rue du Moulin \u00c3\u00a0 Vent / route de Vienne'.
+  ns:st313 ns:lat '45.7296761340645800'.
+  ns:st313 ns:lng '4.8541819412364090'.
+  ns:st313 ns:available_bikes '12'.
+  ns:st313 ns:available_bike_stands '10'.
+  ns:st313 ns:status 'OPEN'.
+  ns:st314 rdf:type ns:Station.
+  ns:st314 ns:ville 'Lyon'.
+  ns:st314 ns:name 'Angle rue du Moulin \u00c3\u00a0 Vent / route de Vienne'.
+  ns:st314 ns:addresse 'Bd 11 nov 1918'.
+  ns:st314 ns:lat '45.7794214867087300'.
+  ns:st314 ns:lng '4.8740757995838860'.
+  ns:st314 ns:available_bikes '4'.
+  ns:st314 ns:available_bike_stands '30'.
+  ns:st314 ns:status 'OPEN'.
+  ns:st315 rdf:type ns:Station.
+  ns:st315 ns:ville 'Lyon'.
+  ns:st315 ns:name 'Bd 11 nov 1918'.
+  ns:st315 ns:addresse '2 rue Claude Baudrand'.
+  ns:st315 ns:lat '45.7857755308468400'.
+  ns:st315 ns:lng '4.8337134215891260'.
+  ns:st315 ns:available_bikes '6'.
+  ns:st315 ns:available_bike_stands '12'.
+  ns:st315 ns:status 'OPEN'.
+  ns:st316 rdf:type ns:Station.
+  ns:st316 ns:ville 'Lyon'.
+  ns:st316 ns:name '2 rue Claude Baudrand'.
+  ns:st316 ns:addresse '105 av. jean Jaur\u00c3\u00a8s'.
+  ns:st316 ns:lat '45.7439256046218200'.
+  ns:st316 ns:lng '4.8415220893002840'.
+  ns:st316 ns:available_bikes '2'.
+  ns:st316 ns:available_bike_stands '28'.
+  ns:st316 ns:status 'OPEN'.
+  ns:st317 rdf:type ns:Station.
+  ns:st317 ns:ville 'Lyon'.
+  ns:st317 ns:name '105 av. jean Jaur\u00c3\u00a8s'.
+  ns:st317 ns:addresse '2 Rue de la Caille'.
+  ns:st317 ns:lat '45.7525394294912600'.
+  ns:st317 ns:lng '4.8942674717120900'.
+  ns:st317 ns:available_bikes '8'.
+  ns:st317 ns:available_bike_stands '8'.
+  ns:st317 ns:status 'OPEN'.
+  ns:st318 rdf:type ns:Station.
+  ns:st318 ns:ville 'Lyon'.
+  ns:st318 ns:name '2 Rue de la Caille'.
+  ns:st318 ns:addresse 'Place Jules Grandcl\u00c3\u00a9ment'.
+  ns:st318 ns:lat '45.7197119647566300'.
+  ns:st318 ns:lng '4.8885353662634170'.
+  ns:st318 ns:available_bikes '3'.
+  ns:st318 ns:available_bike_stands '22'.
+  ns:st318 ns:status 'OPEN'.
+  ns:st319 rdf:type ns:Station.
+  ns:st319 ns:ville 'Lyon'.
+  ns:st319 ns:name 'Place Jules Grandcl\u00c3\u00a9ment'.
+  ns:st319 ns:addresse '243 Cours Emile Zola'.
+  ns:st319 ns:lat '45.7660587436588950'.
+  ns:st319 ns:lng '4.8987031427962370'.
+  ns:st319 ns:available_bikes '11'.
+  ns:st319 ns:available_bike_stands '8'.
+  ns:st319 ns:status 'OPEN'.
+  ns:st320 rdf:type ns:Station.
+  ns:st320 ns:ville 'Lyon'.
+  ns:st320 ns:name '243 Cours Emile Zola'.
+  ns:st320 ns:addresse '24 All\u00c3\u00a9e Pierre de Coubertin'.
+  ns:st320 ns:lat '45.7243483551230100'.
+  ns:st320 ns:lng '4.8268214305884180'.
+  ns:st320 ns:available_bikes '9'.
+  ns:st320 ns:available_bike_stands '17'.
+  ns:st320 ns:status 'OPEN'.
+  ns:st321 rdf:type ns:Station.
+  ns:st321 ns:ville 'Lyon'.
+  ns:st321 ns:name '24 All\u00c3\u00a9e Pierre de Coubertin'.
+  ns:st321 ns:addresse 'Face 158 Avenue Roger Salengro'.
+  ns:st321 ns:lat '45.7807198477544200'.
+  ns:st321 ns:lng '4.8834995751426700'.
+  ns:st321 ns:available_bikes '1'.
+  ns:st321 ns:available_bike_stands '21'.
+  ns:st321 ns:status 'OPEN'.
+  ns:st322 rdf:type ns:Station.
+  ns:st322 ns:ville 'Lyon'.
+  ns:st322 ns:name 'Face 158 Avenue Roger Salengro'.
+  ns:st322 ns:addresse '192 avenue Barth\u00c3\u00a9l\u00c3\u00a9my Buyer'.
+  ns:st322 ns:lat '45.7638977674247500'.
+  ns:st322 ns:lng '4.7927143081079860'.
+  ns:st322 ns:available_bikes '3'.
+  ns:st322 ns:available_bike_stands '15'.
+  ns:st322 ns:status 'OPEN'.
+  ns:st323 rdf:type ns:Station.
+  ns:st323 ns:ville 'Lyon'.
+  ns:st323 ns:name '192 avenue Barth\u00c3\u00a9l\u00c3\u00a9my Buyer'.
+  ns:st323 ns:addresse ''.
+  ns:st323 ns:lat '45.7294969995972300'.
+  ns:st323 ns:lng '4.8439379996052210'.
+  ns:st323 ns:available_bikes '7'.
+  ns:st323 ns:available_bike_stands '13'.
+  ns:st323 ns:status 'OPEN'.
+  ns:st324 rdf:type ns:Station.
+  ns:st324 ns:ville 'Lyon'.
+  ns:st324 ns:name ''.
+  ns:st324 ns:addresse 'Place Joann\u00c3\u00a8s Ambre'.
+  ns:st324 ns:lat '45.7815755185206100'.
+  ns:st324 ns:lng '4.8328577220510200'.
+  ns:st324 ns:available_bikes '12'.
+  ns:st324 ns:available_bike_stands '8'.
+  ns:st324 ns:status 'OPEN'.
+  ns:st325 rdf:type ns:Station.
+  ns:st325 ns:ville 'Lyon'.
+  ns:st325 ns:name 'Place Joann\u00c3\u00a8s Ambre'.
+  ns:st325 ns:addresse 'Angle Place de la Com\u00c3\u00a9die rue Joseph Serlin'.
+  ns:st325 ns:lat '45.7676109468329100'.
+  ns:st325 ns:lng '4.8366570054128440'.
+  ns:st325 ns:available_bikes '26'.
+  ns:st325 ns:available_bike_stands '13'.
+  ns:st325 ns:status 'OPEN'.
+  ns:st326 rdf:type ns:Station.
+  ns:st326 ns:ville 'Lyon'.
+  ns:st326 ns:name 'Angle Place de la Com\u00c3\u00a9die rue Joseph Serlin'.
+  ns:st326 ns:addresse '43 rue Vaubecour'.
+  ns:st326 ns:lat '45.7518482427555360'.
+  ns:st326 ns:lng '4.8247344893159925'.
+  ns:st326 ns:available_bikes '17'.
+  ns:st326 ns:available_bike_stands '3'.
+  ns:st326 ns:status 'OPEN'.
+  ns:st327 rdf:type ns:Station.
+  ns:st327 ns:ville 'Lyon'.
+  ns:st327 ns:name '43 rue Vaubecour'.
+  ns:st327 ns:addresse 'Boulevard Ir\u00c3\u00a8ne Joliot Curie'.
+  ns:st327 ns:lat '45.7154529520501360'.
+  ns:st327 ns:lng '4.8782350614798360'.
+  ns:st327 ns:available_bikes '14'.
+  ns:st327 ns:available_bike_stands '11'.
+  ns:st327 ns:status 'OPEN'.
+  ns:st328 rdf:type ns:Station.
+  ns:st328 ns:ville 'Lyon'.
+  ns:st328 ns:name 'Boulevard Ir\u00c3\u00a8ne Joliot Curie'.
+  ns:st328 ns:addresse 'Place du Port Mouton'.
+  ns:st328 ns:lat '45.7738201179439200'.
+  ns:st328 ns:lng '4.8095603029641690'.
+  ns:st328 ns:available_bikes '13'.
+  ns:st328 ns:available_bike_stands '5'.
+  ns:st328 ns:status 'OPEN'.
+  ns:st329 rdf:type ns:Station.
+  ns:st329 ns:ville 'Lyon'.
+  ns:st329 ns:name 'Place du Port Mouton'.
+  ns:st329 ns:addresse ''.
+  ns:st329 ns:lat '45.7227371268461200'.
+  ns:st329 ns:lng '4.9151835753688120'.
+  ns:st329 ns:available_bikes '1'.
+  ns:st329 ns:available_bike_stands '29'.
+  ns:st329 ns:status 'OPEN'.
+  ns:st330 rdf:type ns:Station.
+  ns:st330 ns:ville 'Lyon'.
+  ns:st330 ns:name ''.
+  ns:st330 ns:addresse '48 cours Aristide Briand'.
+  ns:st330 ns:lat '45.7854707644412200'.
+  ns:st330 ns:lng '4.8478421222935550'.
+  ns:st330 ns:available_bikes '4'.
+  ns:st330 ns:available_bike_stands '16'.
+  ns:st330 ns:status 'OPEN'.
+  ns:st331 rdf:type ns:Station.
+  ns:st331 ns:ville 'Lyon'.
+  ns:st331 ns:name '48 cours Aristide Briand'.
+  ns:st331 ns:addresse 'Boulevard Eug\u00c3\u00a8ne Deruelle'.
+  ns:st331 ns:lat '45.7629790120815440'.
+  ns:st331 ns:lng '4.8550066229888000'.
+  ns:st331 ns:available_bikes '12'.
+  ns:st331 ns:available_bike_stands '18'.
+  ns:st331 ns:status 'OPEN'.
+  ns:st332 rdf:type ns:Station.
+  ns:st332 ns:ville 'Lyon'.
+  ns:st332 ns:name 'Boulevard Eug\u00c3\u00a8ne Deruelle'.
+  ns:st332 ns:addresse 'Rue du Bourbonnais'.
+  ns:st332 ns:lat '45.7742408280787800'.
+  ns:st332 ns:lng '4.8056660114147770'.
+  ns:st332 ns:available_bikes '6'.
+  ns:st332 ns:available_bike_stands '21'.
+  ns:st332 ns:status 'OPEN'.
+  ns:st333 rdf:type ns:Station.
+  ns:st333 ns:ville 'Lyon'.
+  ns:st333 ns:name 'Rue du Bourbonnais'.
+  ns:st333 ns:addresse '171 rue L\u00c3\u00a9on Blum'.
+  ns:st333 ns:lat '45.7605212388028900'.
+  ns:st333 ns:lng '4.9059454396164750'.
+  ns:st333 ns:available_bikes '3'.
+  ns:st333 ns:available_bike_stands '13'.
+  ns:st333 ns:status 'OPEN'.
+  ns:st334 rdf:type ns:Station.
+  ns:st334 ns:ville 'Lyon'.
+  ns:st334 ns:name '171 rue L\u00c3\u00a9on Blum'.
+  ns:st334 ns:addresse 'rue Villon face 98'.
+  ns:st334 ns:lat '45.7382725902588940'.
+  ns:st334 ns:lng '4.8626987923823560'.
+  ns:st334 ns:available_bikes '12'.
+  ns:st334 ns:available_bike_stands '1'.
+  ns:st334 ns:status 'OPEN'.
+  ns:st335 rdf:type ns:Station.
+  ns:st335 ns:ville 'Lyon'.
+  ns:st335 ns:name 'rue Villon face 98'.
+  ns:st335 ns:addresse '128 rue Paul Bert'.
+  ns:st335 ns:lat '45.7572612599251600'.
+  ns:st335 ns:lng '4.8552008564228180'.
+  ns:st335 ns:available_bikes '11'.
+  ns:st335 ns:available_bike_stands '16'.
+  ns:st335 ns:status 'OPEN'.
+  ns:st336 rdf:type ns:Station.
+  ns:st336 ns:ville 'Lyon'.
+  ns:st336 ns:name '128 rue Paul Bert'.
+  ns:st336 ns:addresse 'Rue de la Baleine'.
+  ns:st336 ns:lat '45.7633837102434300'.
+  ns:st336 ns:lng '4.8290114774217890'.
+  ns:st336 ns:available_bikes '2'.
+  ns:st336 ns:available_bike_stands '12'.
+  ns:st336 ns:status 'OPEN'.
+  ns:st337 rdf:type ns:Station.
+  ns:st337 ns:ville 'Lyon'.
+  ns:st337 ns:name 'Rue de la Baleine'.
+  ns:st337 ns:addresse 'Chemin Wette Fays'.
+  ns:st337 ns:lat '45.7879516402910550'.
+  ns:st337 ns:lng '4.8530543333992190'.
+  ns:st337 ns:available_bikes '2'.
+  ns:st337 ns:available_bike_stands '23'.
+  ns:st337 ns:status 'OPEN'.
+  ns:st338 rdf:type ns:Station.
+  ns:st338 ns:ville 'Lyon'.
+  ns:st338 ns:name 'Chemin Wette Fays'.
+  ns:st338 ns:addresse '4 Place Louise'.
+  ns:st338 ns:lat '45.7512052508819200'.
+  ns:st338 ns:lng '4.8848204636500700'.
+  ns:st338 ns:available_bikes '1'.
+  ns:st338 ns:available_bike_stands '15'.
+  ns:st338 ns:status 'OPEN'.
+  ns:st339 rdf:type ns:Station.
+  ns:st339 ns:ville 'Lyon'.
+  ns:st339 ns:name '4 Place Louise'.
+  ns:st339 ns:addresse '4 Rue Professeur Paul Sisley'.
+  ns:st339 ns:lat '45.7528275113150600'.
+  ns:st339 ns:lng '4.8687687708041860'.
+  ns:st339 ns:available_bikes '11'.
+  ns:st339 ns:available_bike_stands '6'.
+  ns:st339 ns:status 'OPEN'.
+  ns:st340 rdf:type ns:Station.
+  ns:st340 ns:ville 'Lyon'.
+  ns:st340 ns:name '4 Rue Professeur Paul Sisley'.
+  ns:st340 ns:addresse ''.
+  ns:st340 ns:lat '45.8354059997715200'.
+  ns:st340 ns:lng '4.8457000001885610'.
+  ns:st340 ns:available_bikes '6'.
+  ns:st340 ns:available_bike_stands '14'.
+  ns:st340 ns:status 'OPEN'.
+  ns:st341 rdf:type ns:Station.
+  ns:st341 ns:ville 'Lyon'.
+  ns:st341 ns:name ''.
+  ns:st341 ns:addresse '20 Rue de la Poulaillerie'.
+  ns:st341 ns:lat '45.7640723503116150'.
+  ns:st341 ns:lng '4.8355253578885975'.
+  ns:st341 ns:available_bikes '21'.
+  ns:st341 ns:available_bike_stands '11'.
+  ns:st341 ns:status 'OPEN'.
+  ns:st342 rdf:type ns:Station.
+  ns:st342 ns:ville 'Lyon'.
+  ns:st342 ns:name '20 Rue de la Poulaillerie'.
+  ns:st342 ns:addresse '218 Avenue Jean Jaur\u00c3\u00a8s'.
+  ns:st342 ns:lat '45.7347254902347200'.
+  ns:st342 ns:lng '4.8354967607642045'.
+  ns:st342 ns:available_bikes '10'.
+  ns:st342 ns:available_bike_stands '24'.
+  ns:st342 ns:status 'OPEN'.
+  ns:st343 rdf:type ns:Station.
+  ns:st343 ns:ville 'Lyon'.
+  ns:st343 ns:name '218 Avenue Jean Jaur\u00c3\u00a8s'.
+  ns:st343 ns:addresse 'Face au 40 Avenue Jean Jaur\u00c3\u00a8s'.
+  ns:st343 ns:lat '45.7123448014944400'.
+  ns:st343 ns:lng '4.8552741231339970'.
+  ns:st343 ns:available_bikes '7'.
+  ns:st343 ns:available_bike_stands '20'.
+  ns:st343 ns:status 'OPEN'.
+  ns:st344 rdf:type ns:Station.
+  ns:st344 ns:ville 'Lyon'.
+  ns:st344 ns:name 'Face au 40 Avenue Jean Jaur\u00c3\u00a8s'.
+  ns:st344 ns:addresse '37 Rue du Repos (entr\u00c3\u00a9e parc Blandan)'.
+  ns:st344 ns:lat '45.7459637288850100'.
+  ns:st344 ns:lng '4.8511961077823750'.
+  ns:st344 ns:available_bikes '9'.
+  ns:st344 ns:available_bike_stands '16'.
+  ns:st344 ns:status 'OPEN'.
+  ns:st345 rdf:type ns:Station.
+  ns:st345 ns:ville 'Lyon'.
+  ns:st345 ns:name '37 Rue du Repos (entr\u00c3\u00a9e parc Blandan)'.
+  ns:st345 ns:addresse 'Place Sainte Ir\u00c3\u00a9n\u00c3\u00a9e'.
+  ns:st345 ns:lat '45.7549458810740000'.
+  ns:st345 ns:lng '4.8124212248457430'.
+  ns:st345 ns:available_bikes '7'.
+  ns:st345 ns:available_bike_stands '13'.
+  ns:st345 ns:status 'OPEN'.
+  ns:st346 rdf:type ns:Station.
+  ns:st346 ns:ville 'Lyon'.
+  ns:st346 ns:name 'Place Sainte Ir\u00c3\u00a9n\u00c3\u00a9e'.
+  ns:st346 ns:addresse 'Quai Augagneur'.
+  ns:st346 ns:lat '45.7619651301154850'.
+  ns:st346 ns:lng '4.8410534307662090'.
+  ns:st346 ns:available_bikes '11'.
+  ns:st346 ns:available_bike_stands '8'.
+  ns:st346 ns:status 'OPEN'.
+  ns:st347 rdf:type ns:Station.
+  ns:st347 ns:ville 'Lyon'.
+  ns:st347 ns:name 'Quai Augagneur'.
+  ns:st347 ns:addresse 'Place de la Gare'.
+  ns:st347 ns:lat '45.8749934925375340'.
+  ns:st347 ns:lng '4.8330021360822780'.
+  ns:st347 ns:available_bikes '2'.
+  ns:st347 ns:available_bike_stands '16'.
+  ns:st347 ns:status 'OPEN'.
+  ns:st348 rdf:type ns:Station.
+  ns:st348 ns:ville 'Lyon'.
+  ns:st348 ns:name 'Place de la Gare'.
+  ns:st348 ns:addresse '122b Avenue Jules Guesde'.
+  ns:st348 ns:lat '45.7085339720955660'.
+  ns:st348 ns:lng '4.8870248117095900'.
+  ns:st348 ns:available_bikes '1'.
+  ns:st348 ns:available_bike_stands '24'.
+  ns:st348 ns:status 'OPEN'.
+  ns:st349 rdf:type ns:Station.
+  ns:st349 ns:ville 'Lyon'.
+  ns:st349 ns:name '122b Avenue Jules Guesde'.
+  ns:st349 ns:addresse '37 Rue du 4 Ao\u00c3\u00bbt 1789'.
+  ns:st349 ns:lat '45.7644829391731900'.
+  ns:st349 ns:lng '4.8779206263003290'.
+  ns:st349 ns:available_bikes '14'.
+  ns:st349 ns:available_bike_stands '16'.
+  ns:st349 ns:status 'OPEN'.
+  ns:st350 rdf:type ns:Station.
+  ns:st350 ns:ville 'Lyon'.
+  ns:st350 ns:name '37 Rue du 4 Ao\u00c3\u00bbt 1789'.
+  ns:st350 ns:addresse '40 Cours Tolsto\u00c3\u00af'.
+  ns:st350 ns:lat '45.7636407030235000'.
+  ns:st350 ns:lng '4.8731410878807795'.
+  ns:st350 ns:available_bikes '9'.
+  ns:st350 ns:available_bike_stands '6'.
+  ns:st350 ns:status 'OPEN'.
+  ns:st351 rdf:type ns:Station.
+  ns:st351 ns:ville 'Lyon'.
+  ns:st351 ns:name '40 Cours Tolsto\u00c3\u00af'.
+  ns:st351 ns:addresse '1 Rue Ferrandi\u00c3\u00a8re'.
+  ns:st351 ns:lat '45.7620553014781300'.
+  ns:st351 ns:lng '4.8332059556379780'.
+  ns:st351 ns:available_bikes '6'.
+  ns:st351 ns:available_bike_stands '4'.
+  ns:st351 ns:status 'OPEN'.
+  ns:st352 rdf:type ns:Station.
+  ns:st352 ns:ville 'Lyon'.
+  ns:st352 ns:name '1 Rue Ferrandi\u00c3\u00a8re'.
+  ns:st352 ns:addresse 'Place Jean Mac\u00c3\u00a9'.
+  ns:st352 ns:lat '45.7465601730305500'.
+  ns:st352 ns:lng '4.8423412580916120'.
+  ns:st352 ns:available_bikes '14'.
+  ns:st352 ns:available_bike_stands '15'.
+  ns:st352 ns:status 'OPEN'.
+  ns:st353 rdf:type ns:Station.
+  ns:st353 ns:ville 'Lyon'.
+  ns:st353 ns:name 'Place Jean Mac\u00c3\u00a9'.
+  ns:st353 ns:addresse 'Rue Joliot Curie'.
+  ns:st353 ns:lat '45.7546405115265300'.
+  ns:st353 ns:lng '4.7881488839855880'.
+  ns:st353 ns:available_bikes '20'.
+  ns:st353 ns:available_bike_stands '0'.
+  ns:st353 ns:status 'OPEN'.
+  ns:st354 rdf:type ns:Station.
+  ns:st354 ns:ville 'Lyon'.
+  ns:st354 ns:name 'Rue Joliot Curie'.
+  ns:st354 ns:addresse '86 Rue de la Charit\u00c3\u00a9'.
+  ns:st354 ns:lat '45.7492533954913900'.
+  ns:st354 ns:lng '4.8298441257520310'.
+  ns:st354 ns:available_bikes '15'.
+  ns:st354 ns:available_bike_stands '2'.
+  ns:st354 ns:status 'OPEN'.
+  ns:st355 rdf:type ns:Station.
+  ns:st355 ns:ville 'Lyon'.
+  ns:st355 ns:name '86 Rue de la Charit\u00c3\u00a9'.
+  ns:st355 ns:addresse 'Rue Joseph Blein'.
+  ns:st355 ns:lat '45.7570697600648660'.
+  ns:st355 ns:lng '4.9273216112656590'.
+  ns:st355 ns:available_bikes '2'.
+  ns:st355 ns:available_bike_stands '13'.
+  ns:st355 ns:status 'OPEN'.
+  ns:st356 rdf:type ns:Station.
+  ns:st356 ns:ville 'Lyon'.
+  ns:st356 ns:name 'Rue Joseph Blein'.
+  ns:st356 ns:addresse '3 Rue de Saint-Cyr'.
+  ns:st356 ns:lat '45.7997914275755500'.
+  ns:st356 ns:lng '4.8196018687552730'.
+  ns:st356 ns:available_bikes '4'.
+  ns:st356 ns:available_bike_stands '8'.
+  ns:st356 ns:status 'OPEN'.
+  ns:st357 rdf:type ns:Station.
+  ns:st357 ns:ville 'Lyon'.
+  ns:st357 ns:name '3 Rue de Saint-Cyr'.
+  ns:st357 ns:addresse 'Face 56 Quai Pierre Scize'.
+  ns:st357 ns:lat '45.7665803442908100'.
+  ns:st357 ns:lng '4.8202302422982600'.
+  ns:st357 ns:available_bikes '8'.
+  ns:st357 ns:available_bike_stands '13'.
+  ns:st357 ns:status 'OPEN'.
+  ns:st358 rdf:type ns:Station.
+  ns:st358 ns:ville 'Lyon'.
+  ns:st358 ns:name 'Face 56 Quai Pierre Scize'.
+  ns:st358 ns:addresse 'Quai Romain Rolland angle Quai de Bondy'.
+  ns:st358 ns:lat '45.7646815056712300'.
+  ns:st358 ns:lng '4.8289833265225160'.
+  ns:st358 ns:available_bikes '15'.
+  ns:st358 ns:available_bike_stands '1'.
+  ns:st358 ns:status 'OPEN'.
+  ns:st359 rdf:type ns:Station.
+  ns:st359 ns:ville 'Lyon'.
+  ns:st359 ns:name 'Quai Romain Rolland angle Quai de Bondy'.
+  ns:st359 ns:addresse '52 Rue du Pensionnat'.
+  ns:st359 ns:lat '45.7547065642496240'.
+  ns:st359 ns:lng '4.8534044474099280'.
+  ns:st359 ns:available_bikes '7'.
+  ns:st359 ns:available_bike_stands '23'.
+  ns:st359 ns:status 'OPEN'.
+  ns:st360 rdf:type ns:Station.
+  ns:st360 ns:ville 'Lyon'.
+  ns:st360 ns:name '52 Rue du Pensionnat'.
+  ns:st360 ns:addresse 'rue Nungesser et Coli'.
+  ns:st360 ns:lat '45.7413737377965600'.
+  ns:st360 ns:lng '4.8797369306165574'.
+  ns:st360 ns:available_bikes '4'.
+  ns:st360 ns:available_bike_stands '12'.
+  ns:st360 ns:status 'OPEN'.
+  ns:st361 rdf:type ns:Station.
+  ns:st361 ns:ville 'Lyon'.
+  ns:st361 ns:name 'rue Nungesser et Coli'.
+  ns:st361 ns:addresse 'Rue du Professeur Bouvier'.
+  ns:st361 ns:lat '45.7794499265826100'.
+  ns:st361 ns:lng '4.8915008245270390'.
+  ns:st361 ns:available_bikes '0'.
+  ns:st361 ns:available_bike_stands '16'.
+  ns:st361 ns:status 'OPEN'.
+  ns:st362 rdf:type ns:Station.
+  ns:st362 ns:ville 'Lyon'.
+  ns:st362 ns:name 'Rue du Professeur Bouvier'.
+  ns:st362 ns:addresse 'Boulevard des Belges'.
+  ns:st362 ns:lat '45.7733270382747500'.
+  ns:st362 ns:lng '4.8519894989151780'.
+  ns:st362 ns:available_bikes '5'.
+  ns:st362 ns:available_bike_stands '10'.
+  ns:st362 ns:status 'OPEN'.
+  ns:st363 rdf:type ns:Station.
+  ns:st363 ns:ville 'Lyon'.
+  ns:st363 ns:name 'Boulevard des Belges'.
+  ns:st363 ns:addresse 'Avenue Albert Einstein'.
+  ns:st363 ns:lat '45.7821896441245850'.
+  ns:st363 ns:lng '4.8768799244436720'.
+  ns:st363 ns:available_bikes '13'.
+  ns:st363 ns:available_bike_stands '27'.
+  ns:st363 ns:status 'OPEN'.
+  ns:st364 rdf:type ns:Station.
+  ns:st364 ns:ville 'Lyon'.
+  ns:st364 ns:name 'Avenue Albert Einstein'.
+  ns:st364 ns:addresse 'Rue de la Madeleine'.
+  ns:st364 ns:lat '45.7490037273034500'.
+  ns:st364 ns:lng '4.8476441418616320'.
+  ns:st364 ns:available_bikes '11'.
+  ns:st364 ns:available_bike_stands '4'.
+  ns:st364 ns:status 'OPEN'.
+  ns:st365 rdf:type ns:Station.
+  ns:st365 ns:ville 'Lyon'.
+  ns:st365 ns:name 'Rue de la Madeleine'.
+  ns:st365 ns:addresse '58 Rue de S\u00c3\u00a8ze'.
+  ns:st365 ns:lat '45.7684041683728250'.
+  ns:st365 ns:lng '4.8494967237845850'.
+  ns:st365 ns:available_bikes '10'.
+  ns:st365 ns:available_bike_stands '13'.
+  ns:st365 ns:status 'OPEN'.
+  ns:st366 rdf:type ns:Station.
+  ns:st366 ns:ville 'Lyon'.
+  ns:st366 ns:name '58 Rue de S\u00c3\u00a8ze'.
+  ns:st366 ns:addresse '53 Rue de lUniversit\u00c3\u00a9'.
+  ns:st366 ns:lat '45.7485374331787540'.
+  ns:st366 ns:lng '4.8432493337468060'.
+  ns:st366 ns:available_bikes '13'.
+  ns:st366 ns:available_bike_stands '7'.
+  ns:st366 ns:status 'OPEN'.
+  ns:st367 rdf:type ns:Station.
+  ns:st367 ns:ville 'Lyon'.
+  ns:st367 ns:name '53 Rue de lUniversit\u00c3\u00a9'.
+  ns:st367 ns:addresse 'Rue Pierre Voyant'.
+  ns:st367 ns:lat '45.7650422669277150'.
+  ns:st367 ns:lng '4.9011328928202980'.
+  ns:st367 ns:available_bikes '1'.
+  ns:st367 ns:available_bike_stands '19'.
+  ns:st367 ns:status 'OPEN'.
+  ns:st368 rdf:type ns:Station.
+  ns:st368 ns:ville 'Lyon'.
+  ns:st368 ns:name 'Rue Pierre Voyant'.
+  ns:st368 ns:addresse '101 Cours Charlemagne'.
+  ns:st368 ns:lat '45.7405383152039140'.
+  ns:st368 ns:lng '4.8191795184368050'.
+  ns:st368 ns:available_bikes '12'.
+  ns:st368 ns:available_bike_stands '20'.
+  ns:st368 ns:status 'OPEN'.
+  ns:st369 rdf:type ns:Station.
+  ns:st369 ns:ville 'Lyon'.
+  ns:st369 ns:name '101 Cours Charlemagne'.
+  ns:st369 ns:addresse 'Rue Cdt Charcot'.
+  ns:st369 ns:lat '45.7550310886452600'.
+  ns:st369 ns:lng '4.8077850541519440'.
+  ns:st369 ns:available_bikes '15'.
+  ns:st369 ns:available_bike_stands '17'.
+  ns:st369 ns:status 'OPEN'.
+  ns:st370 rdf:type ns:Station.
+  ns:st370 ns:ville 'Lyon'.
+  ns:st370 ns:name 'Rue Cdt Charcot'.
+  ns:st370 ns:addresse 'Rue Pierre Delore'.
+  ns:st370 ns:lat '45.7387410923419700'.
+  ns:st370 ns:lng '4.8522860109415240'.
+  ns:st370 ns:available_bikes '7'.
+  ns:st370 ns:available_bike_stands '13'.
+  ns:st370 ns:status 'OPEN'.
+  ns:st371 rdf:type ns:Station.
+  ns:st371 ns:ville 'Lyon'.
+  ns:st371 ns:name 'Rue Pierre Delore'.
+  ns:st371 ns:addresse 'Face 327 Rue Garibaldi'.
+  ns:st371 ns:lat '45.7477327368804800'.
+  ns:st371 ns:lng '4.8516273700582800'.
+  ns:st371 ns:available_bikes '10'.
+  ns:st371 ns:available_bike_stands '9'.
+  ns:st371 ns:status 'OPEN'.
+  ns:st372 rdf:type ns:Station.
+  ns:st372 ns:ville 'Lyon'.
+  ns:st372 ns:name 'Face 327 Rue Garibaldi'.
+  ns:st372 ns:addresse 'Face 34 Place Bellecour'.
+  ns:st372 ns:lat '45.7581569109321860'.
+  ns:st372 ns:lng '4.8304346949094690'.
+  ns:st372 ns:available_bikes '14'.
+  ns:st372 ns:available_bike_stands '26'.
+  ns:st372 ns:status 'OPEN'.
+  ns:st373 rdf:type ns:Station.
+  ns:st373 ns:ville 'Lyon'.
+  ns:st373 ns:name 'Face 34 Place Bellecour'.
+  ns:st373 ns:addresse 'Place Ambroise Courtois'.
+  ns:st373 ns:lat '45.7452926164535000'.
+  ns:st373 ns:lng '4.8716789632578010'.
+  ns:st373 ns:available_bikes '10'.
+  ns:st373 ns:available_bike_stands '10'.
+  ns:st373 ns:status 'OPEN'.
+  ns:st374 rdf:type ns:Station.
+  ns:st374 ns:ville 'Lyon'.
+  ns:st374 ns:name 'Place Ambroise Courtois'.
+  ns:st374 ns:addresse 'Avenue Piaton'.
+  ns:st374 ns:lat '45.7742151784181300'.
+  ns:st374 ns:lng '4.8675042131350820'.
+  ns:st374 ns:available_bikes '9'.
+  ns:st374 ns:available_bike_stands '11'.
+  ns:st374 ns:status 'OPEN'.
+  ns:st375 rdf:type ns:Station.
+  ns:st375 ns:ville 'Lyon'.
+  ns:st375 ns:name 'Avenue Piaton'.
+  ns:st375 ns:addresse '49 bis Esplanade Lina Cretet'.
+  ns:st375 ns:lat '45.7673654785190900'.
+  ns:st375 ns:lng '4.8056276995192775'.
+  ns:st375 ns:available_bikes '8'.
+  ns:st375 ns:available_bike_stands '32'.
+  ns:st375 ns:status 'OPEN'.
+  ns:st376 rdf:type ns:Station.
+  ns:st376 ns:ville 'Lyon'.
+  ns:st376 ns:name '49 bis Esplanade Lina Cretet'.
+  ns:st376 ns:addresse ''.
+  ns:st376 ns:lat '45.8308539622466850'.
+  ns:st376 ns:lng '4.8470037538635250'.
+  ns:st376 ns:available_bikes '8'.
+  ns:st376 ns:available_bike_stands '16'.
+  ns:st376 ns:status 'OPEN'.
+  ns:st377 rdf:type ns:Station.
+  ns:st377 ns:ville 'Lyon'.
+  ns:st377 ns:name ''.
+  ns:st377 ns:addresse 'Face au 27 Route de Lyon'.
+  ns:st377 ns:lat '45.8708762461699200'.
+  ns:st377 ns:lng '4.8395985373186360'.
+  ns:st377 ns:available_bikes '6'.
+  ns:st377 ns:available_bike_stands '9'.
+  ns:st377 ns:status 'OPEN'.
+  ns:st378 rdf:type ns:Station.
+  ns:st378 ns:ville 'Lyon'.
+  ns:st378 ns:name 'Face au 27 Route de Lyon'.
+  ns:st378 ns:addresse 'Rue Maurice Audin'.
+  ns:st378 ns:lat '45.7782973092579700'.
+  ns:st378 ns:lng '4.9207001064103110'.
+  ns:st378 ns:available_bikes '0'.
+  ns:st378 ns:available_bike_stands '0'.
+  ns:st378 ns:status 'CLOSED'.
+  ns:st379 rdf:type ns:Station.
+  ns:st379 ns:ville 'Lyon'.
+  ns:st379 ns:name 'Rue Maurice Audin'.
+  ns:st379 ns:addresse 'rue meli\u00c3\u00a8s'.
+  ns:st379 ns:lat '45.7767057578019500'.
+  ns:st379 ns:lng '4.8595233537915790'.
+  ns:st379 ns:available_bikes '4'.
+  ns:st379 ns:available_bike_stands '20'.
+  ns:st379 ns:status 'OPEN'.
+  ns:st380 rdf:type ns:Station.
+  ns:st380 ns:ville 'Lyon'.
+  ns:st380 ns:name 'rue meli\u00c3\u00a8s'.
+  ns:st380 ns:addresse '8 Rue du Pr\u00c3\u00a9sident Edouard Herriot'.
+  ns:st380 ns:lat '45.7670410048109700'.
+  ns:st380 ns:lng '4.8342839059717140'.
+  ns:st380 ns:available_bikes '10'.
+  ns:st380 ns:available_bike_stands '0'.
+  ns:st380 ns:status 'OPEN'.
+  ns:st381 rdf:type ns:Station.
+  ns:st381 ns:ville 'Lyon'.
+  ns:st381 ns:name '8 Rue du Pr\u00c3\u00a9sident Edouard Herriot'.
+  ns:st381 ns:addresse '100 Cours Charlemagne'.
+  ns:st381 ns:lat '45.7426115005543960'.
+  ns:st381 ns:lng '4.8204716703055040'.
+  ns:st381 ns:available_bikes '12'.
+  ns:st381 ns:available_bike_stands '23'.
+  ns:st381 ns:status 'OPEN'.
+  ns:st382 rdf:type ns:Station.
+  ns:st382 ns:ville 'Lyon'.
+  ns:st382 ns:name '100 Cours Charlemagne'.
+  ns:st382 ns:addresse 'Face 29 Avenue Jean Mermoz'.
+  ns:st382 ns:lat '45.7351509957905000'.
+  ns:st382 ns:lng '4.8728173875360470'.
+  ns:st382 ns:available_bikes '8'.
+  ns:st382 ns:available_bike_stands '13'.
+  ns:st382 ns:status 'OPEN'.
+  ns:st383 rdf:type ns:Station.
+  ns:st383 ns:ville 'Lyon'.
+  ns:st383 ns:name 'Face 29 Avenue Jean Mermoz'.
+  ns:st383 ns:addresse 'Place de la Paix'.
+  ns:st383 ns:lat '45.7680236126546500'.
+  ns:st383 ns:lng '4.8317412517184160'.
+  ns:st383 ns:available_bikes '5'.
+  ns:st383 ns:available_bike_stands '14'.
+  ns:st383 ns:status 'OPEN'.
+  ns:st384 rdf:type ns:Station.
+  ns:st384 ns:ville 'Lyon'.
+  ns:st384 ns:name 'Place de la Paix'.
+  ns:st384 ns:addresse '209 Rue Paul Bert'.
+  ns:st384 ns:lat '45.7571028581681740'.
+  ns:st384 ns:lng '4.8534807971166600'.
+  ns:st384 ns:available_bikes '3'.
+  ns:st384 ns:available_bike_stands '17'.
+  ns:st384 ns:status 'OPEN'.
+  ns:st385 rdf:type ns:Station.
+  ns:st385 ns:ville 'Lyon'.
+  ns:st385 ns:name '209 Rue Paul Bert'.
+  ns:st385 ns:addresse 'Rue Edouard Rochet'.
+  ns:st385 ns:lat '45.7472487338214600'.
+  ns:st385 ns:lng '4.8652857830315160'.
+  ns:st385 ns:available_bikes '8'.
+  ns:st385 ns:available_bike_stands '12'.
+  ns:st385 ns:status 'OPEN'.
+  ns:st386 rdf:type ns:Station.
+  ns:st386 ns:ville 'Lyon'.
+  ns:st386 ns:name 'Rue Edouard Rochet'.
+  ns:st386 ns:addresse ''.
+  ns:st386 ns:lat '45.7718010163513800'.
+  ns:st386 ns:lng '4.9555737252050870'.
+  ns:st386 ns:available_bikes '7'.
+  ns:st386 ns:available_bike_stands '13'.
+  ns:st386 ns:status 'OPEN'.
+  ns:st387 rdf:type ns:Station.
+  ns:st387 ns:ville 'Lyon'.
+  ns:st387 ns:name ''.
+  ns:st387 ns:addresse 'Face 14 Rue du 24 Mars 1852'.
+  ns:st387 ns:lat '45.7797819839255400'.
+  ns:st387 ns:lng '4.8046653309593905'.
+  ns:st387 ns:available_bikes '3'.
+  ns:st387 ns:available_bike_stands '14'.
+  ns:st387 ns:status 'OPEN'.
+  ns:st388 rdf:type ns:Station.
+  ns:st388 ns:ville 'Lyon'.
+  ns:st388 ns:name 'Face 14 Rue du 24 Mars 1852'.
+  ns:st388 ns:addresse '63 Rue de Trion'.
+  ns:st388 ns:lat '45.7573003219205000'.
+  ns:st388 ns:lng '4.8150900113095240'.
+  ns:st388 ns:available_bikes '0'.
+  ns:st388 ns:available_bike_stands '0'.
+  ns:st388 ns:status 'CLOSED'.
+  ns:st389 rdf:type ns:Station.
+  ns:st389 ns:ville 'Lyon'.
+  ns:st389 ns:name '63 Rue de Trion'.
+  ns:st389 ns:addresse 'Rue de Cr\u00c3\u00a9qui'.
+  ns:st389 ns:lat '45.7566983441751900'.
+  ns:st389 ns:lng '4.8484034857557150'.
+  ns:st389 ns:available_bikes '19'.
+  ns:st389 ns:available_bike_stands '11'.
+  ns:st389 ns:status 'OPEN'.
+  ns:st390 rdf:type ns:Station.
+  ns:st390 ns:ville 'Lyon'.
+  ns:st390 ns:name 'Rue de Cr\u00c3\u00a9qui'.
+  ns:st390 ns:addresse 'Rue Commandant Charcot'.
+  ns:st390 ns:lat '45.7496868148719000'.
+  ns:st390 ns:lng '4.7956106152696720'.
+  ns:st390 ns:available_bikes '9'.
+  ns:st390 ns:available_bike_stands '6'.
+  ns:st390 ns:status 'OPEN'.
+  ns:st391 rdf:type ns:Station.
+  ns:st391 ns:ville 'Lyon'.
+  ns:st391 ns:name 'Rue Commandant Charcot'.
+  ns:st391 ns:addresse 'rue Guillaume Paradin'.
+  ns:st391 ns:lat '45.7381400560294900'.
+  ns:st391 ns:lng '4.8868803087115330'.
+  ns:st391 ns:available_bikes '6'.
+  ns:st391 ns:available_bike_stands '10'.
+  ns:st391 ns:status 'OPEN'.
+  ns:st392 rdf:type ns:Station.
+  ns:st392 ns:ville 'Lyon'.
+  ns:st392 ns:name 'rue Guillaume Paradin'.
+  ns:st392 ns:addresse 'Avenue Aristide Briand'.
+  ns:st392 ns:lat '45.7668306064525150'.
+  ns:st392 ns:lng '4.8798938672774600'.
+  ns:st392 ns:available_bikes '7'.
+  ns:st392 ns:available_bike_stands '19'.
+  ns:st392 ns:status 'OPEN'.
+  ns:st393 rdf:type ns:Station.
+  ns:st393 ns:ville 'Lyon'.
+  ns:st393 ns:name 'Avenue Aristide Briand'.
+  ns:st393 ns:addresse '29 Rue de la Bourse'.
+  ns:st393 ns:lat '45.7658113822040560'.
+  ns:st393 ns:lng '4.8368957414205630'.
+  ns:st393 ns:available_bikes '10'.
+  ns:st393 ns:available_bike_stands '14'.
+  ns:st393 ns:status 'OPEN'.
+  ns:st394 rdf:type ns:Station.
+  ns:st394 ns:ville 'Lyon'.
+  ns:st394 ns:name '29 Rue de la Bourse'.
+  ns:st394 ns:addresse 'Avenue Stalingrad'.
+  ns:st394 ns:lat '45.7743568286995240'.
+  ns:st394 ns:lng '4.8591545857608360'.
+  ns:st394 ns:available_bikes '8'.
+  ns:st394 ns:available_bike_stands '7'.
+  ns:st394 ns:status 'OPEN'.
+  ns:st395 rdf:type ns:Station.
+  ns:st395 ns:ville 'Lyon'.
+  ns:st395 ns:name 'Avenue Stalingrad'.
+  ns:st395 ns:addresse '313 route de Vienne'.
+  ns:st395 ns:lat '45.7242705028889100'.
+  ns:st395 ns:lng '4.8541521271275220'.
+  ns:st395 ns:available_bikes '11'.
+  ns:st395 ns:available_bike_stands '8'.
+  ns:st395 ns:status 'OPEN'.
+  ns:st396 rdf:type ns:Station.
+  ns:st396 ns:ville 'Lyon'.
+  ns:st396 ns:name '313 route de Vienne'.
+  ns:st396 ns:addresse 'Face 92 Rue Edmond Locard'.
+  ns:st396 ns:lat '45.7597959541759600'.
+  ns:st396 ns:lng '4.7965641858696300'.
+  ns:st396 ns:available_bikes '0'.
+  ns:st396 ns:available_bike_stands '0'.
+  ns:st396 ns:status 'CLOSED'.
+  ns:st397 rdf:type ns:Station.
+  ns:st397 ns:ville 'Lyon'.
+  ns:st397 ns:name 'Face 92 Rue Edmond Locard'.
+  ns:st397 ns:addresse '214 Grande Rue de la Guilloti\u00c3\u00a8re'.
+  ns:st397 ns:lat '45.7478049999959200'.
+  ns:st397 ns:lng '4.8564540006399150'.
+  ns:st397 ns:available_bikes ''.
+  ns:st397 ns:available_bike_stands ''.
+  ns:st397 ns:status ''.
+  ns:st398 rdf:type ns:Station.
+  ns:st398 ns:ville 'Lyon'.
+  ns:st398 ns:name '214 Grande Rue de la Guilloti\u00c3\u00a8re'.
+  ns:st398 ns:addresse ''.
+  ns:st398 ns:lat '45.7576300003645800'.
+  ns:st398 ns:lng '4.8833599995920290'.
+  ns:st398 ns:available_bikes '0'.
+  ns:st398 ns:available_bike_stands '0'.
+  ns:st398 ns:status 'CLOSED'.
+  ns:st399 rdf:type ns:Station.
+  ns:st399 ns:ville 'Lyon'.
+  ns:st399 ns:name ''.
+  ns:st399 ns:addresse '19 Rue Saint Jean'.
+  ns:st399 ns:lat '45.7766422715883900'.
+  ns:st399 ns:lng '4.9023610707870110'.
+  ns:st399 ns:available_bikes '0'.
+  ns:st399 ns:available_bike_stands '0'.
+  ns:st399 ns:status 'CLOSED'.
+  ns:st400 rdf:type ns:Station.
+  ns:st400 ns:ville 'Lyon'.
+  ns:st400 ns:name '19 Rue Saint Jean'.
+  ns:st400 ns:addresse ''.
+  ns:st400 ns:lat '45.7769600000249500'.
+  ns:st400 ns:lng '4.8765800000052140'.
+  ns:st400 ns:available_bikes '0'.
+  ns:st400 ns:available_bike_stands '12'.
+  ns:st400 ns:status 'CLOSED'.
+  ns:st401 rdf:type ns:Station.
+  ns:st401 ns:ville 'Lyon'.
+  ns:st401 ns:name ''.
+  ns:st401 ns:addresse '49 Avenue du Point du Jour'.
+  ns:st401 ns:lat '45.7561939286588800'.
+  ns:st401 ns:lng '4.8027110791690140'.
+  ns:st401 ns:available_bikes '6'.
+  ns:st401 ns:available_bike_stands '7'.
+  ns:st401 ns:status 'OPEN'.
+  ns:st402 rdf:type ns:Station.
+  ns:st402 ns:ville 'Lyon'.
+  ns:st402 ns:name '49 Avenue du Point du Jour'.
+  ns:st402 ns:addresse '52 Quai Paul S\u00c3\u00a9dallan'.
+  ns:st402 ns:lat '45.7875097567311800'.
+  ns:st402 ns:lng '4.8144211278496750'.
+  ns:st402 ns:available_bikes '1'.
+  ns:st402 ns:available_bike_stands '18'.
+  ns:st402 ns:status 'OPEN'.
+  ns:st403 rdf:type ns:Station.
+  ns:st403 ns:ville 'Lyon'.
+  ns:st403 ns:name '52 Quai Paul S\u00c3\u00a9dallan'.
+  ns:st403 ns:addresse 'Cours de la R\u00c3\u00a9publique'.
+  ns:st403 ns:lat '45.7675343020076260'.
+  ns:st403 ns:lng '4.8739662098689820'.
+  ns:st403 ns:available_bikes '3'.
+  ns:st403 ns:available_bike_stands '21'.
+  ns:st403 ns:status 'OPEN'.
+  ns:st404 rdf:type ns:Station.
+  ns:st404 ns:ville 'Lyon'.
+  ns:st404 ns:name 'Cours de la R\u00c3\u00a9publique'.
+  ns:st404 ns:addresse 'All\u00c3\u00a9e Achille Lignon'.
+  ns:st404 ns:lat '45.7846110498866350'.
+  ns:st404 ns:lng '4.8596391471386800'.
+  ns:st404 ns:available_bikes '2'.
+  ns:st404 ns:available_bike_stands '19'.
+  ns:st404 ns:status 'OPEN'.
+  ns:st405 rdf:type ns:Station.
+  ns:st405 ns:ville 'Lyon'.
+  ns:st405 ns:name 'All\u00c3\u00a9e Achille Lignon'.
+  ns:st405 ns:addresse '174 Cours Emile Zola'.
+  ns:st405 ns:lat '45.7692274364669060'.
+  ns:st405 ns:lng '4.8804622522382600'.
+  ns:st405 ns:available_bikes '7'.
+  ns:st405 ns:available_bike_stands '9'.
+  ns:st405 ns:status 'OPEN'.
+  ns:st406 rdf:type ns:Station.
+  ns:st406 ns:ville 'Lyon'.
+  ns:st406 ns:name '174 Cours Emile Zola'.
+  ns:st406 ns:addresse 'Place Steven Spielberg'.
+  ns:st406 ns:lat '45.7059819724876400'.
+  ns:st406 ns:lng '4.9009848506091010'.
+  ns:st406 ns:available_bikes '2'.
+  ns:st406 ns:available_bike_stands '18'.
+  ns:st406 ns:status 'OPEN'.
+  ns:st407 rdf:type ns:Station.
+  ns:st407 ns:ville 'Lyon'.
+  ns:st407 ns:name 'Place Steven Spielberg'.
+  ns:st407 ns:addresse 'Boulevard du 11 novembre 1918'.
+  ns:st407 ns:lat '45.7797016132489400'.
+  ns:st407 ns:lng '4.8599911609956870'.
+  ns:st407 ns:available_bikes '5'.
+  ns:st407 ns:available_bike_stands '30'.
+  ns:st407 ns:status 'OPEN'.
+  ns:st408 rdf:type ns:Station.
+  ns:st408 ns:ville 'Lyon'.
+  ns:st408 ns:name 'Boulevard du 11 novembre 1918'.
+  ns:st408 ns:addresse '2 All\u00c3\u00a9e Andr\u00c3\u00a9e Mure'.
+  ns:st408 ns:lat '45.7434140947079900'.
+  ns:st408 ns:lng '4.8158543610390250'.
+  ns:st408 ns:available_bikes '11'.
+  ns:st408 ns:available_bike_stands '11'.
+  ns:st408 ns:status 'OPEN'.
+  ns:st409 rdf:type ns:Station.
+  ns:st409 ns:ville 'Lyon'.
+  ns:st409 ns:name '2 All\u00c3\u00a9e Andr\u00c3\u00a9e Mure'.
+  ns:st409 ns:addresse '4 Quai Fulchiron'.
+  ns:st409 ns:lat '45.7520011769432900'.
+  ns:st409 ns:lng '4.8216617983516280'.
+  ns:st409 ns:available_bikes '1'.
+  ns:st409 ns:available_bike_stands '17'.
+  ns:st409 ns:status 'OPEN'.
+  ns:st410 rdf:type ns:Station.
+  ns:st410 ns:ville 'Lyon'.
+  ns:st410 ns:name '4 Quai Fulchiron'.
+  ns:st410 ns:addresse 'Quai Jean Lavergne'.
+  ns:st410 ns:lat '45.8459976867574600'.
+  ns:st410 ns:lng '4.8324121337552800'.
+  ns:st410 ns:available_bikes '0'.
+  ns:st410 ns:available_bike_stands '16'.
+  ns:st410 ns:status 'OPEN'.
+  ns:st411 rdf:type ns:Station.
+  ns:st411 ns:ville 'Lyon'.
+  ns:st411 ns:name 'Quai Jean Lavergne'.
+  ns:st411 ns:addresse '11 Cours Franklin Roosevelt'.
+  ns:st411 ns:lat '45.7688513697593600'.
+  ns:st411 ns:lng '4.8447649388425830'.
+  ns:st411 ns:available_bikes '8'.
+  ns:st411 ns:available_bike_stands '12'.
+  ns:st411 ns:status 'OPEN'.
+  ns:st412 rdf:type ns:Station.
+  ns:st412 ns:ville 'Lyon'.
+  ns:st412 ns:name '11 Cours Franklin Roosevelt'.
+  ns:st412 ns:addresse '8 Rue de lUniversit\u00c3\u00a9'.
+  ns:st412 ns:lat '45.7509549511840560'.
+  ns:st412 ns:lng '4.8392671207183300'.
+  ns:st412 ns:available_bikes '23'.
+  ns:st412 ns:available_bike_stands '17'.
+  ns:st412 ns:status 'OPEN'.
+  ns:st413 rdf:type ns:Station.
+  ns:st413 ns:ville 'Lyon'.
+  ns:st413 ns:name '8 Rue de lUniversit\u00c3\u00a9'.
+  ns:st413 ns:addresse '39 rue Roger Salengro'.
+  ns:st413 ns:lat '45.7762517515064500'.
+  ns:st413 ns:lng '4.8716291781443655'.
+  ns:st413 ns:available_bikes '4'.
+  ns:st413 ns:available_bike_stands '11'.
+  ns:st413 ns:status 'OPEN'.
+  ns:st414 rdf:type ns:Station.
+  ns:st414 ns:ville 'Lyon'.
+  ns:st414 ns:name '39 rue Roger Salengro'.
+  ns:st414 ns:addresse 'Rue Jeunet'.
+  ns:st414 ns:lat '45.7504814834310240'.
+  ns:st414 ns:lng '4.7887741211031210'.
+  ns:st414 ns:available_bikes '8'.
+  ns:st414 ns:available_bike_stands '9'.
+  ns:st414 ns:status 'OPEN'.
+  ns:st415 rdf:type ns:Station.
+  ns:st415 ns:ville 'Lyon'.
+  ns:st415 ns:name 'Rue Jeunet'.
+  ns:st415 ns:addresse 'Face 31 Rue des Bienvenus'.
+  ns:st415 ns:lat '45.7778649152535660'.
+  ns:st415 ns:lng '4.8842442857728360'.
+  ns:st415 ns:available_bikes '3'.
+  ns:st415 ns:available_bike_stands '12'.
+  ns:st415 ns:status 'OPEN'.
+  ns:st416 rdf:type ns:Station.
+  ns:st416 ns:ville 'Lyon'.
+  ns:st416 ns:name 'Face 31 Rue des Bienvenus'.
+  ns:st416 ns:addresse '33 Boulevard Eug\u00c3\u00a8ne R\u00c3\u00a9guillon'.
+  ns:st416 ns:lat '45.7615279698755500'.
+  ns:st416 ns:lng '4.8956902199613600'.
+  ns:st416 ns:available_bikes '2'.
+  ns:st416 ns:available_bike_stands '13'.
+  ns:st416 ns:status 'OPEN'.
+  ns:st417 rdf:type ns:Station.
+  ns:st417 ns:ville 'Lyon'.
+  ns:st417 ns:name '33 Boulevard Eug\u00c3\u00a8ne R\u00c3\u00a9guillon'.
+  ns:st417 ns:addresse '4 Boulevard Eug\u00c3\u00a8ne Deruelle'.
+  ns:st417 ns:lat '45.7627511569952000'.
+  ns:st417 ns:lng '4.8524277723450730'.
+  ns:st417 ns:available_bikes '4'.
+  ns:st417 ns:available_bike_stands '16'.
+  ns:st417 ns:status 'OPEN'.
+  ns:st418 rdf:type ns:Station.
+  ns:st418 ns:ville 'Lyon'.
+  ns:st418 ns:name '4 Boulevard Eug\u00c3\u00a8ne Deruelle'.
+  ns:st418 ns:addresse '65 Boulevard Vivier Merle'.
+  ns:st418 ns:lat '45.7573307386789700'.
+  ns:st418 ns:lng '4.8589349649959805'.
+  ns:st418 ns:available_bikes '0'.
+  ns:st418 ns:available_bike_stands '0'.
+  ns:st418 ns:status 'CLOSED'.
+  ns:st419 rdf:type ns:Station.
+  ns:st419 ns:ville 'Lyon'.
+  ns:st419 ns:name '65 Boulevard Vivier Merle'.
+  ns:st419 ns:addresse 'Rue Philippe de Lassalle'.
+  ns:st419 ns:lat '45.7737230904642600'.
+  ns:st419 ns:lng '4.8213019761705525'.
+  ns:st419 ns:available_bikes '0'.
+  ns:st419 ns:available_bike_stands '0'.
+  ns:st419 ns:status 'CLOSED'.
+  ns:st420 rdf:type ns:Station.
+  ns:st420 ns:ville 'Lyon'.
+  ns:st420 ns:name 'Rue Philippe de Lassalle'.
+  ns:st420 ns:addresse '62 Rue Saint Maximin'.
+  ns:st420 ns:lat '45.7478135296658550'.
+  ns:st420 ns:lng '4.8722519668217290'.
+  ns:st420 ns:available_bikes '5'.
+  ns:st420 ns:available_bike_stands '24'.
+  ns:st420 ns:status 'OPEN'.
+
+  ns:st10000 rdf:type ns:Station.
+  ns:st10000 ns:ville 'Rennes'.
+  ns:st10000 ns:name 'Mus\u00e9e Beaux-Arts'.
+  ns:st10000 ns:lat '48.109601'.
+  ns:st10000 ns:lng '-1.67408'.
+  ns:st10000 ns:available_bikes '5'.
+  ns:st10000 ns:available_bike_stands '11'.
+  ns:st10000 ns:status 'En fonctionnement'.
+  ns:st10001 rdf:type ns:Station.
+  ns:st10001 ns:ville 'Rennes'.
+  ns:st10001 ns:name 'Champs Libres'.
+  ns:st10001 ns:lat '48.105537'.
+  ns:st10001 ns:lng '-1.674328'.
+  ns:st10001 ns:available_bikes '12'.
+  ns:st10001 ns:available_bike_stands '12'.
+  ns:st10001 ns:status 'En fonctionnement'.
+  ns:st10002 rdf:type ns:Station.
+  ns:st10002 ns:ville 'Rennes'.
+  ns:st10002 ns:name 'La Cri\u00e9e'.
+  ns:st10002 ns:lat '48.107626'.
+  ns:st10002 ns:lng '-1.680085'.
+  ns:st10002 ns:available_bikes '11'.
+  ns:st10002 ns:available_bike_stands '13'.
+  ns:st10002 ns:status 'En fonctionnement'.
+  ns:st10003 rdf:type ns:Station.
+  ns:st10003 ns:ville 'Rennes'.
+  ns:st10003 ns:name 'Brest - Verdun'.
+  ns:st10003 ns:lat '48.113009'.
+  ns:st10003 ns:lng '-1.693264'.
+  ns:st10003 ns:available_bikes '7'.
+  ns:st10003 ns:available_bike_stands '17'.
+  ns:st10003 ns:status 'En fonctionnement'.
+  ns:st10004 rdf:type ns:Station.
+  ns:st10004 ns:ville 'Rennes'.
+  ns:st10004 ns:name 'Marbeuf'.
+  ns:st10004 ns:lat '48.111749'.
+  ns:st10004 ns:lng '-1.702077'.
+  ns:st10004 ns:available_bikes '16'.
+  ns:st10004 ns:available_bike_stands '4'.
+  ns:st10004 ns:status 'En fonctionnement'.
+  ns:st10005 rdf:type ns:Station.
+  ns:st10005 ns:ville 'Rennes'.
+  ns:st10005 ns:name 'Plaine de Baud'.
+  ns:st10005 ns:lat '48.112461'.
+  ns:st10005 ns:lng '-1.643674'.
+  ns:st10005 ns:available_bikes '10'.
+  ns:st10005 ns:available_bike_stands '14'.
+  ns:st10005 ns:status 'En fonctionnement'.
+  ns:st10006 rdf:type ns:Station.
+  ns:st10006 ns:ville 'Rennes'.
+  ns:st10006 ns:name 'Gros-Ch\u00eane'.
+  ns:st10006 ns:lat '48.126795'.
+  ns:st10006 ns:lng '-1.665101'.
+  ns:st10006 ns:available_bikes '5'.
+  ns:st10006 ns:available_bike_stands '13'.
+  ns:st10006 ns:status 'En fonctionnement'.
+  ns:st10007 rdf:type ns:Station.
+  ns:st10007 ns:ville 'Rennes'.
+  ns:st10007 ns:name 'Painlev\u00e9'.
+  ns:st10007 ns:lat '48.122994'.
+  ns:st10007 ns:lng '-1.660547'.
+  ns:st10007 ns:available_bikes '13'.
+  ns:st10007 ns:available_bike_stands '5'.
+  ns:st10007 ns:status 'En fonctionnement'.
+  ns:st10008 rdf:type ns:Station.
+  ns:st10008 ns:ville 'Rennes'.
+  ns:st10008 ns:name 'Turmel'.
+  ns:st10008 ns:lat '48.122147'.
+  ns:st10008 ns:lng '-1.650808'.
+  ns:st10008 ns:available_bikes '11'.
+  ns:st10008 ns:available_bike_stands '5'.
+  ns:st10008 ns:status 'En fonctionnement'.
+  ns:st10009 rdf:type ns:Station.
+  ns:st10009 ns:ville 'Rennes'.
+  ns:st10009 ns:name 'La Poterie'.
+  ns:st10009 ns:lat '48.087282'.
+  ns:st10009 ns:lng '-1.644121'.
+  ns:st10009 ns:available_bikes '3'.
+  ns:st10009 ns:available_bike_stands '25'.
+  ns:st10009 ns:status 'En fonctionnement'.
+
+}
+
