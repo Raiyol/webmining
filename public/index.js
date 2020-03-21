@@ -7,7 +7,7 @@
         {
             document.querySelector(`#${elem}`).innerHTML += `<tr xmlns:ns="http://www.owl-ontologies.com/unnamed.owl" about="${response.express[i-1].x}"> <th scope="row">${i}</th>`+
                                                         `<td property="dc:name">${response.express[i-1].name}</td>`+
-                                                        `<td property="dc:adresse">${response.express[i-1].adresse}</td>`+
+                                                        `<td property="dc:adresse">${response.express[i-1].addresse}</td>`+
                                                         `<td property="dc:lat">${response.express[i-1].lat}</td>`+
                                                         `<td property="dc:lng">${response.express[i-1].lng}</td>`+
                                                         `<td property="dc:available_bikes">${response.express[i-1].available_bikes}</td>`+
