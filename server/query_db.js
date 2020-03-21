@@ -14,6 +14,7 @@ module.exports.get = async q => {
 
     return null;
 };
+
 /*
 
 querying('SELECT ?subject ?predicate ?object WHERE { ?subject ?predicate ?object } LIMIT 50')

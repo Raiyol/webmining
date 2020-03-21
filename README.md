@@ -22,7 +22,16 @@ Notre class unique est "Station" qui porte les propriétés suivantes:
 - status: (string) status des stations ex: "open"
 
 ## <a name="Launch"></a> Launch
-To use our app, we will need Tomcat as a web application for our triple store and create a database + add our data.
-### Tomcat
+To use our app, we need a running Sparql database, to do this we used Apache Jena Fuseki with Tomcat as a web application for our triple store and create a database + add our data.
+### Database
+You do no need to install Tomcat if you know how to launch Jena fuseki directy from command Line : Here [link](https://jena.apache.org/download/index.cgi) and [instruction](https://jena.apache.org/documentation/fuseki2/fuseki-run.html#fuseki-standalone-server).
 
+Here we will use [Tomcat 9](https://tomcat.apache.org/download-90.cgi), and the war file in [Jena Fuseki](https://jena.apache.org/download/index.cgi).
+
+If you use dafault install location for tomcat, put the WAR file in "C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps"
+
+Go to your web browser and enter the URL : http://localhost:8181/fuseki/ with 8181 being my Tomcat port, change it to your Tomcat port, also change the variable TOMCAT_PORT in server/constants.js.
+
+Now create a database named bike and upload webdatamin.owl file to it.
+Our database is now created, we now need to insert all of our data.
 ### Execute with Nodejs
