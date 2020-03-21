@@ -37,4 +37,29 @@ Create a database named bike and upload webdatamin.owl file to it.
 Our database is created, we now need to insert all of our data.
 
 To insert data, go to query section and change SPARQL ENDPOINT to /fuseki/bike/update, then copy paste all the content in insert.txt in the query textbox and run it with the ">" arrow. The data is now inserted we don't need to manage our database anymore.
-### Execute with Nodejs
+### Web app
+To run the web app, you'll need [NodeJS](https://nodejs.org/en/) installed.
+
+First clone this git repo on your computer, enter the repo folder path on a shell and type :
+```sh
+npm install
+# After dependencies has been installed, run :
+node .
+```
+Now you can go check the front view on http://localhost:5000/
+### Bonus : Query database via our web application.
+After running our web application, go to http://localhost:5000/sparql and you can query the database same as you would with Jena Fuseki GUI on Tomcat.
+Try the exemple below :
+```sh
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ns: <http://www.owl-ontologies.com/unnamed.owl#>
+
+SELECT ?subject ?predicate ?object
+WHERE {
+  ?subject ?predicate ?object
+}
+LIMIT 50
+```
