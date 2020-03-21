@@ -20,6 +20,7 @@ Our unique class is "Station" who got the following properties:
 - name: (string) station name
 - number: (int) station id
 - status: (string) stations status, ex: "open"
+- ville : (string) city name
 
 ## <a name="Launch"></a> Launch
 To use our app, we need a running Sparql database, to do this we used Apache Jena Fuseki with Tomcat as a web application for our triple store and create a database + add our data.

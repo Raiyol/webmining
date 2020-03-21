@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Broall</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>     
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron" >
+                <h1 class="text-center">Bike tracking</h1>
+                <p class="text-center">Datamining and semantic project using Jena fuseki as triple store 
+                    <br/>
+                    Project on <a href="https://github.com/Raiyol/webmining">Github</a>
+                </p>
+            </div>
+            <h1>Query the database :</h1>
+
+            <form action="/sparql" method="POST">
+                <div class="form-group">
+                    <label for="comment">Sparql Query:</label>
+                    <textarea class="form-control" rows="5" name="query" id="comment"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <table>
+                <tr>
+                    <% for(var i=0; i < result.head.vars.length; i++) { %>
+                    <td><h3><%= result.head.vars[i] %></h3></td>
+                    <% } %>
+                </tr>
+                <% for(var i=0; i < result.results.bindings.length; i++) { %>
+                   <tr>
+                    <% for(var j=0; j < result.head.vars.length; j++) { %>
+                    <td><%= Object.values(result.results.bindings[i])[j].value %></td>
+                     <% } %>
+                   </tr>
+                <% } %>
+            </table>
+        </div>
+    </body>
+</html>
