@@ -10,16 +10,16 @@ This readme will be quite exhaustive, so [here](#Launch) the step to launch and 
 Nous avons commencé par la production d'un modèle de données par Protégé.
 Notre class unique est "Station" qui porte les propriétés suivantes:
 
-- addresse: (string) addresse de la station
+- addresse: (string) station adress
 - available_bike_stands: (int)
 - available_bikes: (int)
 - bike_stands: (int)
-- commune: (string) nom de la commune
+- commune: (string) town name
 - lat: (float) latitude coordinate
 - lng: (float) longitude coordinate
-- name: (string) nom de la station
-- number: (int) numèro identifiant la station
-- status: (string) status des stations ex: "open"
+- name: (string) station name
+- number: (int) station id
+- status: (string) stations status, ex: "open"
 
 ## <a name="Launch"></a> Launch
 To use our app, we need a running Sparql database, to do this we used Apache Jena Fuseki with Tomcat as a web application for our triple store and create a database + add our data.
@@ -34,4 +34,6 @@ Go to your web browser and enter the URL : http://localhost:8181/fuseki/ with 81
 
 Create a database named bike and upload webdatamin.owl file to it.
 Our database is created, we now need to insert all of our data.
+
+To insert data, go to query section and change SPARQL ENDPOINT to /fuseki/bike/update, then copy paste all the content in insert.txt in the query textbox and run it with the ">" arrow. The data is now inserted we don't need to manage our database anymore.
 ### Execute with Nodejs
