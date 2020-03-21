@@ -9,35 +9,35 @@ module.exports = async ville => {
                 
                 "SELECT ?x ?name ?addresse ?lat ?lng ?available_bikes ?available_bike_stands ?status "+
                 "WHERE {"+
-                "?x rdf:type ns:Station."+
-                `?x ns:ville "${ville}".`+
-                "?x ns:name ?name."+
-                "?x ns:addresse ?addresse."+
-                "?x ns:lat ?lat."+
-                "?x ns:lng ?lng."+
-                "?x ns:available_bikes ?available_bikes."+
-                "?x ns:available_bike_stands ?available_bike_stands."+
-                "?x ns:status ?status."+
+                "?x rdf:type ns:Station. "+
+                `?x ns:ville "${ville}". `+
+                "OPTIONAL { ?x ns:name ?name. }. "+
+                "OPTIONAL { ?x ns:addresse ?addresse. }. "+
+                "OPTIONAL { ?x ns:lat ?lat. }. "+
+                "OPTIONAL { ?x ns:lng ?lng. }. "+
+                "OPTIONAL { ?x ns:available_bikes ?available_bikes. }. "+
+                "OPTIONAL { ?x ns:available_bike_stands ?available_bike_stands. }. "+
+                "OPTIONAL { ?x ns:status ?status. }"+
                 "}";
     try {
         const resp = await sparql.get(query);
         const stations = [];
-
         resp.results.bindings.forEach(elem => {
             let temp = {
                 x : elem.x.value,
-                name : elem.name.value,
-                addresse : elem.addresse.value,
-                lat : elem.lat.value,
-                lng : elem.lng.value,
-                available_bikes : elem.available_bikes.value,
-                available_bike_stands : elem.available_bike_stands.value,
-                status : elem.status.value
+                name : (elem.name == undefined ? '' : elem.name.value),
+                addresse : (elem.addresse == undefined ? '' : elem.addresse.value ),
+                lat : (elem.lat == undefined ? '' : elem.lat.value),
+                lng : (elem.lng == undefined ? '' : elem.lng.value),
+                available_bikes : (elem.available_bikes == undefined ? '' :  elem.available_bikes.value),
+                available_bike_stands : (elem.available_bike_stands == undefined ? '' : elem.available_bike_stands.value),
+                status : (elem.status == undefined ? '' : elem.status.value)
             }
             stations.push(temp);
         });
         return stations;
     } catch (error) {
+        console.log(error);
         return null;
     }
 };

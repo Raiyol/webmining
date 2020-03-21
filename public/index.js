@@ -1,4 +1,4 @@
-['Lyon', 'Strasbourg', 'Rennes', 'Montpellier'].forEach(elem => {
+['Lyon', 'Rennes'].forEach(elem => {
     fetch(`http://localhost:5000/api/${elem}`)
     .then(response => response.json())
     .then(response => {
@@ -32,4 +32,4 @@
         return;
     });
 
-})
+});
