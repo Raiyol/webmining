@@ -7,8 +7,8 @@ This readme will be quite exhaustive, so [here](#Launch) the step to launch and 
 
 ## The process
 
-Nous avons commencé par la production d'un modèle de données par Protégé.
-Notre class unique est "Station" qui porte les propriétés suivantes:
+We started by producing our data model in Protege.
+Our unique class is "Station" who got the following properties:
 
 - addresse: (string) station adress
 - available_bike_stands: (int)
