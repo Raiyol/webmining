@@ -38,7 +38,11 @@ Go to your web browser and enter the URL : <http://localhost:8181/fuseki/> with 
 Create a database named bike and upload webdatamin.owl file to it.
 Our database is created, we now need to insert all of our data.
 
-To insert data, go to query section and change SPARQL ENDPOINT to /fuseki/bike/update, then copy paste all the content in insert.txt in the query textbox and run it with the ">" arrow. The data is now inserted we don't need to manage our database anymore.
+To insert data, go to query section and change SPARQL ENDPOINT to /fuseki/bike/update, then copy paste all the content in querylyon.txt in the query textbox. You need to add "<" after all "PREFIX rdf/rdfs/owl...:" and ">" at the end of the line (for some reasons you cannot copy < or >).Run it with the ">" arrow. Repeat for queryrennestxt. The data is now inserted we don't need to manage our database anymore.
+
+To update data, go to https://download.data.grandlyon.com/wfs/rdata?SERVICE=WFS&VERSION=1.1.0&outputformat=GEOJSON&request=GetFeature&typename=jcd_jcdecaux.jcdvelov&SRSNAME=urn:ogc:def:crs:EPSG::4171, copy paste the page in the dataLyonjsonld.json, run the lyontotriple.py. You have now an updated querylyon.txt ready to insert like above!
+Same for Rennes with https://data.rennesmetropole.fr/api/records/1.0/search/?dataset=etat-des-stations-le-velo-star-en-temps-reel,
+copy paste in datarennes.json, run the renne.py.
 
 ### Web app
 
