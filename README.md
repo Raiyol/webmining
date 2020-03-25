@@ -23,33 +23,43 @@ Our unique class is "Station" who got the following properties:
 - ville : (string) city name
 
 ## <a name="Launch"></a> Launch
+
 To use our app, we need a running Sparql database, to do this we used Apache Jena Fuseki with Tomcat as a web application for our triple store and create a database + add our data.
+
 ### Database
+
 You do no need to install Tomcat if you know how to launch Jena fuseki directy from command Line : Here [link](https://jena.apache.org/download/index.cgi) and [instruction](https://jena.apache.org/documentation/fuseki2/fuseki-run.html#fuseki-standalone-server).
 
 Here we will use [Tomcat 9](https://tomcat.apache.org/download-90.cgi), and the war file in [Jena Fuseki](https://jena.apache.org/download/index.cgi).
 
 If you use dafault install location for tomcat, put the WAR file in "C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps"
 
-Go to your web browser and enter the URL : http://localhost:8181/fuseki/ with 8181 being my Tomcat port, change it to your Tomcat port, also change the variable TOMCAT_PORT in server/constants.js.
+Go to your web browser and enter the URL : <http://localhost:8181/fuseki/> with 8181 being my Tomcat port, change it to your Tomcat port, also change the variable TOMCAT_PORT in server/constants.js.
 
 Create a database named bike and upload webdatamin.owl file to it.
 Our database is created, we now need to insert all of our data.
 
 To insert data, go to query section and change SPARQL ENDPOINT to /fuseki/bike/update, then copy paste all the content in insert.txt in the query textbox and run it with the ">" arrow. The data is now inserted we don't need to manage our database anymore.
+
 ### Web app
+
 To run the web app, you'll need [NodeJS](https://nodejs.org/en/) installed.
 
 First clone this git repo on your computer, enter the repo folder path on a shell and type :
+
 ```sh
 npm install
 # After dependencies has been installed, run :
 node .
 ```
-Now you can go check the front view on http://localhost:5000/
-### Bonus : Query database via our web application.
-After running our web application, go to http://localhost:5000/sparql and you can query the database same as you would with Jena Fuseki GUI on localhost.
+
+Now you can go check the front view on <http://localhost:5000/>
+
+### Bonus : Query database via our web application
+
+After running our web application, go to <http://localhost:5000/sparql> and you can query the database same as you would with Jena Fuseki GUI on localhost.
 Try the exemple below :
+
 ```sh
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>

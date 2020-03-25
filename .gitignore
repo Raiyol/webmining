@@ -113,3 +113,6 @@ typings/
 
 # slides
 dist
+
+# markdownlint
+.markdownlint.json
