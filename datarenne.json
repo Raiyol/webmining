@@ -1,0 +1,263 @@
+{
+  "nhits": 55,
+  "parameters": {
+    "dataset": [
+      "etat-des-stations-le-velo-star-en-temps-reel"
+    ],
+    "timezone": "UTC",
+    "rows": 10,
+    "format": "json"
+  },
+  "records": [
+    {
+      "datasetid": "etat-des-stations-le-velo-star-en-temps-reel",
+      "recordid": "88a8871cd455b991aae541e2d60ebdab34840e3e",
+      "fields": {
+        "etat": "En fonctionnement",
+        "lastupdate": "2020-03-21T15:34:11+00:00",
+        "nombrevelosdisponibles": 5,
+        "nombreemplacementsactuels": 16,
+        "nom": "Mus\u00e9e Beaux-Arts",
+        "nombreemplacementsdisponibles": 11,
+        "idstation": "5510",
+        "coordonnees": [
+          48.109601,
+          -1.67408
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.67408,
+          48.109601
+        ]
+      },
+      "record_timestamp": "2020-03-21T15:35:00+00:00"
+    },
+    {
+      "datasetid": "etat-des-stations-le-velo-star-en-temps-reel",
+      "recordid": "b476b4248e499552a1449cb8afe72cc68c83c060",
+      "fields": {
+        "etat": "En fonctionnement",
+        "lastupdate": "2020-03-21T15:34:11+00:00",
+        "nombrevelosdisponibles": 12,
+        "nombreemplacementsactuels": 24,
+        "nom": "Champs Libres",
+        "nombreemplacementsdisponibles": 12,
+        "idstation": "5516",
+        "coordonnees": [
+          48.105537,
+          -1.674328
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.674328,
+          48.105537
+        ]
+      },
+      "record_timestamp": "2020-03-21T15:35:00+00:00"
+    },
+    {
+      "datasetid": "etat-des-stations-le-velo-star-en-temps-reel",
+      "recordid": "b93bb925c844d3f550983b971ad43900bbffa8c6",
+      "fields": {
+        "etat": "En fonctionnement",
+        "lastupdate": "2020-03-21T15:34:11+00:00",
+        "nombrevelosdisponibles": 11,
+        "nombreemplacementsactuels": 24,
+        "nom": "La Cri\u00e9e",
+        "nombreemplacementsdisponibles": 13,
+        "idstation": "5521",
+        "coordonnees": [
+          48.107626,
+          -1.680085
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.680085,
+          48.107626
+        ]
+      },
+      "record_timestamp": "2020-03-21T15:35:00+00:00"
+    },
+    {
+      "datasetid": "etat-des-stations-le-velo-star-en-temps-reel",
+      "recordid": "bd0f83abcec2974fda4a9be7b78f4bfbb3af4b27",
+      "fields": {
+        "etat": "En fonctionnement",
+        "lastupdate": "2020-03-21T15:34:11+00:00",
+        "nombrevelosdisponibles": 7,
+        "nombreemplacementsactuels": 24,
+        "nom": "Brest - Verdun",
+        "nombreemplacementsdisponibles": 17,
+        "idstation": "5534",
+        "coordonnees": [
+          48.113009,
+          -1.693264
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.693264,
+          48.113009
+        ]
+      },
+      "record_timestamp": "2020-03-21T15:35:00+00:00"
+    },
+    {
+      "datasetid": "etat-des-stations-le-velo-star-en-temps-reel",
+      "recordid": "bc23b982c96a853bb90665c1d574e7d9c204daed",
+      "fields": {
+        "etat": "En fonctionnement",
+        "lastupdate": "2020-03-21T15:34:11+00:00",
+        "nombrevelosdisponibles": 16,
+        "nombreemplacementsactuels": 20,
+        "nom": "Marbeuf",
+        "nombreemplacementsdisponibles": 4,
+        "idstation": "5538",
+        "coordonnees": [
+          48.111749,
+          -1.702077
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.702077,
+          48.111749
+        ]
+      },
+      "record_timestamp": "2020-03-21T15:35:00+00:00"
+    },
+    {
+      "datasetid": "etat-des-stations-le-velo-star-en-temps-reel",
+      "recordid": "77cac0a1ecd7f2af56c8668b201afe2a20e1c6bb",
+      "fields": {
+        "etat": "En fonctionnement",
+        "lastupdate": "2020-03-21T15:34:11+00:00",
+        "nombrevelosdisponibles": 10,
+        "nombreemplacementsactuels": 24,
+        "nom": "Plaine de Baud",
+        "nombreemplacementsdisponibles": 14,
+        "idstation": "5546",
+        "coordonnees": [
+          48.112461,
+          -1.643674
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.643674,
+          48.112461
+        ]
+      },
+      "record_timestamp": "2020-03-21T15:35:00+00:00"
+    },
+    {
+      "datasetid": "etat-des-stations-le-velo-star-en-temps-reel",
+      "recordid": "f31381b27f50bb4bc23672b3ea5cc7abfca309c3",
+      "fields": {
+        "etat": "En fonctionnement",
+        "lastupdate": "2020-03-21T15:34:11+00:00",
+        "nombrevelosdisponibles": 5,
+        "nombreemplacementsactuels": 18,
+        "nom": "Gros-Ch\u00eane",
+        "nombreemplacementsdisponibles": 13,
+        "idstation": "5578",
+        "coordonnees": [
+          48.126795,
+          -1.665101
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.665101,
+          48.126795
+        ]
+      },
+      "record_timestamp": "2020-03-21T15:35:00+00:00"
+    },
+    {
+      "datasetid": "etat-des-stations-le-velo-star-en-temps-reel",
+      "recordid": "7612c409a64e0434defb0d56508363c591be8afe",
+      "fields": {
+        "etat": "En fonctionnement",
+        "lastupdate": "2020-03-21T15:34:11+00:00",
+        "nombrevelosdisponibles": 13,
+        "nombreemplacementsactuels": 18,
+        "nom": "Painlev\u00e9",
+        "nombreemplacementsdisponibles": 5,
+        "idstation": "5580",
+        "coordonnees": [
+          48.122994,
+          -1.660547
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.660547,
+          48.122994
+        ]
+      },
+      "record_timestamp": "2020-03-21T15:35:00+00:00"
+    },
+    {
+      "datasetid": "etat-des-stations-le-velo-star-en-temps-reel",
+      "recordid": "0cedc710c25c3651e1d950725c9633a9065fd871",
+      "fields": {
+        "etat": "En fonctionnement",
+        "lastupdate": "2020-03-21T15:34:11+00:00",
+        "nombrevelosdisponibles": 11,
+        "nombreemplacementsactuels": 16,
+        "nom": "Turmel",
+        "nombreemplacementsdisponibles": 5,
+        "idstation": "5581",
+        "coordonnees": [
+          48.122147,
+          -1.650808
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.650808,
+          48.122147
+        ]
+      },
+      "record_timestamp": "2020-03-21T15:35:00+00:00"
+    },
+    {
+      "datasetid": "etat-des-stations-le-velo-star-en-temps-reel",
+      "recordid": "1ee377102079bbe4ea444ded261fd2dcbfe8d3fb",
+      "fields": {
+        "etat": "En fonctionnement",
+        "lastupdate": "2020-03-21T15:34:11+00:00",
+        "nombrevelosdisponibles": 3,
+        "nombreemplacementsactuels": 28,
+        "nom": "La Poterie",
+        "nombreemplacementsdisponibles": 25,
+        "idstation": "5582",
+        "coordonnees": [
+          48.087282,
+          -1.644121
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.644121,
+          48.087282
+        ]
+      },
+      "record_timestamp": "2020-03-21T15:35:00+00:00"
+    }
+  ]
+}
