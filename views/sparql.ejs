@@ -32,13 +32,17 @@
             <table>
                 <tr>
                     <% for(var i=0; result != null && i < result.head.vars.length; i++) { %>
-                    <td><h4><%= result.head.vars[i] %></h4></td>
+                    <th scope="col"><h4><%= result.head.vars[i] %></h4></th>
                     <% } %>
                 </tr>
                 <% for(var i=0;result != null && i < result.results.bindings.length ; i++) { %>
                    <tr>
                     <% for(var j=0; j < result.head.vars.length; j++) { %>
-                    <td><%= Object.values(result.results.bindings[i])[j].value %></td>
+                        <% if(Object.values(result.results.bindings[i])[j] != undefined) { %>
+                            <td><%= Object.values(result.results.bindings[i])[j].value %></td>
+                        <% } else { %>
+                            <td> </td>
+                        <% } %>
                      <% } %>
                    </tr>
                 <% } %>
