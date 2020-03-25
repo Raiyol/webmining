@@ -8,13 +8,12 @@ This readme will be quite exhaustive, so [here](#Launch) the step to launch and 
 ## The process
 
 We started by producing our data model in Protege.
-Our unique class is "Station" who got the following properties:
+Our only class is "Station" who got the following properties:
 
 - addresse: (string) station adress
 - available_bike_stands: (int)
 - available_bikes: (int)
 - bike_stands: (int)
-- commune: (string) town name
 - lat: (float) latitude coordinate
 - lng: (float) longitude coordinate
 - name: (string) station name
