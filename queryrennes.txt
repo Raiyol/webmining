@@ -1,0 +1,88 @@
+PREFIX rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+PREFIX rdfs: http://www.w3.org/2000/01/rdf-schema#
+PREFIX owl: http://www.w3.org/2002/07/owl#
+PREFIX xsd: http://www.w3.org/2001/XMLSchema#
+PREFIX ns: http://www.owl-ontologies.com/unnamed.owl#
+INSERT DATA
+{
+ns:st10000 rdf:type ns:Station.
+ns:st10000 ns:ville 'Rennes'.
+ns:st10000 ns:numero 'Musée Beaux-Arts'.
+ns:st10000 ns:lat '48.109601'.
+ns:st10000 ns:lng '-1.67408'.
+ns:st10000 ns:available_bikes '5'.
+ns:st10000 ns:available_bike_stands '11'.
+ns:st10000 ns:status 'En fonctionnement'.
+ns:st10001 rdf:type ns:Station.
+ns:st10001 ns:ville 'Rennes'.
+ns:st10001 ns:numero 'Champs Libres'.
+ns:st10001 ns:lat '48.105537'.
+ns:st10001 ns:lng '-1.674328'.
+ns:st10001 ns:available_bikes '12'.
+ns:st10001 ns:available_bike_stands '12'.
+ns:st10001 ns:status 'En fonctionnement'.
+ns:st10002 rdf:type ns:Station.
+ns:st10002 ns:ville 'Rennes'.
+ns:st10002 ns:numero 'La Criée'.
+ns:st10002 ns:lat '48.107626'.
+ns:st10002 ns:lng '-1.680085'.
+ns:st10002 ns:available_bikes '11'.
+ns:st10002 ns:available_bike_stands '13'.
+ns:st10002 ns:status 'En fonctionnement'.
+ns:st10003 rdf:type ns:Station.
+ns:st10003 ns:ville 'Rennes'.
+ns:st10003 ns:numero 'Brest - Verdun'.
+ns:st10003 ns:lat '48.113009'.
+ns:st10003 ns:lng '-1.693264'.
+ns:st10003 ns:available_bikes '7'.
+ns:st10003 ns:available_bike_stands '17'.
+ns:st10003 ns:status 'En fonctionnement'.
+ns:st10004 rdf:type ns:Station.
+ns:st10004 ns:ville 'Rennes'.
+ns:st10004 ns:numero 'Marbeuf'.
+ns:st10004 ns:lat '48.111749'.
+ns:st10004 ns:lng '-1.702077'.
+ns:st10004 ns:available_bikes '16'.
+ns:st10004 ns:available_bike_stands '4'.
+ns:st10004 ns:status 'En fonctionnement'.
+ns:st10005 rdf:type ns:Station.
+ns:st10005 ns:ville 'Rennes'.
+ns:st10005 ns:numero 'Plaine de Baud'.
+ns:st10005 ns:lat '48.112461'.
+ns:st10005 ns:lng '-1.643674'.
+ns:st10005 ns:available_bikes '10'.
+ns:st10005 ns:available_bike_stands '14'.
+ns:st10005 ns:status 'En fonctionnement'.
+ns:st10006 rdf:type ns:Station.
+ns:st10006 ns:ville 'Rennes'.
+ns:st10006 ns:numero 'Gros-Chêne'.
+ns:st10006 ns:lat '48.126795'.
+ns:st10006 ns:lng '-1.665101'.
+ns:st10006 ns:available_bikes '5'.
+ns:st10006 ns:available_bike_stands '13'.
+ns:st10006 ns:status 'En fonctionnement'.
+ns:st10007 rdf:type ns:Station.
+ns:st10007 ns:ville 'Rennes'.
+ns:st10007 ns:numero 'Painlevé'.
+ns:st10007 ns:lat '48.122994'.
+ns:st10007 ns:lng '-1.660547'.
+ns:st10007 ns:available_bikes '13'.
+ns:st10007 ns:available_bike_stands '5'.
+ns:st10007 ns:status 'En fonctionnement'.
+ns:st10008 rdf:type ns:Station.
+ns:st10008 ns:ville 'Rennes'.
+ns:st10008 ns:numero 'Turmel'.
+ns:st10008 ns:lat '48.122147'.
+ns:st10008 ns:lng '-1.650808'.
+ns:st10008 ns:available_bikes '11'.
+ns:st10008 ns:available_bike_stands '5'.
+ns:st10008 ns:status 'En fonctionnement'.
+ns:st10009 rdf:type ns:Station.
+ns:st10009 ns:ville 'Rennes'.
+ns:st10009 ns:numero 'La Poterie'.
+ns:st10009 ns:lat '48.087282'.
+ns:st10009 ns:lng '-1.644121'.
+ns:st10009 ns:available_bikes '3'.
+ns:st10009 ns:available_bike_stands '25'.
+ns:st10009 ns:status 'En fonctionnement'.
+}
