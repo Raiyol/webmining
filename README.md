@@ -54,6 +54,8 @@ node .
 
 Now you can go check the front view on <http://localhost:5000/>
 
+You can also see that RDFa has been on the page. So each line of data has RDFa on the property of element.
+
 ### Bonus : Query database via our web application
 
 After running our web application, go to <http://localhost:5000/sparql> and you can query the database same as you would with Jena Fuseki GUI on localhost.
